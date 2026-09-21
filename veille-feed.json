@@ -1,31 +1,19 @@
 {
-  "updated": "2026-09-21T07:06:58.053Z",
-  "query": "(F1 OR \"Formule 1\" OR \"Formula 1\" OR WEC) (cybersécurité OR cyberattaque OR cybersecurity OR cyberattack OR ransomware OR hacker OR hacking OR \"data breach\" OR piratage) -streaming -IPTV -\"regarder gratuitement\" -\"en direct gratuit\" -\"voir le GP\"",
+  "updated": "2026-09-21T07:08:01.149Z",
+  "query": "(\"Formule 1\" OR \"Formula 1\" OR F1 OR WEC) (cybersécurité OR cyberattaque OR cybersecurity OR cyberattack OR ransomware OR rançongiciel OR hacker OR hacking OR \"data breach\") -streaming -IPTV -\"droits TV\" -beIN -\"Canal+\" -piratage -\"en direct\"",
   "source": "Google News RSS",
   "items": [
     {
-      "title": "Canal+ s'associe à la Liga pour lutter contre le piratage audiovisuel sportif",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3pZajZYS3dRYmZ4Y3NSNnVBb19sOEV5YU5JSWk0NjdZNE45WTNudUtuTWZIMDdMdlF6VEtaZm1Qc3lkY0pES2tZTEROeWxFY1hncTlwd3g0Z0pUQXhqNmd1M1NfVDlrV2FTaVE1ZG9IV2xiTFFmd2VxRUVnYlA4MldVVHFZb29EdTJjb2dSTDFvN2ZpSXVZTDJfUDZZYTdSMEh6ZXNoYjZTc1FPbWx3T3dkTnVDUVVvN2xaM3RwVHVzWGc?oc=5",
-      "source": "L'Équipe",
-      "pubDate": "Fri, 11 Sep 2026 07:00:00 GMT"
+      "title": "BWT Alpine F1 x Arctic Wolf : la cybersécurité qui accélère la performance en Formule 1 🚀🔐",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObHdaOWl1dUcxLWFqdWljVHZKVlZpejZhYVJRZ2tJSlN4cXQ0ZkR1TjJuSDgzaXlhUzU3SEc4SG05eE5HaThIM3ZiYW9CZTA4RVc0UFRuWXFZMjRhdFVhMnpWWTFTdXR0cnJodTlBUlkzM1F2Z0ZIMXhvQXpXYmU1Q1E4dmNxLWF6c0ZiWGFGeWVzNEQzQ1pwVE5XZ09IaTZoX3puS09fTGZ3N2Y2TDlqclQxNUMxNHBVQWYwaA?oc=5",
+      "source": "blog.joinsteer.com",
+      "pubDate": "Mon, 15 Dec 2025 08:00:00 GMT"
     },
     {
-      "title": "Chaque week-end, une F1 produit 200 Go de données qu’il faut protéger",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObWlBbzF4WC1BVkQ4YUhBcnBBRWhBUy1hZ3d0TWZUZ1pGWUp5TER5Zk1LNG5LTkVwSUhiWnhvY3dwZE8wTjAzb3FXOUpFcF9pOUNtUF8tcXZmUXFuZVRuem1JVlhKaVhyd1JFSnk4dzFfQk9LN3hGNHJDYUhCemhWTVl4X2FfUWh5UmlNZG5RQWQxcVdLLXlrZEJvbkt0cFhwZmcyaG1nYkVXbFVSZndmdl94VkVLSHlTVFUtWF9FOWpHcVg3WllGag?oc=5",
-      "source": "Nextgen-Auto.com",
-      "pubDate": "Mon, 22 Mar 2021 07:00:00 GMT"
-    },
-    {
-      "title": "L'app Formula 1 piratée sur son serveur de notifications",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON2hhT3Nxa3ptaU5KYXlNVkxNVGxlNmhuV1A0WHd3ZXNCTC0tOVZMNnFPY21CRmNrSWNNcGNYVzAwdWFMUDJZZzFoZUNrRlZWajJSamJXNF8yYVJ5RVVYMXFmdjA1aUtqRmVRX2I5cTF6QkRhaFBFTDJYSm1iUnN1M05fTXdIUTdzU1lqMFVlS19YdVlRTk9IZw?oc=5",
-      "source": "iGeneration",
-      "pubDate": "Sun, 04 Jul 2021 07:00:00 GMT"
-    },
-    {
-      "title": "L'Arabie saoudite suspend officiellement la diffusion de beIN Sports sur son territoire",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTXRwMGN5eGhqdFpva2t3N2dpRjRFbWVUUElzbWlJbE02NXhtYUhZdm95WkpnTnZka09kb3NTOWVTZ1p1NzB0NmN2clpBWWxybEVad2pWYXNDTnRodVBZZFlyamtXNnE1U3hJdVl2eVR1UTFiZS1pamk5RDJOMTVJdC1scXV5dERfbHN1eVVidHlGUjh0RUlTVGs4NExFZVMzZHZRZERLanJVX3haYkFBYXQzNVQydnd0VEVXM19tc0w0Q2VkZXBxQlZ6YXRMWERSN2c?oc=5",
-      "source": "L'Équipe",
-      "pubDate": "Tue, 14 Jul 2020 07:00:00 GMT"
+      "title": "Cyberattaque chez Guy Demarle : des données personnelles compromises",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ0F3RFI5VklzcDNwdnIwYWpZVW12S2pIMlZNVlJOWWkzZ1NWSzhaTUNfMkNvU1dMY1V0c29OTUNxTFA1NXBWemFpOGVsOXptQ2tFQ201RXRJS00wcG5sTjdIUmx3eklCNWp5eXl4Z3QxNmhSUi1BTWh6N0pzTjJHTXU3bV9LbC1VcE82clUzczluME0?oc=5",
+      "source": "Zataz",
+      "pubDate": "Tue, 03 Dec 2024 08:00:00 GMT"
     }
   ]
 }

@@ -1,55 +1,31 @@
 {
-  "updated": "2026-09-21T07:05:39.630Z",
-  "query": "(Formula 1 OR F1 OR WEC) (cybersecurity OR cyberattack OR ransomware OR hack OR cybersécurité)",
+  "updated": "2026-09-21T07:06:58.053Z",
+  "query": "(F1 OR \"Formule 1\" OR \"Formula 1\" OR WEC) (cybersécurité OR cyberattaque OR cybersecurity OR cyberattack OR ransomware OR hacker OR hacking OR \"data breach\" OR piratage) -streaming -IPTV -\"regarder gratuitement\" -\"en direct gratuit\" -\"voir le GP\"",
   "source": "Google News RSS",
   "items": [
     {
-      "title": "Riches, mais pas que : pourquoi les fans de F1 sont-ils des cibles parfaites pour les hackers ?",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZWN0cGYySW03ZmVadlMtQVFNd0J0MnFwREE3U0RkZzc1b3RfWUdZa19IMzZfdVc0Und6SWNwWHBvcndDbnJHNUpsb1dVc0NFQmtDMXJPLTZIMUZPa3NfRk52Y2Z5dGhXUXlKa2ZXRTNOcnlJSkhYZGJaSi1lUnltb3lNMkc5N0JBejkxaEtrc2xGMkZEWkJVMExsN1J4QnNZTW5xeTY2bW5qU2lXOHVPU1VsY1M4V0cta2N2Q3FrQXNaOVhya09EVU1KMnRFa01XMGtFUk9oVQ?oc=5",
-      "source": "Numerama",
-      "pubDate": "Sun, 31 May 2026 07:00:00 GMT"
+      "title": "Canal+ s'associe à la Liga pour lutter contre le piratage audiovisuel sportif",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3pZajZYS3dRYmZ4Y3NSNnVBb19sOEV5YU5JSWk0NjdZNE45WTNudUtuTWZIMDdMdlF6VEtaZm1Qc3lkY0pES2tZTEROeWxFY1hncTlwd3g0Z0pUQXhqNmd1M1NfVDlrV2FTaVE1ZG9IV2xiTFFmd2VxRUVnYlA4MldVVHFZb29EdTJjb2dSTDFvN2ZpSXVZTDJfUDZZYTdSMEh6ZXNoYjZTc1FPbWx3T3dkTnVDUVVvN2xaM3RwVHVzWGc?oc=5",
+      "source": "L'Équipe",
+      "pubDate": "Fri, 11 Sep 2026 07:00:00 GMT"
     },
     {
-      "title": "Comment l’écurie Aston Martin F1 utilise les données et l’IA pour gagner des millisecondes sur le temps au tour",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS2FaaFZzZ2ZwWGc0cXNSb2VDemNWaS10X05GcGE1RGsyc2l5VlA5bEpTNG9mMDQzQ21iRkgzYnlQQ3RBakNRVWN1SV8xVGxTV2s2c3VDakR4U25hSklhck8td3dESFhoWGYybHlZTXk4UzlyRnd0Q0JnYTFnZTdwSlBVdnZ2azlQVUNkR1FtNWU1dGVCUFphTllQQkw?oc=5",
-      "source": "itdaily.fr",
-      "pubDate": "Sat, 23 May 2026 07:00:00 GMT"
+      "title": "Chaque week-end, une F1 produit 200 Go de données qu’il faut protéger",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObWlBbzF4WC1BVkQ4YUhBcnBBRWhBUy1hZ3d0TWZUZ1pGWUp5TER5Zk1LNG5LTkVwSUhiWnhvY3dwZE8wTjAzb3FXOUpFcF9pOUNtUF8tcXZmUXFuZVRuem1JVlhKaVhyd1JFSnk4dzFfQk9LN3hGNHJDYUhCemhWTVl4X2FfUWh5UmlNZG5RQWQxcVdLLXlrZEJvbkt0cFhwZmcyaG1nYkVXbFVSZndmdl94VkVLSHlTVFUtWF9FOWpHcVg3WllGag?oc=5",
+      "source": "Nextgen-Auto.com",
+      "pubDate": "Mon, 22 Mar 2021 07:00:00 GMT"
     },
     {
-      "title": "Une seule voiture de F1 en 2026 génère autant de données que 1 600 films Netflix en simultané (Reportage)",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVlZGS0ZyaFlEb05VZVFrN29xVGh6TXZxRkR4Wk1scWNWLXpxdzlWS2ZYNVZMcHVPLXlfaDRfbU16d0hBbkxyb3labFFpWHVKUW9EN3Q2QkdKOW5rNWtSc3JCM2Jra2VYM0RXczFtSlNpUldnejViYnhIQmZ2Zl9Od0JFSF85czQ5UmxfejlJNS0zLVRpdXQzQ3hXSE02elo4czdHaXpJVUdZTVdQNmdyaVZqd3RxbzlRQWFFXzNSZ3VKQ1lvendjc09ZMHM4RFBmT1NSM3E4M3I1bEpsYXlsQg?oc=5",
-      "source": "clubic.com",
-      "pubDate": "Sun, 05 Jul 2026 07:00:00 GMT"
+      "title": "L'app Formula 1 piratée sur son serveur de notifications",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON2hhT3Nxa3ptaU5KYXlNVkxNVGxlNmhuV1A0WHd3ZXNCTC0tOVZMNnFPY21CRmNrSWNNcGNYVzAwdWFMUDJZZzFoZUNrRlZWajJSamJXNF8yYVJ5RVVYMXFmdjA1aUtqRmVRX2I5cTF6QkRhaFBFTDJYSm1iUnN1M05fTXdIUTdzU1lqMFVlS19YdVlRTk9IZw?oc=5",
+      "source": "iGeneration",
+      "pubDate": "Sun, 04 Jul 2021 07:00:00 GMT"
     },
     {
-      "title": "Sprint GP Canada 2026 Formula 1 gratuit en direct",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWNBSDktR2t3N0ZTakMzYjNBcWpiRVRtYkdHMXlzTjBibVBLYTNOVlJRY29VM3FPR1F4YUtMdmVNc1RKcE9rVl9RcGhuUUxMYXBqcFBBYUQ2SUQ4YXNRbzhESHQtanpnc2pQZVNIcTNQVmRra1dyOEFQeWs0UURhc2JHZVp3WnJj?oc=5",
-      "source": "cybernews.com",
-      "pubDate": "Sat, 23 May 2026 07:00:00 GMT"
-    },
-    {
-      "title": "La F1, nouveau laboratoire mondial de la cybersécurité",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmlqVXBBdDRiQ1pya1lHODZKYWsyYzJ6Yjg1TGVkQzNsNjM0d19ia0Z1NGhwMEhGa0RTeU5rbUZUV2RzMTQ1M1pqVFN2dGVlSkF1RE81ZzIySkVkYS1KRS1ldVo1SzVyYmRMUWZuSFBTWUpkZmFhclJNS3paNS1QSGdUN1lsME5hVnpmZmFoOA?oc=5",
-      "source": "Sport Stratégies",
-      "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "title": "BWT Alpine F1 x Arctic Wolf : la cybersécurité qui accélère la performance en Formule 1 🚀🔐",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObHdaOWl1dUcxLWFqdWljVHZKVlZpejZhYVJRZ2tJSlN4cXQ0ZkR1TjJuSDgzaXlhUzU3SEc4SG05eE5HaThIM3ZiYW9CZTA4RVc0UFRuWXFZMjRhdFVhMnpWWTFTdXR0cnJodTlBUlkzM1F2Z0ZIMXhvQXpXYmU1Q1E4dmNxLWF6c0ZiWGFGeWVzNEQzQ1pwVE5XZ09IaTZoX3puS09fTGZ3N2Y2TDlqclQxNUMxNHBVQWYwaA?oc=5",
-      "source": "Blog Joinsteer",
-      "pubDate": "Mon, 15 Dec 2025 08:00:00 GMT"
-    },
-    {
-      "title": "Streaming pirate et IPTV de la F1 et du MotoGP : Canal+ obtient gain de cause contre Google et Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaTRDQ1U1cHpQVW8xZW1pYUFueGJKT1pWc0RTVExmVDdhbGs1TWtwM3ZOaThpS0J3Z3B4TUJoT28zQWtSeG0weUJhdGVzTHU0STkxeG03cTlGOFRJSHE2aC1jV2h6MWsyYTY1UUt5d0lkRF80T004OUdkUnBEa2lZY0pYREk1d3IyN1QtTmp1Y0g5NThYZG9udktfTXp2RjBOekl3d0hyT3dXbUxIN01uRTB5S1lFWDB4NFlrdE1BTzRTZ181cXEtdlBZU0FPeVdrTHNocl9ZRjV1NmNOWnd3?oc=5",
-      "source": "clubic.com",
-      "pubDate": "Tue, 28 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Regarder gratuitement le GP F1 de Monaco 2026 : le guide",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdWJLM2REN0dIU09FNTYwNjBYVGVIajkwcjNSZzd4RVhrX1pnXzNVMEw2NTR3QllqMEFuSmpUMjVnS0ZmWFB0U1JqX2I0UGtVbnJXcnFZNThEQllfUWt0UWkweGdIU3Z1LThoVm9TZXNUYk55WWJZUzJYTDhtNDhXYlJIRDR1OGsxdURZZ282WEp6Z1dSM19JeWZhU2REUQ?oc=5",
-      "source": "cybernews.com",
-      "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT"
+      "title": "L'Arabie saoudite suspend officiellement la diffusion de beIN Sports sur son territoire",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTXRwMGN5eGhqdFpva2t3N2dpRjRFbWVUUElzbWlJbE02NXhtYUhZdm95WkpnTnZka09kb3NTOWVTZ1p1NzB0NmN2clpBWWxybEVad2pWYXNDTnRodVBZZFlyamtXNnE1U3hJdVl2eVR1UTFiZS1pamk5RDJOMTVJdC1scXV5dERfbHN1eVVidHlGUjh0RUlTVGs4NExFZVMzZHZRZERLanJVX3haYkFBYXQzNVQydnd0VEVXM19tc0w0Q2VkZXBxQlZ6YXRMWERSN2c?oc=5",
+      "source": "L'Équipe",
+      "pubDate": "Tue, 14 Jul 2020 07:00:00 GMT"
     }
   ]
 }

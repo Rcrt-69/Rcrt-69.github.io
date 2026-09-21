@@ -1,17 +1,22 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #0B1020;      /* Fond navy profond */
-  --surface: #0E1730;
-  --card: #131F44;
-  --border: rgba(217, 226, 255, 0.12);
-  --text: #F2F4F8;
-  --muted: #99A4C6;
+  --bg: #F2F4F8;      /* Fond clair */
+  --surface: #E7ECF6; /* Remplissage léger (chips, en-têtes) */
+  --card: #FFFFFF;    /* Cartes blanches */
+  --border: rgba(20, 42, 110, 0.12);
+  --text: #0B1020;    /* Texte navy foncé */
+  --muted: #5B6588;   /* Texte secondaire gris-bleu */
 
-  /* Nouvelle palette bleue */
-  --accent: #142A6E;        /* Bleu profond (boutons) */
-  --accent-light: #2E5FFF;  /* Bleu vif (liens, titres, accents) */
-  --glow-blue: rgba(46, 95, 255, 0.4);
+  /* Palette bleue */
+  --accent: #142A6E;        /* Bleu profond */
+  --accent-light: #2E5FFF;  /* Bleu vif (liens, boutons, accents) */
+  --glow-blue: rgba(46, 95, 255, 0.25);
+
+  /* Fonds translucides adaptés au thème clair */
+  --chip: rgba(20, 42, 110, 0.05);
+  --chip-border: rgba(20, 42, 110, 0.10);
+  --shadow: 0 6px 24px rgba(20, 42, 110, 0.07);
   
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
@@ -32,13 +37,14 @@ body::before {
   content: '';
   position: fixed; inset: 0; z-index: 0;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
-  opacity: 0.4;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
   pointer-events: none;
 }
 
 .orb {
   position: fixed; border-radius: 50%;
-  filter: blur(80px); opacity: 0.22;
+  filter: blur(90px); opacity: 0.12;
   pointer-events: none; z-index: 0;
   animation: drift 20s ease-in-out infinite alternate;
 }
@@ -58,12 +64,12 @@ nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   padding: 1.25rem 2rem;
   display: flex; align-items: center; justify-content: space-between;
-  background: rgba(5, 5, 7, 0.8);
+  background: rgba(242, 244, 248, 0.85);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
 }
 
-.nav-logo { font-family: var(--font-display); font-weight: 800; font-size: 1.2rem; color: #fff; }
+.nav-logo { font-family: var(--font-display); font-weight: 800; font-size: 1.2rem; color: var(--text); text-decoration: none; }
 .nav-links { display: flex; gap: 2rem; list-style: none; }
 .nav-links a {
   color: var(--muted); text-decoration: none; font-size: 0.875rem;
@@ -83,7 +89,7 @@ nav {
 
 /* Dégradé de texte du 1er style */
 .highlight { 
-    background: linear-gradient(135deg, #fff, var(--accent-light)); 
+    background: linear-gradient(135deg, var(--accent), var(--accent-light));
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
 }
@@ -93,11 +99,11 @@ nav {
 
 /* BOUTONS */
 .btn { padding: 0.85rem 2rem; border-radius: 6px; text-decoration: none; transition: 0.3s; font-size: 0.875rem; }
-.btn-primary { 
-    background: var(--accent); 
-    color: #ffffff; 
-    font-weight: 700; 
-    border: 1px solid var(--accent);
+.btn-primary {
+    background: var(--accent-light);
+    color: #ffffff;
+    font-weight: 700;
+    border: 1px solid var(--accent-light);
 }
 .btn-primary:hover {
     box-shadow: 0 0 20px var(--glow-blue);
@@ -128,12 +134,12 @@ h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3.5rem); marg
 .project-type { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; }
 .project-title { font-family: var(--font-display); font-size: 1.25rem; margin: 0.5rem 0; }
 .project-desc { font-size: 0.875rem; color: var(--muted); margin-bottom: 1rem; }
-.project-tag { font-size: 0.7rem; padding: 0.2rem 0.5rem; background: rgba(255,255,255,0.05); border-radius: 4px; margin-right: 0.3rem; }
+.project-tag { font-size: 0.7rem; padding: 0.2rem 0.5rem; background: var(--chip); border-radius: 4px; margin-right: 0.3rem; }
 
 /* STATS */
 .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 5rem; }
 .stat { border-left: 1px solid var(--border); padding-left: 2rem; }
-.stat-number { font-family: var(--font-display); font-weight: 800; font-size: 2.5rem; color: #fff; }
+.stat-number { font-family: var(--font-display); font-weight: 800; font-size: 2.5rem; color: var(--text); }
 
 /* CONTACT */
 .contact-wrap {
@@ -148,7 +154,7 @@ h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3.5rem); marg
     text-align: center;
 }
 
-.contact-email { font-family: var(--font-display); font-size: clamp(1rem, 4vw, 2.2rem); color: #fff; border-bottom: 2px solid var(--accent); text-decoration: none; font-weight: 800; display: inline-block; width: 100%; text-align: center; margin: 2rem 0; word-break: break-all; }
+.contact-email { font-family: var(--font-display); font-size: clamp(1rem, 4vw, 2.2rem); color: var(--text); border-bottom: 2px solid var(--accent-light); text-decoration: none; font-weight: 800; display: inline-block; width: 100%; text-align: center; margin: 2rem 0; word-break: break-all; }
 .contact-email:hover { color: var(--accent-light); }
 
 /* FOOTER */
@@ -196,7 +202,7 @@ footer { padding: 2rem; border-top: 1px solid var(--border); display: flex; just
   display: flex; flex-direction: column; gap: 2rem;
 }
 .page-journal .entry-card {
-  background: var(--card); border: 1px solid rgba(255,255,255,0.07);
+  background: var(--card); border: 1px solid var(--border);
   border-radius: 16px; padding: 2rem 2.25rem; position: relative;
   transition: border-color 0.3s, transform 0.3s; overflow: hidden;
 }
@@ -210,8 +216,8 @@ footer { padding: 2rem; border-top: 1px solid var(--border); display: flex; just
 .page-journal .entry-date {
   font-size: 0.72rem; font-family: 'Syne', sans-serif; font-weight: 700;
   letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
-  background: rgba(255,255,255,0.05); padding: 0.3rem 0.75rem;
-  border-radius: 99px; border: 1px solid rgba(255,255,255,0.08);
+  background: var(--chip); padding: 0.3rem 0.75rem;
+  border-radius: 99px; border: 1px solid var(--chip-border);
 }
 .page-journal .entry-category {
   font-size: 0.72rem; font-family: 'Syne', sans-serif; font-weight: 700;
@@ -227,7 +233,7 @@ footer { padding: 2rem; border-top: 1px solid var(--border); display: flex; just
 .page-journal .entry-tag {
   font-size: 0.7rem; font-family: 'Syne', sans-serif; font-weight: 700;
   letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
-  border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 0.25rem 0.6rem;
+  border: 1px solid var(--chip-border); border-radius: 6px; padding: 0.25rem 0.6rem;
 }
 .page-journal .entry-divider {
   width: 40px; height: 2px; border-radius: 2px; margin: 1rem 0;
@@ -318,7 +324,7 @@ footer { padding: 2rem; border-top: 1px solid var(--border); display: flex; just
 .page-veille .entry-date {
   font-size: 0.7rem; font-family: 'Syne', sans-serif; font-weight: 700;
   letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
-  background: rgba(255,255,255,0.05); padding: 0.3rem 0.75rem; border-radius: 99px; border: 1px solid var(--border);
+  background: var(--chip); padding: 0.3rem 0.75rem; border-radius: 99px; border: 1px solid var(--border);
 }
 .page-veille .entry-cat { font-size: 0.7rem; font-family: 'Syne', sans-serif; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-light); }
 .page-veille .entry-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.2rem; color: var(--text); margin-bottom: 0.6rem; line-height: 1.35; }
@@ -392,3 +398,14 @@ footer { padding: 2rem; border-top: 1px solid var(--border); display: flex; just
 .page-veille .live-head-label { color: var(--text); font-family: 'Syne', sans-serif; font-weight: 700; }
 .page-veille .rss-fallback-link { color: var(--accent-light); font-weight: 700; }
 .page-veille .src-name.is-sm { font-size: 0.92rem; line-height: 1.35; }
+
+/* Ombres douces des cartes (profondeur du thème clair) */
+.project-card,
+.contact-wrap,
+.about-img,
+.page-journal .entry-card,
+.page-veille .panel,
+.page-veille .pp-card,
+.page-veille .src-card,
+.page-veille .entry,
+.page-veille .table-wrap { box-shadow: var(--shadow); }

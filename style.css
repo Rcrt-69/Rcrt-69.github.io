@@ -1,17 +1,17 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #050507; /* Fond plus profond du 1er style */
-  --surface: #0a0b10;
-  --card: #0f111a;
-  --border: rgba(255,255,255,0.08);
-  --text: #f0f1f5;
-  --muted: #8e92a4;
-  
-  /* Palette Bleue issue du 1er style proposé */
-  --accent: #14214b; 
-  --accent-light: #2a3d7a;
-  --glow-blue: rgba(20, 33, 75, 0.4);
+  --bg: #0B1020;      /* Fond navy profond */
+  --surface: #0E1730;
+  --card: #131F44;
+  --border: rgba(217, 226, 255, 0.12);
+  --text: #F2F4F8;
+  --muted: #99A4C6;
+
+  /* Nouvelle palette bleue */
+  --accent: #142A6E;        /* Bleu profond (boutons) */
+  --accent-light: #2E5FFF;  /* Bleu vif (liens, titres, accents) */
+  --glow-blue: rgba(46, 95, 255, 0.4);
   
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
@@ -76,7 +76,7 @@ nav {
 .hero { min-height: 100vh; display: flex; align-items: center; padding-top: 5rem; }
 .hero-tag {
   display: inline-flex; align-items: center; gap: 0.5rem;
-  background: rgba(20, 33, 75, 0.2); border: 1px solid rgba(20, 33, 75, 0.4);
+  background: rgba(46, 95, 255, 0.15); border: 1px solid rgba(46, 95, 255, 0.4);
   color: var(--text); font-size: 0.75rem; padding: 0.4rem 1rem; border-radius: 100px; margin-bottom: 2rem;
 }
 .hero h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(3rem, 7vw, 6rem); line-height: 1.0; }
@@ -155,7 +155,7 @@ h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3.5rem); marg
 footer { padding: 2rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--muted); }
 
 /* Halo de curseur réglé sur le nouveau bleu */
-#cursor-glow { position: fixed; pointer-events: none; z-index: 9999; width: 300px; height: 300px; background: radial-gradient(circle, rgba(20, 33, 75, 0.15), transparent 70%); transform: translate(-50%,-50%); }
+#cursor-glow { position: fixed; pointer-events: none; z-index: 9999; width: 300px; height: 300px; background: radial-gradient(circle, rgba(46, 95, 255, 0.18), transparent 70%); transform: translate(-50%,-50%); }
 
 .reveal { opacity: 0; transform: translateY(30px); transition: 0.7s; }
 .reveal.visible { opacity: 1; transform: translateY(0); }

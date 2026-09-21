@@ -4,7 +4,7 @@
 
 import { writeFileSync } from 'node:fs';
 
-const query = '(Formula 1 OR F1 OR WEC) (cybersecurity OR cyberattack OR ransomware OR hack OR cybersécurité)';
+const query = '(F1 OR "Formule 1" OR "Formula 1" OR WEC) (cybersécurité OR cyberattaque OR cybersecurity OR cyberattack OR ransomware OR hacker OR hacking OR "data breach" OR piratage) -streaming -IPTV -"regarder gratuitement" -"en direct gratuit" -"voir le GP"';
 const rssUrl = 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=fr&gl=FR&ceid=FR:fr';
 
 function decode(s) {

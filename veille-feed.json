@@ -1,55 +1,56 @@
 {
-  "updated": "2026-09-21T07:09:11.004Z",
+  "updated": "2026-09-21T07:11:06.527Z",
   "query": "\"Formule 1\" cybersécurité | \"Formule 1\" cyberattaque | \"Formule 1\" rançongiciel | \"Formula 1\" cybersecurity | \"Formula 1\" cyberattack | \"Formula 1\" ransomware | \"Formula 1\" \"data breach\" | motorsport cybersecurity | WEC cybersecurity",
-  "source": "Google News RSS (recherches multiples fusionnées)",
+  "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
+  "liveCount": 11,
   "items": [
     {
-      "title": "A look back at Montreal | Mercedes AMG-PETRONAS Formula 1 Team",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSzlTMy1zVDN5aHVoUnA0RUREcEs0Q0JtSnFHS2ppMFhhSFV1aUpLZGtnMXRGYUdoMTB2aG5vRmc3UktTZC1zOHg4ZERTR25WN1dPbHVUYU0yWHcwbm81NzFOM1FTYWwxVm1xYzdZTGpTNVlPNGFJSHFVckM5cG05bEpFOXVoUV9BWmowbjVwTE1HNHNlWDE1OVJXcWNtQTZ2T1ZJbw?oc=5",
-      "source": "Aerocontact",
-      "pubDate": "Sat, 19 Sep 2026 04:44:21 GMT"
+      "title": "Cybersécurité et stockage, Ferrari et Aston Martin dévoilent leurs plans pour la Formule 1",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaHM5MDZyNjROMExCNGFZSEJUU1J5d2cwcE9qRzRPdTJtc0R1WlhZVmk4cXVtVzV0NzJWX0pMVElGTHJudnp3UWwwWm1OZUFjcEw1SjRITHZQOFRtd3lIS0JHRmRjMnFlM1NjaVlXQ3cxVE9tY093T1hwMDRpb294V3pDWU9ZNFpWM1Nab25JeDg0T2c2QTJ2Z0NWV1RZZ0pBS3VRUVNQQ0RLdk1mRGRycEFkczBXMUROWjJlOElzdzROazF4UWNNM0p4QXBneGs?oc=5",
+      "source": "ZDNET",
+      "pubDate": "Wed, 02 Sep 2026 07:00:00 GMT"
     },
     {
-      "title": "RAT+ : le cinéma six mois après la salle et le sport CANAL+ à 13,99€ seulement",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHFFNENBREt2MjJvcGZsZFdsdDN1b2lTRzJablRKRXdkYVhGUTl4WkEzeGhaNF9FMU0zZXdEUml5QXAtSkNjNElUc1VMQWFCaG03bTJ6S0RGQ1ZNVGtNaElhWDJMUUp2RjItcTNwYV91MFEwN3JxTWdLemhfTG92WTNVNi1jWlNJWXhtaGR1NkVMQWJpLVhCMmUtNHBLWkstajBNZmtDSy16TFlocWZjQWJ1V0VCbnQzcmZB?oc=5",
-      "source": "clubic.com",
-      "pubDate": "Thu, 17 Sep 2026 17:16:00 GMT"
+      "title": "Riches, mais pas que : pourquoi les fans de F1 sont-ils des cibles parfaites pour les hackers ?",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZWN0cGYySW03ZmVadlMtQVFNd0J0MnFwREE3U0RkZzc1b3RfWUdZa19IMzZfdVc0Und6SWNwWHBvcndDbnJHNUpsb1dVc0NFQmtDMXJPLTZIMUZPa3NfRk52Y2Z5dGhXUXlKa2ZXRTNOcnlJSkhYZGJaSi1lUnltb3lNMkc5N0JBejkxaEtrc2xGMkZEWkJVMExsN1J4QnNZTW5xeTY2bW5qU2lXOHVPU1VsY1M4V0cta2N2Q3FrQXNaOVhya09EVU1KMnRFa01XMGtFUk9oVQ?oc=5",
+      "source": "Numerama",
+      "pubDate": "Sun, 31 May 2026 07:00:00 GMT"
     },
     {
-      "title": "Télécharger F1 TV (gratuit) Web, Android, iOS",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJLTc5eGVfWlNuOHNHOTNaVkRSUmEtclA2dHlCTkQ3ZWNGbFBZUlpudlVJMDJGdTVkVGl3NHZ5ZWhCNmVHSmgzdmF2QnhkMHA4QzVtd1Q2N1cyRjFFMlNtMWt6dzhGZFRw?oc=5",
-      "source": "clubic.com",
-      "pubDate": "Thu, 10 Sep 2026 08:00:00 GMT"
+      "title": "La F1, nouveau laboratoire mondial de la cybersécurité",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmlqVXBBdDRiQ1pya1lHODZKYWsyYzJ6Yjg1TGVkQzNsNjM0d19ia0Z1NGhwMEhGa0RTeU5rbUZUV2RzMTQ1M1pqVFN2dGVlSkF1RE81ZzIySkVkYS1KRS1ldVo1SzVyYmRMUWZuSFBTWUpkZmFhclJNS3paNS1QSGdUN1lsME5hVnpmZmFoOA?oc=5",
+      "source": "Sport Stratégies",
+      "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT"
     },
     {
-      "title": "\"On est en train de perdre la bataille de l'IA\" : ce que préconisent les experts pour que la France réagisse",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdTAyU21zME5WWDA3bEJFNFBSQ2kxUVh3c2Q2ZDlPTEZmMkYxcjQxN0N3RWxCeVpPTHdsa1BMd3VwRC1ocWlFYmlncHBqVmxvcTVyWFdaNmg3R3pUVUZPTkM4YWI0Zm44VktiSllYZDBUbE9za2dkLUV5X1NwdmZIdkxueF8zM2FIei1sbm9Rd05BYk5DZFU0SFhhenliQXBoRmxkUk8wX3JzZlZUYTk1Z0RSS2h1clc3TTViV2t6VUdoYlRQMTVsSDZhWTgzTFJlR2tSZTNRM19FUDNsOUxWaWVMNjdCLW9Gb2JjOA?oc=5",
-      "source": "La République du Centre",
-      "pubDate": "Tue, 04 Aug 2026 07:00:00 GMT"
+      "title": "BWT Alpine F1 x Arctic Wolf : la cybersécurité qui accélère la performance en Formule 1 🚀🔐",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObHdaOWl1dUcxLWFqdWljVHZKVlZpejZhYVJRZ2tJSlN4cXQ0ZkR1TjJuSDgzaXlhUzU3SEc4SG05eE5HaThIM3ZiYW9CZTA4RVc0UFRuWXFZMjRhdFVhMnpWWTFTdXR0cnJodTlBUlkzM1F2Z0ZIMXhvQXpXYmU1Q1E4dmNxLWF6c0ZiWGFGeWVzNEQzQ1pwVE5XZ09IaTZoX3puS09fTGZ3N2Y2TDlqclQxNUMxNHBVQWYwaA?oc=5",
+      "source": "Blog Joinsteer",
+      "pubDate": "Mon, 15 Dec 2025 08:00:00 GMT"
     },
     {
-      "title": "Cyberattaque autonome menée par des modèles d’OpenAI : l’IA est-elle devenue trop puissante pour être contrôlée",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNmhId25XOHh4ektlVDNmSjRGcWRmeHRXVzRrYjNjWU5TQkRwdldWQUxkSXB2YTVwYTJFcFpCbVEtUmRicUdkN1p2Ui1rREVETzVvSnBCTEJfVzNMcHlFVlppd1VYcHBwa3BPWjJXbDgyLU4yTlh5TE84Y0hDQkFOUEVnQUZxam9RSjNnYXNKT3N3MjY1aVoxT2Q1STFsU0NtZlo5RWRvNldxSmlkR2FrdUpSb1JsTDRWUGxiUUtUbXk0QVVrNnJmcURwWWhjcXg0Z0xtM0FqSHdaSmtDdEpv?oc=5",
-      "source": "RTBF",
-      "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT"
+      "title": "Piloter un XDR, Formule 1 de la cybersécurité, doit se faire en équipe",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1VkSExYaXhicDlCUnUwQV9QeFhTcXZRamh4QU5pa09iNWNtQUtoZldrdzFDaUI0NnVDWXY0RkxfeW5rZjZlZW1rbTM0RlFhWS1KZkMzdVJRLVhBaE0yUzNKbWZBVGFRQjNRdEJLTmFlaElzVzNVclBENTk2VlFuZkd2MHNMTHMxdWoxMkZ0SDR1Nnd5c2xlMDNOakpDYWpvbXphWmlfVU1UQ05IZTFDZlZmc3Bxd2s?oc=5",
+      "source": "Business News",
+      "pubDate": "Fri, 21 Nov 2025 08:00:00 GMT"
     },
     {
-      "title": "Un piratage 'sans précédent' : OpenAI reconnaît une cyberattaque autonome menée par des modèles d’I.A. en cours de test",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSzRkTlhzeG5GQ3VfM1BBZEVlc0JuaERleGpWcHBIanc2eHp0R2xmdEloeUg1SWxHTFgtRC1peG5Qd2lHWGRnbEY4ZHdNb19pQjZBYXhuYnpLX0xodjlwcjJtN2hwUW9NcmJwM2xLNHZwRDBSQlk1VXllN1FoSC1aeXRRUjE3aVZHU3lQa0RXZWNoRW5Oa19rS0JpbWdtZzNFTWVtcDBZbDZaYmM4anp3VGNkUm1ibmtMVkJsRjVfcVdrMjdTOUhFeG5Pd3c3eDRiZFFJNjZYd3FLVy14aWZma0V0cGFJZw?oc=5",
-      "source": "RTBF",
-      "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT"
+      "title": "Des pirates informatiques accèdent aux données personnelles de Max Verstappen et de pilotes de F1 sur le site de la FIA",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbHc1QWV2Y1hHeEZBa1pNcHFJOURYOGRpNDBTUjlwd2U4THZmWlplcGlqS3dielBONmZPWG5fWlByeDl3UlRCdF9Pa3hPQ1B0S2dkMlhwWXdqaVlaMFhjQ3FiRXEyZWE1OXR5aU1jMVRXMklnT2J5NnNvT3ZxNF8yc2hjeTQ5NTVQR2U0Tk1XZGhLaUVZb1B2UDBlOWhWWG1NUU5UWkRMeGNORUJiNUtFT1hvMlBQaW5oQ1VUMExVNWpXbkxtVnRMWVUtM1RlWXBLZlR3Vm1qN0dLMHY2M1lnNTlPaVAycWVRZkt3endJNzNqbUJXQ0dz?oc=5",
+      "source": "journaldemontreal.com",
+      "pubDate": "Thu, 23 Oct 2025 07:00:00 GMT"
     },
     {
-      "title": "Une seule voiture de F1 en 2026 génère autant de données que 1 600 films Netflix en simultané (Reportage)",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVlZGS0ZyaFlEb05VZVFrN29xVGh6TXZxRkR4Wk1scWNWLXpxdzlWS2ZYNVZMcHVPLXlfaDRfbU16d0hBbkxyb3labFFpWHVKUW9EN3Q2QkdKOW5rNWtSc3JCM2Jra2VYM0RXczFtSlNpUldnejViYnhIQmZ2Zl9Od0JFSF85czQ5UmxfejlJNS0zLVRpdXQzQ3hXSE02elo4czdHaXpJVUdZTVdQNmdyaVZqd3RxbzlRQWFFXzNSZ3VKQ1lvendjc09ZMHM4RFBmT1NSM3E4M3I1bEpsYXlsQg?oc=5",
-      "source": "clubic.com",
-      "pubDate": "Sun, 05 Jul 2026 07:00:00 GMT"
+      "title": "Laïcana Coulibaly (WEC) : « L’inclusion des femmes en cybersécurité n’est pas un luxe mais une nécessité",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT2hkQUU5X1pwOW1ITUNWLU5WRUE1UTZOdkNuTExoekJXSmJKMDk2QlYzRjhqbGhDYzhfbUVkZVpIXy1HVGtsN2JvSWdxTERSMGxxb3BvbVNQeTlrQWJzYjJHeEZNcExZNzNBSnN1dFpnMmN0MFNYOTFUcnVfb0VualhIQ3VzZkhwMkIwR3VWeWZYTENQM0ZvUjVLSUJNREQ2TE9kYTZmUkdPbi1DWC1oRWxTN1ItSkxS?oc=5",
+      "source": "cio-mag.com",
+      "pubDate": "Wed, 12 Mar 2025 07:00:00 GMT"
     },
     {
-      "title": "IA : Washington réautorise un accès limité au modèle Mythos d'Anthropic et encadre le nouveau lancement d'OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSmd6VWxMRjd6cTlmb1FwYTVUajNRdEFQZjJGMWxwRlZoWWdndnk4SVV3WkVoeEVlWGwxc1piRlJVTW1maS0yX1VYVkVqWWxoR0g1QmhfRzBGUjhnREdKakM0U3R6dWd5aFkxajk3TmN1RmViRk1TSGl6OHF3WmUwd29UUkQ2MW1PeE50dWVwMHdidDRZYUhrMmpCN24wQWI3M3BRekt6VExtbHc5MWtLVjdqbkJESjd3VWIwRk5uZlZJN1E2U1BLY2Y4bVlQOXJfSWthWEFrUzNzeDE3Qzg2Mml4a3dZVFpSR2xrcmFINGFPOC1rcGdFMFhnYThydEFxTVFnNmFiOGN6QQ?oc=5",
-      "source": "Les Echos",
-      "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT"
+      "title": "BWT Alpine Formula One Team choisit Arctic Wolf comme Partenaire Officiel Cybersécurité",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDY5bVhHNzM3aWxpXzJ0RWZhOV9wZWNVU2JlcGFIVkZhdUdVOUpYX0gyOUpTajd4WUUwM01HMzBhVlVBWUwySW1oZ2QwcTZ2bU9zdHNnTlM0eDNyUEc1Vkd1U216dlE2UWRsUkp4OEhTT0NTajZWUG1MSjRINExXUjNYTFFNTFEyVjh4MVZMQzhpcE9ycHhmM3pUdW9WRjFpVGNDYlYwcHEtMHZlVUZFTnlPQXJmZV9jX1NQOVc2Q0dSOXhl?oc=5",
+      "source": "Alpine Cars",
+      "pubDate": "Tue, 11 Feb 2025 08:00:00 GMT"
     }
   ]
 }

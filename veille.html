@@ -542,8 +542,14 @@
 
         const query = '(Formula 1 OR F1 OR WEC) (cybersecurity OR cyberattack OR ransomware OR hack OR cybersécurité)';
         const rssUrl = 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=fr&gl=FR&ceid=FR:fr';
-        const apiUrl = 'https://api.rss2json.com/v1/api.json?count=6&rss_url=' + encodeURIComponent(rssUrl);
         const gnewsUrl = 'https://news.google.com/search?q=' + encodeURIComponent(query) + '&hl=fr&gl=FR&ceid=FR:fr';
+
+        // Plusieurs proxys CORS essayés en cascade (si l'un tombe, on passe au suivant)
+        const proxies = [
+            u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
+            u => 'https://corsproxy.io/?url=' + encodeURIComponent(u),
+            u => 'https://api.codetabs.com/v1/proxy/?quest=' + encodeURIComponent(u)
+        ];
 
         function escapeHtml(s) {
             return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -554,31 +560,49 @@
                 '<a href="' + gnewsUrl + '" target="_blank" rel="noopener" style="color:var(--accent-light);font-weight:700;">Consulter directement le flux Google News ↗</a>';
         }
 
-        fetch(apiUrl)
-            .then(r => r.json())
-            .then(data => {
-                if (!data || data.status !== 'ok' || !data.items || !data.items.length) throw new Error('empty');
-                status.style.display = 'none';
-                data.items.slice(0, 6).forEach(item => {
-                    const d = new Date(item.pubDate);
-                    const date = isNaN(d.getTime()) ? '' : d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
-                    let title = item.title || '';
-                    let source = (item.author || '').trim();
-                    const m = title.match(/\s-\s([^-]+)$/);
-                    if (!source && m) { source = m[1].trim(); title = title.replace(/\s-\s[^-]+$/, ''); }
+        function render(xmlText) {
+            const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
+            const items = Array.from(doc.querySelectorAll('item')).slice(0, 6);
+            if (!items.length) throw new Error('no items');
+            status.style.display = 'none';
+            feed.innerHTML = '';
+            items.forEach(item => {
+                const get = sel => { const el = item.querySelector(sel); return el ? el.textContent.trim() : ''; };
+                let title = get('title');
+                const link = get('link');
+                const pub = get('pubDate');
+                let source = get('source');
+                const m = title.match(/\s-\s([^-]+)$/);
+                if (!source && m) source = m[1].trim();
+                if (source && title.endsWith('- ' + source)) title = title.replace(/\s-\s[^-]+$/, '').trim();
+                const d = new Date(pub);
+                const date = isNaN(d.getTime()) ? '' : d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
 
-                    const a = document.createElement('a');
-                    a.href = item.link;
-                    a.target = '_blank';
-                    a.rel = 'noopener';
-                    a.className = 'src-card';
-                    a.innerHTML =
-                        '<div class="src-type">' + (date || 'Actualité') + (source ? ' · ' + escapeHtml(source) : '') + '</div>' +
-                        '<div class="src-name" style="font-size:0.92rem;line-height:1.35;">' + escapeHtml(title) + '</div>';
-                    feed.appendChild(a);
-                });
-            })
-            .catch(fallback);
+                const a = document.createElement('a');
+                a.href = link || gnewsUrl;
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.className = 'src-card';
+                a.innerHTML =
+                    '<div class="src-type">' + (date || 'Actualité') + (source ? ' · ' + escapeHtml(source) : '') + '</div>' +
+                    '<div class="src-name" style="font-size:0.92rem;line-height:1.35;">' + escapeHtml(title) + '</div>';
+                feed.appendChild(a);
+            });
+        }
+
+        function tryProxy(i) {
+            if (i >= proxies.length) return fallback();
+            fetch(proxies[i](rssUrl))
+                .then(r => { if (!r.ok) throw new Error('http ' + r.status); return r.text(); })
+                .then(text => {
+                    let xml = text;
+                    if (text.trim().charAt(0) === '{') { try { xml = JSON.parse(text).contents || text; } catch (e) { /* garder brut */ } }
+                    render(xml);
+                })
+                .catch(() => tryProxy(i + 1));
+        }
+
+        tryProxy(0);
     })();
 </script>
 </body>

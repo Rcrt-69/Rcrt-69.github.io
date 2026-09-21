@@ -6,153 +6,8 @@
     <title>Journal de Bord — Rémy Couratier</title>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        .journal-hero {
-            padding: 10rem 0 4rem;
-            text-align: center;
-        }
-
-        .journal-hero h1 {
-            font-size: clamp(2.5rem, 5vw, 4.5rem);
-            font-family: 'Syne', sans-serif;
-            font-weight: 800;
-            margin-bottom: 1rem;
-        }
-
-        .journal-hero p {
-            color: var(--muted);
-            max-width: 520px;
-            margin: 0 auto;
-            font-size: 1rem;
-            line-height: 1.7;
-        }
-
-        .journal-feed {
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 3rem 0 6rem;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        .entry-card {
-            background: var(--card);
-            border: 1px solid rgba(255,255,255,0.07);
-            border-radius: 16px;
-            padding: 2rem 2.25rem;
-            position: relative;
-            transition: border-color 0.3s, transform 0.3s;
-            overflow: hidden;
-        }
-
-        .entry-card::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, rgba(46,95,255,0.14), transparent 60%);
-            pointer-events: none;
-        }
-
-        .entry-card:hover {
-            border-color: var(--accent-light);
-            transform: translateY(-4px);
-        }
-
-        .entry-meta {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .entry-date {
-            font-size: 0.72rem;
-            font-family: 'Syne', sans-serif;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--muted);
-            background: rgba(255,255,255,0.05);
-            padding: 0.3rem 0.75rem;
-            border-radius: 99px;
-            border: 1px solid rgba(255,255,255,0.08);
-        }
-
-        .entry-category {
-            font-size: 0.72rem;
-            font-family: 'Syne', sans-serif;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--accent-light);
-        }
-
-        .entry-title {
-            font-family: 'Syne', sans-serif;
-            font-weight: 700;
-            font-size: 1.25rem;
-            color: var(--text);
-            margin-bottom: 0.75rem;
-            line-height: 1.35;
-        }
-
-        .entry-body {
-            color: var(--muted);
-            font-weight: 300;
-            line-height: 1.75;
-            font-size: 0.95rem;
-        }
-
-        .entry-body strong {
-            color: var(--text);
-            font-weight: 400;
-        }
-
-        .entry-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-top: 1.25rem;
-        }
-
-        .entry-tag {
-            font-size: 0.7rem;
-            font-family: 'Syne', sans-serif;
-            font-weight: 700;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            color: var(--muted);
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 6px;
-            padding: 0.25rem 0.6rem;
-        }
-
-        .entry-divider {
-            width: 40px;
-            height: 2px;
-            background: linear-gradient(90deg, var(--accent-light), transparent);
-            border-radius: 2px;
-            margin: 1rem 0;
-        }
-
-        .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: var(--muted);
-            font-size: 0.85rem;
-            text-decoration: none;
-            margin-bottom: 2rem;
-            transition: color 0.2s;
-        }
-
-        .back-link:hover {
-            color: var(--text);
-        }
-    </style>
 </head>
-<body>
+<body class="page-journal">
 
 <div id="cursor-glow"></div>
 <div class="orb orb-1"></div>
@@ -164,11 +19,11 @@
     <ul class="nav-links">
         <li><a href="index.html#about">Profil</a></li>
         <li><a href="index.html#projects">Expériences</a></li>
-        <li><a href="journal.html" style="color:var(--text);">Journal</a></li>
+        <li><a href="journal.html" class="active">Journal</a></li>
         <li><a href="veille.html">Veille</a></li>
         <li><a href="index.html#contact">Contact</a></li>
     </ul>
-    <a href="index.html#contact" class="btn btn-primary" style="padding:0.55rem 1.25rem;font-size:0.8rem;">Discutons →</a>
+    <a href="index.html#contact" class="btn btn-primary btn-nav">Discutons →</a>
 </nav>
 
 <div class="container">
@@ -180,7 +35,7 @@
         </h1>
     </section>
 
-    <div style="max-width:720px;margin:0 auto;">
+    <div class="back-wrap">
         <a href="index.html" class="back-link">← Retour au portfolio</a>
     </div>
 
@@ -195,8 +50,8 @@
             <div class="entry-divider"></div>
             <div class="entry-body">
                 <p>La première semaine a été consacrée à la <strong>définition du cahier des charges</strong> du site web et de l'application <strong>ROAR</strong>. Il s'agissait de poser les bases du projet : identifier les besoins, les fonctionnalités attendues et les contraintes techniques à respecter.</p>
-                <p style="margin-top:0.75rem;">Après avoir structuré les exigences, j'ai entamé la <strong>création du site</strong>, en partant de la maquette définie lors du cadrage. Les premières pages ont été mises en place, avec une attention particulière portée à la cohérence visuelle et à l'organisation du code.</p>
-                <p style="margin-top:0.75rem;">Cette phase de démarrage m'a permis de m'approprier le projet dans sa globalité et de poser une base solide pour les semaines à venir.</p>
+                <p>Après avoir structuré les exigences, j'ai entamé la <strong>création du site</strong>, en partant de la maquette définie lors du cadrage. Les premières pages ont été mises en place, avec une attention particulière portée à la cohérence visuelle et à l'organisation du code.</p>
+                <p>Cette phase de démarrage m'a permis de m'approprier le projet dans sa globalité et de poser une base solide pour les semaines à venir.</p>
             </div>
             <div class="entry-tags">
                 <span class="entry-tag">Cahier des charges</span>
@@ -215,8 +70,8 @@
             <div class="entry-divider"></div>
             <div class="entry-body">
                 <p>Cette semaine a été marquée par la <strong>finalisation de la V1 du site</strong> ROAR. Les derniers ajustements ont été apportés sur la structure des pages, la cohérence visuelle et la navigation, afin d'obtenir une version stable et présentable.</p>
-                <p style="margin-top:0.75rem;">En parallèle, nous avons ouvert la discussion sur les <strong>moyens nécessaires à l'hébergement</strong> du site : choix de l'infrastructure, contraintes de coût, nom de domaine et environnement de déploiement.</p>
-                <p style="margin-top:0.75rem;">Cette phase m'a permis de confronter le travail de développement aux réalités de mise en production, un aspect essentiel que la formation seule n'aborde pas toujours concrètement.</p>
+                <p>En parallèle, nous avons ouvert la discussion sur les <strong>moyens nécessaires à l'hébergement</strong> du site : choix de l'infrastructure, contraintes de coût, nom de domaine et environnement de déploiement.</p>
+                <p>Cette phase m'a permis de confronter le travail de développement aux réalités de mise en production, un aspect essentiel que la formation seule n'aborde pas toujours concrètement.</p>
             </div>
             <div class="entry-tags">
                 <span class="entry-tag">Développement Web</span>
@@ -235,8 +90,8 @@
             <div class="entry-divider"></div>
             <div class="entry-body">
                 <p>La semaine 3 a débuté par la <strong>présentation officielle de la V1</strong> du site ROAR. Cette étape a permis de recueillir les premiers retours concrets et d'identifier les points à améliorer avant la mise en ligne.</p>
-                <p style="margin-top:0.75rem;">Suite aux retours, une <strong>revue complète du site</strong> a été effectuée : corrections, ajustements de contenu et optimisations de l'interface pour coller au mieux aux attentes exprimées lors de la présentation.</p>
-                <p style="margin-top:0.75rem;">En parallèle, nous avons entamé la <strong>définition du cahier des charges de l'application</strong> ROAR, en posant les fonctionnalités clés, les contraintes techniques et les priorités de développement pour la suite du projet.</p>
+                <p>Suite aux retours, une <strong>revue complète du site</strong> a été effectuée : corrections, ajustements de contenu et optimisations de l'interface pour coller au mieux aux attentes exprimées lors de la présentation.</p>
+                <p>En parallèle, nous avons entamé la <strong>définition du cahier des charges de l'application</strong> ROAR, en posant les fonctionnalités clés, les contraintes techniques et les priorités de développement pour la suite du projet.</p>
             </div>
             <div class="entry-tags">
                 <span class="entry-tag">Présentation</span>
@@ -255,8 +110,8 @@
             <div class="entry-divider"></div>
             <div class="entry-body">
                 <p>La semaine 4 a été marquée par la <strong>présentation de la V2 du site</strong> ROAR, intégrant les corrections et améliorations issues des retours de la semaine précédente. La version présentée est nettement plus aboutie et prête à accueillir du trafic réel.</p>
-                <p style="margin-top:0.75rem;">En parallèle, j'ai présenté la <strong>V1 de l'application</strong> ROAR, première version fonctionnelle développée à partir du cahier des charges défini en semaine 3. Cette étape concrétise le passage de la conception à la réalisation.</p>
-                <p style="margin-top:0.75rem;">Enfin, nous avons procédé à la <strong>mise en place de l'hébergement</strong> : configuration de l'environnement de production, déploiement du site et vérification du bon fonctionnement en conditions réelles.</p>
+                <p>En parallèle, j'ai présenté la <strong>V1 de l'application</strong> ROAR, première version fonctionnelle développée à partir du cahier des charges défini en semaine 3. Cette étape concrétise le passage de la conception à la réalisation.</p>
+                <p>Enfin, nous avons procédé à la <strong>mise en place de l'hébergement</strong> : configuration de l'environnement de production, déploiement du site et vérification du bon fonctionnement en conditions réelles.</p>
             </div>
             <div class="entry-tags">
                 <span class="entry-tag">V2 Site</span>
@@ -275,8 +130,8 @@
             <div class="entry-divider"></div>
             <div class="entry-body">
                 <p>Cette semaine a été consacrée à la <strong>revue des couleurs et du design officiel</strong> de ROAR. Une charte graphique définitive a été établie, fixant les teintes, typographies et composants visuels à appliquer sur l'ensemble du projet.</p>
-                <p style="margin-top:0.75rem;">Sur la base de ces décisions, j'ai procédé aux <strong>modifications du site</strong> pour l'aligner avec l'identité visuelle validée : refonte des couleurs, ajustement des éléments d'interface et harmonisation globale du rendu.</p>
-                <p style="margin-top:0.75rem;">Les mêmes ajustements ont été appliqués à <strong>l'application</strong>, assurant une cohérence totale entre les deux supports et une expérience utilisateur unifiée sur l'ensemble de l'écosystème ROAR.</p>
+                <p>Sur la base de ces décisions, j'ai procédé aux <strong>modifications du site</strong> pour l'aligner avec l'identité visuelle validée : refonte des couleurs, ajustement des éléments d'interface et harmonisation globale du rendu.</p>
+                <p>Les mêmes ajustements ont été appliqués à <strong>l'application</strong>, assurant une cohérence totale entre les deux supports et une expérience utilisateur unifiée sur l'ensemble de l'écosystème ROAR.</p>
             </div>
             <div class="entry-tags">
                 <span class="entry-tag">Design</span>
@@ -294,8 +149,8 @@
             <div class="entry-divider"></div>
             <div class="entry-body">
                 <p>La semaine 6 a été dédiée à la <strong>mise en place des serveurs</strong> nécessaires au bon fonctionnement de l'écosystème ROAR. Cette étape a impliqué la configuration de l'environnement serveur, l'installation des dépendances et la sécurisation des accès.</p>
-                <p style="margin-top:0.75rem;">J'ai ensuite procédé au <strong>déploiement en production</strong> du site et de l'application, en veillant à la bonne communication entre le frontend, le backend et la base de données. Des tests ont été menés pour valider la stabilité et les performances en conditions réelles.</p>
-                <p style="margin-top:0.75rem;">Cette phase m'a permis de consolider mes compétences en <strong>administration système et réseau</strong>, au cœur de ma spécialité SISR, en confrontant la théorie à un déploiement concret et fonctionnel.</p>
+                <p>J'ai ensuite procédé au <strong>déploiement en production</strong> du site et de l'application, en veillant à la bonne communication entre le frontend, le backend et la base de données. Des tests ont été menés pour valider la stabilité et les performances en conditions réelles.</p>
+                <p>Cette phase m'a permis de consolider mes compétences en <strong>administration système et réseau</strong>, au cœur de ma spécialité SISR, en confrontant la théorie à un déploiement concret et fonctionnel.</p>
             </div>
             <div class="entry-tags">
                 <span class="entry-tag">Serveurs</span>

@@ -1,0 +1,43 @@
+{
+  "updated": "2026-09-21T10:00:00.000Z",
+  "query": "(Formula 1 OR F1 OR WEC) (cybersecurity OR cyberattack OR ransomware OR hack OR cybersécurité)",
+  "source": "Sélection initiale — sera remplacée automatiquement par la GitHub Action",
+  "items": [
+    {
+      "title": "Cyber security in F1: McLaren and partner Darktrace explain crucial defences",
+      "link": "https://www.skysports.com/f1/news/12433/13232063/cyber-security-in-f1-mclaren-and-partner-darktrace-explain-crucial-defences-supporting-lando-norris-title-challenge",
+      "source": "Sky Sports F1",
+      "pubDate": ""
+    },
+    {
+      "title": "Why Do F1 Teams Need Cybersecurity, and How Is AI Changing the Threat Landscape?",
+      "link": "https://securityboulevard.com/2026/07/why-do-f1-teams-need-cybersecurity-and-how-is-ai-changing-the-threat-landscape/",
+      "source": "Security Boulevard",
+      "pubDate": ""
+    },
+    {
+      "title": "Ferrari Data Breach: Second Attack Within A Span Of Six Months",
+      "link": "https://thecyberexpress.com/ferrari-data-breach-explained/",
+      "source": "The Cyber Express",
+      "pubDate": ""
+    },
+    {
+      "title": "Keeper Security Forges Cybersecurity Partnership With Williams Racing",
+      "link": "https://www.keepersecurity.com/blog/2024/04/30/williams-racing-f1-sponsorship/",
+      "source": "Keeper Security",
+      "pubDate": ""
+    },
+    {
+      "title": "The Biggest Cyberattacks in F1 History",
+      "link": "https://www.expressvpn.com/blog/formula-one-cyberthreats/",
+      "source": "ExpressVPN",
+      "pubDate": ""
+    },
+    {
+      "title": "Formula One: Accelerating Cybersecurity in Motorsport",
+      "link": "https://techinformed.com/accelerating-cybersecurity-in-the-world-of-motorsport-formula-one/",
+      "source": "TechInformed",
+      "pubDate": ""
+    }
+  ]
+}

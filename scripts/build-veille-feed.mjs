@@ -11,21 +11,42 @@
 import { writeFileSync } from 'node:fs';
 
 const queries = [
+    // Formule 1
     '"Formule 1" cybersécurité',
-    '"Formule 1" cyberattaque',
-    '"Formule 1" rançongiciel',
     '"Formula 1" cybersecurity',
     '"Formula 1" cyberattack',
-    '"Formula 1" ransomware',
-    '"Formula 1" "data breach"',
+    'F1 ransomware',
+    // Endurance / WEC / Le Mans
+    'WEC cybersecurity',
+    '"endurance" cyberattaque automobile',
+    '"Le Mans" cyberattaque',
+    'Hypercar cybersecurity',
+    // IMSA / NASCAR / IndyCar (US)
+    'IMSA cybersecurity',
+    'NASCAR cybersecurity',
+    'NASCAR ransomware',
+    'IndyCar cybersecurity',
+    // Autres disciplines
+    '"Formula E" cybersecurity',
+    'MotoGP cybersecurity',
+    // Génériques sport auto
     'motorsport cybersecurity',
-    'WEC cybersecurity'
+    'motorsport ransomware',
+    '"sport automobile" cyberattaque'
 ];
 
 // Filtre de pertinence : le titre doit contenir un terme de CHAQUE liste.
-const MOTORSPORT = ['f1', 'formula 1', 'formule 1', 'grand prix', 'grand-prix', 'paddock',
-    'wec', 'endurance', 'le mans', 'motorsport', 'sport automobile', 'ecurie', 'pit wall',
-    'mclaren', 'ferrari', 'mercedes', 'red bull', 'williams', 'alpine', 'aston martin', 'racing'];
+const MOTORSPORT = [
+    // F1
+    'f1', 'formula 1', 'formule 1', 'grand prix', 'grand-prix', 'paddock', 'pit wall',
+    'mclaren', 'ferrari', 'mercedes', 'red bull', 'williams', 'alpine', 'aston martin',
+    // Endurance / WEC
+    'wec', 'endurance', 'le mans', '24 heures', '24 hours', 'hypercar', 'lmp',
+    // US / autres disciplines
+    'imsa', 'nascar', 'indycar', 'daytona', 'sebring',
+    'formula e', 'formule e', 'motogp', 'rallye', 'rally', 'rallycross',
+    // Génériques
+    'motorsport', 'sport automobile', 'sport auto', 'ecurie', 'racing', 'motorsports'];
 const CYBER = ['cyber', 'ransomware', 'rancongiciel', 'hack', 'piratage informatique', 'pirate',
     'data breach', 'fuite de donnees', 'phishing', 'hameconnage', 'malware', 'rgpd', 'ddos',
     'securite informatique', 'attaque informatique', 'donnees personnelles', 'faille'];

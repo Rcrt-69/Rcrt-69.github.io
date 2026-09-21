@@ -51,7 +51,7 @@
                 <span class="rss-live-tag">Live</span>
                 <span class="live-head-label">Flux automatisé — principe PUSH</span>
             </p>
-            <p>Cette section applique directement le <strong>mode PUSH</strong> du cours : au lieu d'aller chercher l'information, je la reçois automatiquement via un <strong>flux RSS</strong>. Une <strong>GitHub Action</strong> interroge plusieurs fois par jour le flux <strong>Google News</strong> (requête « Formule&nbsp;1 / cybersécurité »), enregistre les derniers articles, et la page les affiche ci-dessous — <strong>sans aucune intervention manuelle</strong> de ma part.</p>
+            <p>Cette section applique directement le <strong>mode PUSH</strong> du cours : au lieu d'aller chercher l'information, je la reçois automatiquement via un <strong>flux RSS</strong>. Une <strong>GitHub Action</strong> interroge plusieurs fois par jour des flux <strong>Google News</strong> couvrant tout le sport automobile (F1, WEC, IMSA, NASCAR, Formula&nbsp;E…) croisé avec la cybersécurité, enregistre les derniers articles, et la page les affiche ci-dessous — <strong>sans aucune intervention manuelle</strong> de ma part.</p>
         </div>
         <div id="rss-status" class="rss-status"><span class="spin"></span>Chargement du flux RSS…</div>
         <div id="rss-feed" class="src-grid"></div>
@@ -309,7 +309,7 @@
         const status = document.getElementById('rss-status');
         if (!feed) return;
 
-        const gnewsUrl = 'https://news.google.com/search?q=' + encodeURIComponent('"Formule 1" cybersécurité') + '&hl=fr&gl=FR&ceid=FR:fr';
+        const gnewsUrl = 'https://news.google.com/search?q=' + encodeURIComponent('motorsport cybersecurity') + '&hl=fr&gl=FR&ceid=FR:fr';
 
         function escapeHtml(s) {
             return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

@@ -1,19 +1,55 @@
 {
-  "updated": "2026-09-21T07:08:01.149Z",
-  "query": "(\"Formule 1\" OR \"Formula 1\" OR F1 OR WEC) (cybersécurité OR cyberattaque OR cybersecurity OR cyberattack OR ransomware OR rançongiciel OR hacker OR hacking OR \"data breach\") -streaming -IPTV -\"droits TV\" -beIN -\"Canal+\" -piratage -\"en direct\"",
-  "source": "Google News RSS",
+  "updated": "2026-09-21T07:09:11.004Z",
+  "query": "\"Formule 1\" cybersécurité | \"Formule 1\" cyberattaque | \"Formule 1\" rançongiciel | \"Formula 1\" cybersecurity | \"Formula 1\" cyberattack | \"Formula 1\" ransomware | \"Formula 1\" \"data breach\" | motorsport cybersecurity | WEC cybersecurity",
+  "source": "Google News RSS (recherches multiples fusionnées)",
   "items": [
     {
-      "title": "BWT Alpine F1 x Arctic Wolf : la cybersécurité qui accélère la performance en Formule 1 🚀🔐",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObHdaOWl1dUcxLWFqdWljVHZKVlZpejZhYVJRZ2tJSlN4cXQ0ZkR1TjJuSDgzaXlhUzU3SEc4SG05eE5HaThIM3ZiYW9CZTA4RVc0UFRuWXFZMjRhdFVhMnpWWTFTdXR0cnJodTlBUlkzM1F2Z0ZIMXhvQXpXYmU1Q1E4dmNxLWF6c0ZiWGFGeWVzNEQzQ1pwVE5XZ09IaTZoX3puS09fTGZ3N2Y2TDlqclQxNUMxNHBVQWYwaA?oc=5",
-      "source": "blog.joinsteer.com",
-      "pubDate": "Mon, 15 Dec 2025 08:00:00 GMT"
+      "title": "A look back at Montreal | Mercedes AMG-PETRONAS Formula 1 Team",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSzlTMy1zVDN5aHVoUnA0RUREcEs0Q0JtSnFHS2ppMFhhSFV1aUpLZGtnMXRGYUdoMTB2aG5vRmc3UktTZC1zOHg4ZERTR25WN1dPbHVUYU0yWHcwbm81NzFOM1FTYWwxVm1xYzdZTGpTNVlPNGFJSHFVckM5cG05bEpFOXVoUV9BWmowbjVwTE1HNHNlWDE1OVJXcWNtQTZ2T1ZJbw?oc=5",
+      "source": "Aerocontact",
+      "pubDate": "Sat, 19 Sep 2026 04:44:21 GMT"
     },
     {
-      "title": "Cyberattaque chez Guy Demarle : des données personnelles compromises",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ0F3RFI5VklzcDNwdnIwYWpZVW12S2pIMlZNVlJOWWkzZ1NWSzhaTUNfMkNvU1dMY1V0c29OTUNxTFA1NXBWemFpOGVsOXptQ2tFQ201RXRJS00wcG5sTjdIUmx3eklCNWp5eXl4Z3QxNmhSUi1BTWh6N0pzTjJHTXU3bV9LbC1VcE82clUzczluME0?oc=5",
-      "source": "Zataz",
-      "pubDate": "Tue, 03 Dec 2024 08:00:00 GMT"
+      "title": "RAT+ : le cinéma six mois après la salle et le sport CANAL+ à 13,99€ seulement",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHFFNENBREt2MjJvcGZsZFdsdDN1b2lTRzJablRKRXdkYVhGUTl4WkEzeGhaNF9FMU0zZXdEUml5QXAtSkNjNElUc1VMQWFCaG03bTJ6S0RGQ1ZNVGtNaElhWDJMUUp2RjItcTNwYV91MFEwN3JxTWdLemhfTG92WTNVNi1jWlNJWXhtaGR1NkVMQWJpLVhCMmUtNHBLWkstajBNZmtDSy16TFlocWZjQWJ1V0VCbnQzcmZB?oc=5",
+      "source": "clubic.com",
+      "pubDate": "Thu, 17 Sep 2026 17:16:00 GMT"
+    },
+    {
+      "title": "Télécharger F1 TV (gratuit) Web, Android, iOS",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJLTc5eGVfWlNuOHNHOTNaVkRSUmEtclA2dHlCTkQ3ZWNGbFBZUlpudlVJMDJGdTVkVGl3NHZ5ZWhCNmVHSmgzdmF2QnhkMHA4QzVtd1Q2N1cyRjFFMlNtMWt6dzhGZFRw?oc=5",
+      "source": "clubic.com",
+      "pubDate": "Thu, 10 Sep 2026 08:00:00 GMT"
+    },
+    {
+      "title": "\"On est en train de perdre la bataille de l'IA\" : ce que préconisent les experts pour que la France réagisse",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdTAyU21zME5WWDA3bEJFNFBSQ2kxUVh3c2Q2ZDlPTEZmMkYxcjQxN0N3RWxCeVpPTHdsa1BMd3VwRC1ocWlFYmlncHBqVmxvcTVyWFdaNmg3R3pUVUZPTkM4YWI0Zm44VktiSllYZDBUbE9za2dkLUV5X1NwdmZIdkxueF8zM2FIei1sbm9Rd05BYk5DZFU0SFhhenliQXBoRmxkUk8wX3JzZlZUYTk1Z0RSS2h1clc3TTViV2t6VUdoYlRQMTVsSDZhWTgzTFJlR2tSZTNRM19FUDNsOUxWaWVMNjdCLW9Gb2JjOA?oc=5",
+      "source": "La République du Centre",
+      "pubDate": "Tue, 04 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Cyberattaque autonome menée par des modèles d’OpenAI : l’IA est-elle devenue trop puissante pour être contrôlée",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNmhId25XOHh4ektlVDNmSjRGcWRmeHRXVzRrYjNjWU5TQkRwdldWQUxkSXB2YTVwYTJFcFpCbVEtUmRicUdkN1p2Ui1rREVETzVvSnBCTEJfVzNMcHlFVlppd1VYcHBwa3BPWjJXbDgyLU4yTlh5TE84Y0hDQkFOUEVnQUZxam9RSjNnYXNKT3N3MjY1aVoxT2Q1STFsU0NtZlo5RWRvNldxSmlkR2FrdUpSb1JsTDRWUGxiUUtUbXk0QVVrNnJmcURwWWhjcXg0Z0xtM0FqSHdaSmtDdEpv?oc=5",
+      "source": "RTBF",
+      "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Un piratage 'sans précédent' : OpenAI reconnaît une cyberattaque autonome menée par des modèles d’I.A. en cours de test",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSzRkTlhzeG5GQ3VfM1BBZEVlc0JuaERleGpWcHBIanc2eHp0R2xmdEloeUg1SWxHTFgtRC1peG5Qd2lHWGRnbEY4ZHdNb19pQjZBYXhuYnpLX0xodjlwcjJtN2hwUW9NcmJwM2xLNHZwRDBSQlk1VXllN1FoSC1aeXRRUjE3aVZHU3lQa0RXZWNoRW5Oa19rS0JpbWdtZzNFTWVtcDBZbDZaYmM4anp3VGNkUm1ibmtMVkJsRjVfcVdrMjdTOUhFeG5Pd3c3eDRiZFFJNjZYd3FLVy14aWZma0V0cGFJZw?oc=5",
+      "source": "RTBF",
+      "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Une seule voiture de F1 en 2026 génère autant de données que 1 600 films Netflix en simultané (Reportage)",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVlZGS0ZyaFlEb05VZVFrN29xVGh6TXZxRkR4Wk1scWNWLXpxdzlWS2ZYNVZMcHVPLXlfaDRfbU16d0hBbkxyb3labFFpWHVKUW9EN3Q2QkdKOW5rNWtSc3JCM2Jra2VYM0RXczFtSlNpUldnejViYnhIQmZ2Zl9Od0JFSF85czQ5UmxfejlJNS0zLVRpdXQzQ3hXSE02elo4czdHaXpJVUdZTVdQNmdyaVZqd3RxbzlRQWFFXzNSZ3VKQ1lvendjc09ZMHM4RFBmT1NSM3E4M3I1bEpsYXlsQg?oc=5",
+      "source": "clubic.com",
+      "pubDate": "Sun, 05 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "IA : Washington réautorise un accès limité au modèle Mythos d'Anthropic et encadre le nouveau lancement d'OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSmd6VWxMRjd6cTlmb1FwYTVUajNRdEFQZjJGMWxwRlZoWWdndnk4SVV3WkVoeEVlWGwxc1piRlJVTW1maS0yX1VYVkVqWWxoR0g1QmhfRzBGUjhnREdKakM0U3R6dWd5aFkxajk3TmN1RmViRk1TSGl6OHF3WmUwd29UUkQ2MW1PeE50dWVwMHdidDRZYUhrMmpCN24wQWI3M3BRekt6VExtbHc5MWtLVjdqbkJESjd3VWIwRk5uZlZJN1E2U1BLY2Y4bVlQOXJfSWthWEFrUzNzeDE3Qzg2Mml4a3dZVFpSR2xrcmFINGFPOC1rcGdFMFhnYThydEFxTVFnNmFiOGN6QQ?oc=5",
+      "source": "Les Echos",
+      "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT"
     }
   ]
 }

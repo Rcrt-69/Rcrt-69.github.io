@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-22T20:53:05.900Z",
+  "updated": "2026-09-23T10:45:57.596Z",
   "query": "\"Formule 1\" cybersécurité | \"Formula 1\" cybersecurity | \"Formula 1\" cyberattack | F1 ransomware | WEC cybersecurity | \"endurance\" cyberattaque automobile | \"Le Mans\" cyberattaque | Hypercar cybersecurity | IMSA cybersecurity | NASCAR cybersecurity | NASCAR ransomware | IndyCar cybersecurity | \"Formula E\" cybersecurity | MotoGP cybersecurity | motorsport cybersecurity | motorsport ransomware | \"sport automobile\" cyberattaque",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 11,
+  "liveCount": 10,
   "items": [
     {
       "title": "Riches, mais pas que : pourquoi les fans de F1 sont-ils des cibles parfaites pour les hackers ?",
@@ -23,12 +23,6 @@
       "pubDate": "Mon, 15 Dec 2025 08:00:00 GMT"
     },
     {
-      "title": "Piloter un XDR, Formule 1 de la cybersécurité, doit se faire en équipe",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1VkSExYaXhicDlCUnUwQV9QeFhTcXZRamh4QU5pa09iNWNtQUtoZldrdzFDaUI0NnVDWXY0RkxfeW5rZjZlZW1rbTM0RlFhWS1KZkMzdVJRLVhBaE0yUzNKbWZBVGFRQjNRdEJLTmFlaElzVzNVclBENTk2VlFuZkd2MHNMTHMxdWoxMkZ0SDR1Nnd5c2xlMDNOakpDYWpvbXphWmlfVU1UQ05IZTFDZlZmc3Bxd2s?oc=5",
-      "source": "Business News",
-      "pubDate": "Fri, 21 Nov 2025 08:00:00 GMT"
-    },
-    {
       "title": "Des pirates informatiques accèdent aux données personnelles de Max Verstappen et de pilotes de F1 sur le site de la FIA",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbHc1QWV2Y1hHeEZBa1pNcHFJOURYOGRpNDBTUjlwd2U4THZmWlplcGlqS3dielBONmZPWG5fWlByeDl3UlRCdF9Pa3hPQ1B0S2dkMlhwWXdqaVlaMFhjQ3FiRXEyZWE1OXR5aU1jMVRXMklnT2J5NnNvT3ZxNF8yc2hjeTQ5NTVQR2U0Tk1XZGhLaUVZb1B2UDBlOWhWWG1NUU5UWkRMeGNORUJiNUtFT1hvMlBQaW5oQ1VUMExVNWpXbkxtVnRMWVUtM1RlWXBLZlR3Vm1qN0dLMHY2M1lnNTlPaVAycWVRZkt3endJNzNqbUJXQ0dz?oc=5",
       "source": "Le Journal de Montréal",
@@ -43,14 +37,20 @@
     {
       "title": "BWT Alpine Formula One Team choisit Arctic Wolf comme Partenaire Officiel Cybersécurité",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDY5bVhHNzM3aWxpXzJ0RWZhOV9wZWNVU2JlcGFIVkZhdUdVOUpYX0gyOUpTajd4WUUwM01HMzBhVlVBWUwySW1oZ2QwcTZ2bU9zdHNnTlM0eDNyUEc1Vkd1U216dlE2UWRsUkp4OEhTT0NTajZWUG1MSjRINExXUjNYTFFNTFEyVjh4MVZMQzhpcE9ycHhmM3pUdW9WRjFpVGNDYlYwcHEtMHZlVUZFTnlPQXJmZV9jX1NQOVc2Q0dSOXhl?oc=5",
-      "source": "Alpine Cars",
+      "source": "media.alpinecars.com",
       "pubDate": "Tue, 11 Feb 2025 08:00:00 GMT"
     },
     {
       "title": "BWT Alpine Formula One Team names Arctic Wolf as Official Cybersecurity Partner",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTy1aN01xck1RR3dScVlibGV0QXFBVUZ4cWRtWWtQTjRVRVFySkkwcU1CMHR2bnF4OUo3c0RnMGxPV3FWMkNzY2k0cFZZY3BMWk9GaE80YUFHbW0tSTVwMkFMN1kwUmZEdjNmNXlBY0N0TjIyRFBrbkloZGtDUWlmQ2x3OGc5UXJrTzRsYmd2b2p6bWNoUmZGM3AwYXBScHg2MzVEWF9sN29Md19LRHZxVXZKWldONFUzSUE?oc=5",
-      "source": "Alpine Cars",
+      "source": "media.alpinecars.com",
       "pubDate": "Tue, 11 Feb 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Accélérer la cybersécurité : Bitdefender et la Scuderia Ferrari en 2024",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZzNaZDd4clo2RzVJaE1HbXpyWDZJd2ZZTVZ3c09sQXdYSVY2SmJ2eFhDN2c0WHVsN0psUTQ0LTVHRm05YkYwT3hpREliOGNuUGtRUWRSRGdMWDZQb1FYWjNJR2V0Z2NXV1BYMkdXaUxZbUUwc3FSTUtqQnROLWx2b2JPX1ItUWhnZkh3ZGEteWt6d045U2Vrd0FUNTFScXNITVZuNWVRa2ZOajI0VVdWT0xBck1ZY2hxc2JOaS1CQ0Y?oc=5",
+      "source": "Bitdefender",
+      "pubDate": "Wed, 28 Feb 2024 08:00:00 GMT"
     }
   ]
 }

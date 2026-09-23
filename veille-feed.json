@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-23T10:45:57.596Z",
+  "updated": "2026-09-23T21:04:38.637Z",
   "query": "\"Formule 1\" cybersécurité | \"Formula 1\" cybersecurity | \"Formula 1\" cyberattack | F1 ransomware | WEC cybersecurity | \"endurance\" cyberattaque automobile | \"Le Mans\" cyberattaque | Hypercar cybersecurity | IMSA cybersecurity | NASCAR cybersecurity | NASCAR ransomware | IndyCar cybersecurity | \"Formula E\" cybersecurity | MotoGP cybersecurity | motorsport cybersecurity | motorsport ransomware | \"sport automobile\" cyberattaque",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 10,
+  "liveCount": 9,
   "items": [
     {
       "title": "Riches, mais pas que : pourquoi les fans de F1 sont-ils des cibles parfaites pour les hackers ?",
@@ -23,12 +23,6 @@
       "pubDate": "Mon, 15 Dec 2025 08:00:00 GMT"
     },
     {
-      "title": "Des pirates informatiques accèdent aux données personnelles de Max Verstappen et de pilotes de F1 sur le site de la FIA",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbHc1QWV2Y1hHeEZBa1pNcHFJOURYOGRpNDBTUjlwd2U4THZmWlplcGlqS3dielBONmZPWG5fWlByeDl3UlRCdF9Pa3hPQ1B0S2dkMlhwWXdqaVlaMFhjQ3FiRXEyZWE1OXR5aU1jMVRXMklnT2J5NnNvT3ZxNF8yc2hjeTQ5NTVQR2U0Tk1XZGhLaUVZb1B2UDBlOWhWWG1NUU5UWkRMeGNORUJiNUtFT1hvMlBQaW5oQ1VUMExVNWpXbkxtVnRMWVUtM1RlWXBLZlR3Vm1qN0dLMHY2M1lnNTlPaVAycWVRZkt3endJNzNqbUJXQ0dz?oc=5",
-      "source": "Le Journal de Montréal",
-      "pubDate": "Thu, 23 Oct 2025 07:00:00 GMT"
-    },
-    {
       "title": "Laïcana Coulibaly (WEC) : « L’inclusion des femmes en cybersécurité n’est pas un luxe mais une nécessité",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT2hkQUU5X1pwOW1ITUNWLU5WRUE1UTZOdkNuTExoekJXSmJKMDk2QlYzRjhqbGhDYzhfbUVkZVpIXy1HVGtsN2JvSWdxTERSMGxxb3BvbVNQeTlrQWJzYjJHeEZNcExZNzNBSnN1dFpnMmN0MFNYOTFUcnVfb0VualhIQ3VzZkhwMkIwR3VWeWZYTENQM0ZvUjVLSUJNREQ2TE9kYTZmUkdPbi1DWC1oRWxTN1ItSkxS?oc=5",
       "source": "cio-mag.com",
@@ -37,13 +31,13 @@
     {
       "title": "BWT Alpine Formula One Team choisit Arctic Wolf comme Partenaire Officiel Cybersécurité",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDY5bVhHNzM3aWxpXzJ0RWZhOV9wZWNVU2JlcGFIVkZhdUdVOUpYX0gyOUpTajd4WUUwM01HMzBhVlVBWUwySW1oZ2QwcTZ2bU9zdHNnTlM0eDNyUEc1Vkd1U216dlE2UWRsUkp4OEhTT0NTajZWUG1MSjRINExXUjNYTFFNTFEyVjh4MVZMQzhpcE9ycHhmM3pUdW9WRjFpVGNDYlYwcHEtMHZlVUZFTnlPQXJmZV9jX1NQOVc2Q0dSOXhl?oc=5",
-      "source": "media.alpinecars.com",
+      "source": "Alpine Cars",
       "pubDate": "Tue, 11 Feb 2025 08:00:00 GMT"
     },
     {
       "title": "BWT Alpine Formula One Team names Arctic Wolf as Official Cybersecurity Partner",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTy1aN01xck1RR3dScVlibGV0QXFBVUZ4cWRtWWtQTjRVRVFySkkwcU1CMHR2bnF4OUo3c0RnMGxPV3FWMkNzY2k0cFZZY3BMWk9GaE80YUFHbW0tSTVwMkFMN1kwUmZEdjNmNXlBY0N0TjIyRFBrbkloZGtDUWlmQ2x3OGc5UXJrTzRsYmd2b2p6bWNoUmZGM3AwYXBScHg2MzVEWF9sN29Md19LRHZxVXZKWldONFUzSUE?oc=5",
-      "source": "media.alpinecars.com",
+      "source": "Alpine Cars",
       "pubDate": "Tue, 11 Feb 2025 08:00:00 GMT"
     },
     {
@@ -51,6 +45,12 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZzNaZDd4clo2RzVJaE1HbXpyWDZJd2ZZTVZ3c09sQXdYSVY2SmJ2eFhDN2c0WHVsN0psUTQ0LTVHRm05YkYwT3hpREliOGNuUGtRUWRSRGdMWDZQb1FYWjNJR2V0Z2NXV1BYMkdXaUxZbUUwc3FSTUtqQnROLWx2b2JPX1ItUWhnZkh3ZGEteWt6d045U2Vrd0FUNTFScXNITVZuNWVRa2ZOajI0VVdWT0xBck1ZY2hxc2JOaS1CQ0Y?oc=5",
       "source": "Bitdefender",
       "pubDate": "Wed, 28 Feb 2024 08:00:00 GMT"
+    },
+    {
+      "title": "Le parrainage de la cybersécurité en Formule 1",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tNms5akhyX1FieDF1cTFmWTVaNy1HUjhCSVBvWXNQUkV1UTJEN2puU2JhZ0xzX0xQSi1oa1NuSGExcXMzYTRvOTFLS0l5X05TWGpEcHZ0QmU1SGpIWV9fMGpxTmw1dnN1aC1ZcnFLcm4tS0k1M1JoQQ?oc=5",
+      "source": "RTR Sports Marketing",
+      "pubDate": "Thu, 07 Sep 2023 07:00:00 GMT"
     }
   ]
 }

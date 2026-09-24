@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-24T11:06:24.853Z",
+  "updated": "2026-09-24T21:08:29.437Z",
   "query": "\"Formule 1\" cybersécurité | \"Formula 1\" cybersecurity | \"Formula 1\" cyberattack | F1 ransomware | WEC cybersecurity | \"endurance\" cyberattaque automobile | \"Le Mans\" cyberattaque | Hypercar cybersecurity | IMSA cybersecurity | NASCAR cybersecurity | NASCAR ransomware | IndyCar cybersecurity | \"Formula E\" cybersecurity | MotoGP cybersecurity | motorsport cybersecurity | motorsport ransomware | \"sport automobile\" cyberattaque",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 9,
+  "liveCount": 10,
   "items": [
     {
       "title": "Riches, mais pas que : pourquoi les fans de F1 sont-ils des cibles parfaites pour les hackers ?",
@@ -21,6 +21,12 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObHdaOWl1dUcxLWFqdWljVHZKVlZpejZhYVJRZ2tJSlN4cXQ0ZkR1TjJuSDgzaXlhUzU3SEc4SG05eE5HaThIM3ZiYW9CZTA4RVc0UFRuWXFZMjRhdFVhMnpWWTFTdXR0cnJodTlBUlkzM1F2Z0ZIMXhvQXpXYmU1Q1E4dmNxLWF6c0ZiWGFGeWVzNEQzQ1pwVE5XZ09IaTZoX3puS09fTGZ3N2Y2TDlqclQxNUMxNHBVQWYwaA?oc=5",
       "source": "Blog Joinsteer",
       "pubDate": "Mon, 15 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "title": "Piloter un XDR, Formule 1 de la cybersécurité, doit se faire en équipe",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1VkSExYaXhicDlCUnUwQV9QeFhTcXZRamh4QU5pa09iNWNtQUtoZldrdzFDaUI0NnVDWXY0RkxfeW5rZjZlZW1rbTM0RlFhWS1KZkMzdVJRLVhBaE0yUzNKbWZBVGFRQjNRdEJLTmFlaElzVzNVclBENTk2VlFuZkd2MHNMTHMxdWoxMkZ0SDR1Nnd5c2xlMDNOakpDYWpvbXphWmlfVU1UQ05IZTFDZlZmc3Bxd2s?oc=5",
+      "source": "Business News",
+      "pubDate": "Fri, 21 Nov 2025 08:00:00 GMT"
     },
     {
       "title": "Laïcana Coulibaly (WEC) : « L’inclusion des femmes en cybersécurité n’est pas un luxe mais une nécessité",
@@ -43,14 +49,8 @@
     {
       "title": "Accélérer la cybersécurité : Bitdefender et la Scuderia Ferrari en 2024",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZzNaZDd4clo2RzVJaE1HbXpyWDZJd2ZZTVZ3c09sQXdYSVY2SmJ2eFhDN2c0WHVsN0psUTQ0LTVHRm05YkYwT3hpREliOGNuUGtRUWRSRGdMWDZQb1FYWjNJR2V0Z2NXV1BYMkdXaUxZbUUwc3FSTUtqQnROLWx2b2JPX1ItUWhnZkh3ZGEteWt6d045U2Vrd0FUNTFScXNITVZuNWVRa2ZOajI0VVdWT0xBck1ZY2hxc2JOaS1CQ0Y?oc=5",
-      "source": "bitdefender.com",
+      "source": "Bitdefender",
       "pubDate": "Wed, 28 Feb 2024 08:00:00 GMT"
-    },
-    {
-      "title": "Le parrainage de la cybersécurité en Formule 1",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tNms5akhyX1FieDF1cTFmWTVaNy1HUjhCSVBvWXNQUkV1UTJEN2puU2JhZ0xzX0xQSi1oa1NuSGExcXMzYTRvOTFLS0l5X05TWGpEcHZ0QmU1SGpIWV9fMGpxTmw1dnN1aC1ZcnFLcm4tS0k1M1JoQQ?oc=5",
-      "source": "RTR Sports Marketing",
-      "pubDate": "Thu, 07 Sep 2023 07:00:00 GMT"
     }
   ]
 }

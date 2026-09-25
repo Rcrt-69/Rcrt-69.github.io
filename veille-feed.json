@@ -1,9 +1,15 @@
 {
-  "updated": "2026-09-24T21:08:29.437Z",
+  "updated": "2026-09-25T11:08:00.988Z",
   "query": "\"Formule 1\" cybersécurité | \"Formula 1\" cybersecurity | \"Formula 1\" cyberattack | F1 ransomware | WEC cybersecurity | \"endurance\" cyberattaque automobile | \"Le Mans\" cyberattaque | Hypercar cybersecurity | IMSA cybersecurity | NASCAR cybersecurity | NASCAR ransomware | IndyCar cybersecurity | \"Formula E\" cybersecurity | MotoGP cybersecurity | motorsport cybersecurity | motorsport ransomware | \"sport automobile\" cyberattaque",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 10,
+  "liveCount": 11,
   "items": [
+    {
+      "title": "Le Mans FC : une base de 2 481 enregistrements diffusée après une fuite de données",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTExsUm51dXRkTVBEcElqNFRZbF9nQWhYVVY0OFBSQ0dZcTRCTTdpVTdSVXU3TVZaMFh1ZDU2X0pZOTFpOTVhY20wbmVlN1dYM3MzaGxCY3l3TWNMTjNBYjBQMzh4ZnhIc09kM19acmR3eTByMEtTSWFHRS0yT2ZJVDFHcE5Vb2JaRFhxRzc3WlBoMm1UYk9zTUJ4WVRMTHVGYmJvZlRJalJ3ZXdBd0Zz?oc=5",
+      "source": "Cyberattaque.org",
+      "pubDate": "Sun, 09 Aug 2026 07:00:00 GMT"
+    },
     {
       "title": "Riches, mais pas que : pourquoi les fans de F1 sont-ils des cibles parfaites pour les hackers ?",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZWN0cGYySW03ZmVadlMtQVFNd0J0MnFwREE3U0RkZzc1b3RfWUdZa19IMzZfdVc0Und6SWNwWHBvcndDbnJHNUpsb1dVc0NFQmtDMXJPLTZIMUZPa3NfRk52Y2Z5dGhXUXlKa2ZXRTNOcnlJSkhYZGJaSi1lUnltb3lNMkc5N0JBejkxaEtrc2xGMkZEWkJVMExsN1J4QnNZTW5xeTY2bW5qU2lXOHVPU1VsY1M4V0cta2N2Q3FrQXNaOVhya09EVU1KMnRFa01XMGtFUk9oVQ?oc=5",
@@ -45,12 +51,6 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTy1aN01xck1RR3dScVlibGV0QXFBVUZ4cWRtWWtQTjRVRVFySkkwcU1CMHR2bnF4OUo3c0RnMGxPV3FWMkNzY2k0cFZZY3BMWk9GaE80YUFHbW0tSTVwMkFMN1kwUmZEdjNmNXlBY0N0TjIyRFBrbkloZGtDUWlmQ2x3OGc5UXJrTzRsYmd2b2p6bWNoUmZGM3AwYXBScHg2MzVEWF9sN29Md19LRHZxVXZKWldONFUzSUE?oc=5",
       "source": "Alpine Cars",
       "pubDate": "Tue, 11 Feb 2025 08:00:00 GMT"
-    },
-    {
-      "title": "Accélérer la cybersécurité : Bitdefender et la Scuderia Ferrari en 2024",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZzNaZDd4clo2RzVJaE1HbXpyWDZJd2ZZTVZ3c09sQXdYSVY2SmJ2eFhDN2c0WHVsN0psUTQ0LTVHRm05YkYwT3hpREliOGNuUGtRUWRSRGdMWDZQb1FYWjNJR2V0Z2NXV1BYMkdXaUxZbUUwc3FSTUtqQnROLWx2b2JPX1ItUWhnZkh3ZGEteWt6d045U2Vrd0FUNTFScXNITVZuNWVRa2ZOajI0VVdWT0xBck1ZY2hxc2JOaS1CQ0Y?oc=5",
-      "source": "Bitdefender",
-      "pubDate": "Wed, 28 Feb 2024 08:00:00 GMT"
     }
   ]
 }

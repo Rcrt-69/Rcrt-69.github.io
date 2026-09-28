@@ -1,56 +1,62 @@
 {
-  "updated": "2026-09-27T20:52:21.803Z",
-  "query": "\"Formule 1\" cybersécurité | \"Formula 1\" cybersecurity | \"Formula 1\" cyberattack | F1 ransomware | WEC cybersecurity | \"endurance\" cyberattaque automobile | \"Le Mans\" cyberattaque | Hypercar cybersecurity | IMSA cybersecurity | NASCAR cybersecurity | NASCAR ransomware | IndyCar cybersecurity | \"Formula E\" cybersecurity | MotoGP cybersecurity | motorsport cybersecurity | motorsport ransomware | \"sport automobile\" cyberattaque",
+  "updated": "2026-09-28T06:10:17.516Z",
+  "theme": "Cybersécurité & software en sport automobile",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 13,
+  "liveCount": 51,
   "items": [
     {
-      "title": "Le Mans FC. Une base de données WordPress exhumée par des hackers",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZkZqcWtSRHctTFBmNjEwMTBsRDFaRFVXekNackdfR2RkYnNNdjBsbk1Ja0I4UEJOWTV1S0pwSHV2LXM2eFZjNnM2eXlYLWlwTE14dGhSR1RQSVpsbktsVW9hNDdGWnBjZmktNC1HcjNQZVoyWmwxSGhKdzduNnIwRHNwa0hyempiVWlLaFphVkNYSFU4QWU0WDFncTNUZE9Vb2ZOR1lWSEtqMWRaQjFWelh2SFowSHRWRHhTOFB3TUFwVGs?oc=5",
-      "source": "sportune.20minutes.fr",
-      "pubDate": "Mon, 10 Aug 2026 07:00:00 GMT"
+      "title": "Télémétrie FIA Azerbaïdjan 2026 : le mème de lAston Martin Honda seffondre",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaHZneUlOWUtPdHJCUGJPejVVS3BYZm9IS3dBZTJfS0U1SW8xZ0kwNGZXUk1nRTE0SDh0eFRFZDhvRV80b3JKd2xEVjVmSWdWWUxMcFJtU29UamdILWNrM2dyeEZxSjlyUnRyeVZEQlRjajJhNDdjR0lnV2pzT0F6N2hNb09meTdTQmlCaW0tWnlwSWpXVWxmWXkxVkFuMnNhYzBKZERneVVPb3lCY3JHNw?oc=5",
+      "source": "Foro3D",
+      "pubDate": "Sat, 26 Sep 2026 21:11:58 GMT"
     },
     {
-      "title": "Le Mans FC : une base de 2 481 enregistrements diffusée après une fuite de données",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTExsUm51dXRkTVBEcElqNFRZbF9nQWhYVVY0OFBSQ0dZcTRCTTdpVTdSVXU3TVZaMFh1ZDU2X0pZOTFpOTVhY20wbmVlN1dYM3MzaGxCY3l3TWNMTjNBYjBQMzh4ZnhIc09kM19acmR3eTByMEtTSWFHRS0yT2ZJVDFHcE5Vb2JaRFhxRzc3WlBoMm1UYk9zTUJ4WVRMTHVGYmJvZlRJalJ3ZXdBd0Zz?oc=5",
-      "source": "Cyberattaque.org",
-      "pubDate": "Sun, 09 Aug 2026 07:00:00 GMT"
+      "title": "Sim Racing : quels sont les meilleurs volants et pédaliers pour PC, PS5, Xbox et Nintendo Switch en septembre 2026 ?",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ITzQ4aWREZVF3c3ZjdmpNMVgwWTEzbS14UHF5YkZvb2NIQWR3dzNtdkZZVDAwOHA5Y1JSWGdYTG1DaGV2MjdfVHhTbU1LT1lpZUU1dENDa1ZUbTRlT1pCRV9WdWNxcHpsY2J5Nw?oc=5",
+      "source": "jeuxvideo.com",
+      "pubDate": "Wed, 23 Sep 2026 10:03:19 GMT"
     },
     {
-      "title": "Riches, mais pas que : pourquoi les fans de F1 sont-ils des cibles parfaites pour les hackers ?",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZWN0cGYySW03ZmVadlMtQVFNd0J0MnFwREE3U0RkZzc1b3RfWUdZa19IMzZfdVc0Und6SWNwWHBvcndDbnJHNUpsb1dVc0NFQmtDMXJPLTZIMUZPa3NfRk52Y2Z5dGhXUXlKa2ZXRTNOcnlJSkhYZGJaSi1lUnltb3lNMkc5N0JBejkxaEtrc2xGMkZEWkJVMExsN1J4QnNZTW5xeTY2bW5qU2lXOHVPU1VsY1M4V0cta2N2Q3FrQXNaOVhya09EVU1KMnRFa01XMGtFUk9oVQ?oc=5",
-      "source": "Numerama",
-      "pubDate": "Sun, 31 May 2026 07:00:00 GMT"
+      "title": "NASCAR 26 : La simulation de course ultime",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9CdHVsYVVCaE5FVTJqSFA4MmRmbGJnLS1GZGRGSVFrM24wWktfNkdCMVE2RjM5UzRmQWVQbTJrM1FwN3ot?oc=5",
+      "source": "games.gg",
+      "pubDate": "Thu, 17 Sep 2026 07:00:00 GMT"
     },
     {
-      "title": "La F1, nouveau laboratoire mondial de la cybersécurité",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmlqVXBBdDRiQ1pya1lHODZKYWsyYzJ6Yjg1TGVkQzNsNjM0d19ia0Z1NGhwMEhGa0RTeU5rbUZUV2RzMTQ1M1pqVFN2dGVlSkF1RE81ZzIySkVkYS1KRS1ldVo1SzVyYmRMUWZuSFBTWUpkZmFhclJNS3paNS1QSGdUN1lsME5hVnpmZmFoOA?oc=5",
-      "source": "Sport Stratégies",
-      "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT"
+      "title": "Honda confie son moteur F1 à son chef du logiciel après trois points",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNlBIUFNETnlQcHFkNWc4Yl9hOVVaaExTTGo4R3g0RU9ycDhVdkFnZUZFZXBZeGVjVEZwc0Rucm1Edi1EVG8zMFhTX255d3VYX2E0TU1KcUlIN1RWalJHSjFNN2xCbDA1bm93QnhBMW1MZnc5cjBmd08xcEVzRDRTQkp1OW1Dc0d2S0p3Q09EanBzQ2RoVmc?oc=5",
+      "source": "AutoNext.co",
+      "pubDate": "Tue, 15 Sep 2026 16:41:48 GMT"
     },
     {
-      "title": "BWT Alpine F1 x Arctic Wolf : la cybersécurité qui accélère la performance en Formule 1 🚀🔐",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObHdaOWl1dUcxLWFqdWljVHZKVlZpejZhYVJRZ2tJSlN4cXQ0ZkR1TjJuSDgzaXlhUzU3SEc4SG05eE5HaThIM3ZiYW9CZTA4RVc0UFRuWXFZMjRhdFVhMnpWWTFTdXR0cnJodTlBUlkzM1F2Z0ZIMXhvQXpXYmU1Q1E4dmNxLWF6c0ZiWGFGeWVzNEQzQ1pwVE5XZ09IaTZoX3puS09fTGZ3N2Y2TDlqclQxNUMxNHBVQWYwaA?oc=5",
+      "title": "Quand les algorithmes prennent le contrôle des moteurs en F1",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUVB3OXUwUkMtU052R2FzY2FEUGJ0Vm5VT1k0OWJGYjVlcEsxcmdscjY0Wktlb1Q5eThPUlRnQl9XN0doRV9RV3NabE54SENEVXNOLVVTUThRM1hmNEthSVpDeDk3eU5ldUowQTNDbHk0OVNmVENvcDhJUTlPemlMck5jZWV0eldZVkRkbEVoVDRGMWwyZ2xrM2hyY3hMOEJLdlo4R3IyT0pEcjJ5WjlfVXRpWkFZbHZxUTVvRg?oc=5",
+      "source": "f1i.autojournal.fr",
+      "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Mercedes identifie un problème dans le logiciel du moteur de George Russell",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pek5GTk5UT2t4STN0RldRZjlUWkxUNW1ZUm1XbENpVVBhaUlEODlKVVNSRGUwQzJfdVVkcGxmSTJUeHJ1em13dWxaWlpUUzBXblczczhwVXhXYVdFRkFIVE04VnNUTU5wbzRGSm5rOA?oc=5",
+      "source": "FormulaRapida.net",
+      "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Mercedes corrige un bug logiciel après Spa pour sécuriser le déploiement d’énergie avant la Hongrie",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNk9IUHdCZWlKVlFScWI1RFpJU1dhWjN2NXRjdlRFZFBQVnRWMzRvWlhyNlJsTkxOZUJocG1kSjBrOThqcFFzekVvY09OT0NIdkVWTmE2MUhfN0NsdFJTbXQ2U21ZdmVyNjdIVVE4Q1JLY3BPRk82M1ZJUnhsSGc3Y0VyUW5DaHNNRWVndUVpRGlRczJCemEyal9UMHRZT2ZVTy00cTgtZDZSdkJNSDJ5Yk51OGRXbmktVE04NEc0ZVF3VnZ1eVRFR1dWU2hSZDg?oc=5",
       "source": "Blog Joinsteer",
-      "pubDate": "Mon, 15 Dec 2025 08:00:00 GMT"
+      "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT"
     },
     {
-      "title": "Piloter un XDR, Formule 1 de la cybersécurité, doit se faire en équipe",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1VkSExYaXhicDlCUnUwQV9QeFhTcXZRamh4QU5pa09iNWNtQUtoZldrdzFDaUI0NnVDWXY0RkxfeW5rZjZlZW1rbTM0RlFhWS1KZkMzdVJRLVhBaE0yUzNKbWZBVGFRQjNRdEJLTmFlaElzVzNVclBENTk2VlFuZkd2MHNMTHMxdWoxMkZ0SDR1Nnd5c2xlMDNOakpDYWpvbXphWmlfVU1UQ05IZTFDZlZmc3Bxd2s?oc=5",
-      "source": "Business News",
-      "pubDate": "Fri, 21 Nov 2025 08:00:00 GMT"
+      "title": "F1 - La Formule 1 est-elle devenue un jeu vidéo ? Les pilotes dénoncent des algorithmes qui prennent le volant",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTTV1NVFzSHl5Z250QXRBa25fU1FXcEZ3S2ZtYkxRV3FybG43SVUwLS14aURXdUZfa1lqWGJkTk9XN2Q3X3N2V2FZZzRVUUNnUkpwMUxGNUg5TVBsQUR1bEtFa0JZcWdOYTlIZ3F0eVpCbGJJUTlkYVlobTlVUGU2QlpmcHBFMUVxUnltRmE3YWxtN2E1SF9KZ3R0dllIeUZfSVFUSUVXdkJ5X1V5VXMydzk3WFAyeFZqYV9fdWtMNWd2UGxvbnBWZEh6ai1DaGs?oc=5",
+      "source": "Paddock GP",
+      "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT"
     },
     {
-      "title": "Laïcana Coulibaly (WEC) : « L’inclusion des femmes en cybersécurité n’est pas un luxe mais une nécessité",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT2hkQUU5X1pwOW1ITUNWLU5WRUE1UTZOdkNuTExoekJXSmJKMDk2QlYzRjhqbGhDYzhfbUVkZVpIXy1HVGtsN2JvSWdxTERSMGxxb3BvbVNQeTlrQWJzYjJHeEZNcExZNzNBSnN1dFpnMmN0MFNYOTFUcnVfb0VualhIQ3VzZkhwMkIwR3VWeWZYTENQM0ZvUjVLSUJNREQ2TE9kYTZmUkdPbi1DWC1oRWxTN1ItSkxS?oc=5",
-      "source": "cio-mag.com",
-      "pubDate": "Wed, 12 Mar 2025 07:00:00 GMT"
-    },
-    {
-      "title": "BWT Alpine Formula One Team choisit Arctic Wolf comme Partenaire Officiel Cybersécurité",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDY5bVhHNzM3aWxpXzJ0RWZhOV9wZWNVU2JlcGFIVkZhdUdVOUpYX0gyOUpTajd4WUUwM01HMzBhVlVBWUwySW1oZ2QwcTZ2bU9zdHNnTlM0eDNyUEc1Vkd1U216dlE2UWRsUkp4OEhTT0NTajZWUG1MSjRINExXUjNYTFFNTFEyVjh4MVZMQzhpcE9ycHhmM3pUdW9WRjFpVGNDYlYwcHEtMHZlVUZFTnlPQXJmZV9jX1NQOVc2Q0dSOXhl?oc=5",
-      "source": "Alpine Cars",
-      "pubDate": "Tue, 11 Feb 2025 08:00:00 GMT"
+      "title": "Comment Leclerc a modifié son logiciel volant pour la première fois chez Ferrari",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeHdNQmV6X3JvakoyQ1luRFhhQjBzeEdIZExrU1ZRUldqMmFDU1Z4OGdvLXAwZWdwdFdCaXB2TVVZY09jZHI1OURZd3RVUHJZUUNqdEZhSDBpSTJIei00YWFzWHVZVGJERm1rNWxHcmMxR0FDR1dBUjl5Y21yWUF4dGFfaU1kdDkwc0E1OURqSWdYNkQ3OXJmaDBKVXhIMjlaN1hYLW9YNzZ4UQ?oc=5",
+      "source": "Motorsport.com France",
+      "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
     }
   ]
 }

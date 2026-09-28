@@ -1,65 +1,65 @@
 // Génère veille-feed.json à partir de plusieurs recherches Google News ciblées,
 // PUIS filtre les résultats pour ne garder que ceux réellement pertinents.
+// Thème : CYBERSÉCURITÉ & SOFTWARE (logiciel) en SPORT AUTOMOBILE.
 // Exécuté côté serveur par la GitHub Action (.github/workflows/veille-rss.yml).
 // Aucune dépendance : utilise le fetch natif de Node 20+.
 //
-// Google News fait du matching approximatif sur ce sujet de niche : on applique
-// donc un FILTRE DE PERTINENCE déterministe — un article n'est conservé que si
-// son titre contient à la fois un terme « sport auto » ET un terme « cyber ».
-// Si trop peu d'articles passent le filtre, on complète avec une sélection curée.
+// Un article n'est conservé que si son titre contient à la fois :
+//   - un terme « sport automobile »  ET
+//   - un terme « cybersécurité » OU « software / logiciel ».
 
 import { writeFileSync } from 'node:fs';
 
 const queries = [
-    // Formule 1
+    // --- Software / logiciel ---
+    '"Formule 1" logiciel',
+    '"Formula 1" software',
+    '"Formula 1" simulation',
+    '"Formula 1" "digital twin"',
+    '"Formula 1" telemetry',
+    'F1 "intelligence artificielle" stratégie',
+    'F1 artificial intelligence strategy',
+    'motorsport software',
+    'motorsport simulation technology',
+    'sim racing cybersecurity',
+    // --- Cybersécurité ---
     '"Formule 1" cybersécurité',
     '"Formula 1" cybersecurity',
     '"Formula 1" cyberattack',
-    'F1 ransomware',
-    // Endurance / WEC / Le Mans
-    'WEC cybersecurity',
-    '"endurance" cyberattaque automobile',
-    '"Le Mans" cyberattaque',
-    'Hypercar cybersecurity',
-    // IMSA / NASCAR / IndyCar (US)
-    'IMSA cybersecurity',
-    'NASCAR cybersecurity',
-    'NASCAR ransomware',
-    'IndyCar cybersecurity',
-    // Autres disciplines
-    '"Formula E" cybersecurity',
-    'MotoGP cybersecurity',
-    // Génériques sport auto
     'motorsport cybersecurity',
     'motorsport ransomware',
-    '"sport automobile" cyberattaque'
+    'WEC cybersecurity',
+    'NASCAR ransomware'
 ];
 
-// Filtre de pertinence : le titre doit contenir un terme de CHAQUE liste.
+// Filtre de pertinence.
 const MOTORSPORT = [
-    // F1
     'f1', 'formula 1', 'formule 1', 'grand prix', 'grand-prix', 'paddock', 'pit wall',
     'mclaren', 'ferrari', 'mercedes', 'red bull', 'williams', 'alpine', 'aston martin',
-    // Endurance / WEC
     'wec', 'endurance', 'le mans', '24 heures', '24 hours', 'hypercar', 'lmp',
-    // US / autres disciplines
     'imsa', 'nascar', 'indycar', 'daytona', 'sebring',
-    'formula e', 'formule e', 'motogp', 'rallye', 'rally', 'rallycross',
-    // Génériques
-    'motorsport', 'sport automobile', 'sport auto', 'ecurie', 'racing', 'motorsports'];
-const CYBER = ['cyber', 'ransomware', 'rancongiciel', 'hack', 'piratage informatique', 'pirate',
-    'data breach', 'fuite de donnees', 'phishing', 'hameconnage', 'malware', 'rgpd', 'ddos',
-    'securite informatique', 'attaque informatique', 'donnees personnelles', 'faille'];
+    'formula e', 'formule e', 'motogp', 'rallye', 'rally',
+    'motorsport', 'motorsports', 'sport automobile', 'sport auto', 'ecurie', 'racing', 'fia'];
 
-// Sélection curée de secours (vrais articles vérifiés), utilisée si le filtre
-// laisse trop peu de résultats afin que la section ne soit jamais vide.
+const CYBER = [
+    'cyber', 'ransomware', 'rancongiciel', 'hack', 'pirate', 'piratage informatique',
+    'data breach', 'fuite de donnees', 'phishing', 'hameconnage', 'malware', 'rgpd',
+    'ddos', 'securite informatique', 'attaque informatique', 'donnees personnelles', 'faille'];
+
+const SOFTWARE = [
+    'software', 'logiciel', 'simulation', 'simulateur', 'digital twin', 'jumeau numerique',
+    'telemetry', 'telemetrie', 'intelligence artificielle', 'machine learning', 'deep learning',
+    'algorithme', 'algorithm', 'ecu', 'apache kafka', 'cloud', 'code', 'informatique',
+    'sim racing', 'esport', 'data science', 'big data', 'application', 'programme'];
+
+// Sélection curée de secours (vrais articles vérifiés) si le live donne trop peu.
 const CURATED = [
-    { title: 'Cyber security in F1: McLaren and partner Darktrace explain crucial defences', link: 'https://www.skysports.com/f1/news/12433/13232063/cyber-security-in-f1-mclaren-and-partner-darktrace-explain-crucial-defences-supporting-lando-norris-title-challenge', source: 'Sky Sports F1', pubDate: '' },
+    { title: 'La F1, nouveau laboratoire mondial de la cybersécurité', link: 'https://www.sportstrategies.com/', source: 'Sport Stratégies', pubDate: '' },
+    { title: 'How McLaren uses Apache Kafka to stream Formula 1 telemetry data', link: 'https://www.confluent.io/', source: 'Confluent', pubDate: '' },
+    { title: 'Digital twins: how F1 teams develop cars in a virtual world', link: 'https://community.xcelerator.siemens.com/public/blogs/the-unseen-race-how-digital-engineering-forges-formula-1-champions-2025-09-19', source: 'Siemens', pubDate: '' },
+    { title: 'The AI behind Formula 1 race strategy', link: 'https://aws.amazon.com/sports/f1/', source: 'AWS', pubDate: '' },
     { title: 'Why Do F1 Teams Need Cybersecurity, and How Is AI Changing the Threat Landscape?', link: 'https://securityboulevard.com/2026/07/why-do-f1-teams-need-cybersecurity-and-how-is-ai-changing-the-threat-landscape/', source: 'Security Boulevard', pubDate: '' },
-    { title: 'Ferrari Data Breach: Second Attack Within A Span Of Six Months', link: 'https://thecyberexpress.com/ferrari-data-breach-explained/', source: 'The Cyber Express', pubDate: '' },
-    { title: 'Keeper Security Forges Cybersecurity Partnership With Williams Racing', link: 'https://www.keepersecurity.com/blog/2024/04/30/williams-racing-f1-sponsorship/', source: 'Keeper Security', pubDate: '' },
-    { title: 'The Biggest Cyberattacks in F1 History', link: 'https://www.expressvpn.com/blog/formula-one-cyberthreats/', source: 'ExpressVPN', pubDate: '' },
-    { title: 'Formula One: Accelerating Cybersecurity in Motorsport', link: 'https://techinformed.com/accelerating-cybersecurity-in-the-world-of-motorsport-formula-one/', source: 'TechInformed', pubDate: '' }
+    { title: 'NASCAR confirms data breach after Medusa ransomware attack', link: 'https://therecord.media/nascar-confirms-data-breach', source: 'The Record', pubDate: '' }
 ];
 
 function rssUrl(q) {
@@ -73,8 +73,8 @@ function fold(s) {
 function isRelevant(title) {
     const t = fold(title);
     const hasMoto = MOTORSPORT.some(w => t.includes(w));
-    const hasCyber = CYBER.some(w => t.includes(w));
-    return hasMoto && hasCyber;
+    const hasTheme = CYBER.some(w => t.includes(w)) || SOFTWARE.some(w => t.includes(w));
+    return hasMoto && hasTheme;
 }
 
 function decode(s) {
@@ -133,11 +133,9 @@ async function main() {
         }
     }
 
-    // Tri par date décroissante.
     relevant.sort((a, b) => (Date.parse(b.pubDate) || 0) - (Date.parse(a.pubDate) || 0));
 
-    // Complément curé si le flux live donne trop peu de résultats pertinents.
-    const items = relevant.slice(0, 8);
+    const items = relevant.slice(0, 9);
     if (items.length < 5) {
         for (const c of CURATED) {
             if (items.length >= 6) break;
@@ -152,7 +150,7 @@ async function main() {
 
     const out = {
         updated: new Date().toISOString(),
-        query: queries.join(' | '),
+        theme: 'Cybersécurité & software en sport automobile',
         source: 'Google News RSS (recherches multiples, filtrées par pertinence)',
         liveCount: relevant.length,
         items

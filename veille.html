@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veille Technologique — Rémy Couratier</title>
-    <meta name="description" content="Veille technologique E4 — La cybersécurité en Formule 1 et en Endurance (WEC) : attaques, réseaux paddock et défenses.">
+    <meta name="description" content="Veille technologique E4 — Cybersécurité & software en sport automobile : télémétrie, simulation, IA de course, ECU et sécurité des systèmes.">
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -31,18 +31,23 @@
 
     <section class="veille-hero">
         <div class="section-label">Veille Technologique · Épreuve E4</div>
-        <h1>La cybersécurité en <span class="highlight">Formule 1 & Endurance</span></h1>
-        <p>Attaques, réseaux paddock et défenses : une veille continue sur la sécurité informatique au cœur du sport automobile de haut niveau — là où données, télémétrie et performance se jouent à la milliseconde.</p>
+        <h1>Cybersécurité &amp; Software <span class="highlight">en Sport Automobile</span></h1>
+        <p>Le sport auto moderne est d'abord une affaire de <strong>logiciel</strong> : télémétrie, simulation, intelligence artificielle, électronique embarquée — et la <strong>sécurité</strong> de tout cet écosystème. Cette veille suit en continu ces deux facettes indissociables.</p>
         <div class="veille-badges">
+            <span class="veille-badge">Software</span>
             <span class="veille-badge">Cybersécurité</span>
-            <span class="veille-badge">Réseaux</span>
-            <span class="veille-badge">Sport Auto</span>
-            <span class="veille-badge">F1 / WEC</span>
+            <span class="veille-badge">Data &amp; IA</span>
+            <span class="veille-badge">F1 · WEC · NASCAR</span>
         </div>
     </section>
 
     <div class="veille-wrap">
         <a href="index.html" class="back-link">← Retour au portfolio</a>
+
+        <!-- ================= ANGLE ================= -->
+        <div class="panel reveal">
+            <p><strong>L'angle de ma veille.</strong> Une monoplace de F1 embarque 150 à 200 capteurs qui produisent des données en continu ; les écuries font tourner des <strong>millions de simulations</strong>, entraînent des IA de stratégie et roulent avec une électronique dont le logiciel est strictement encadré. Toute cette chaîne logicielle est aussi une <strong>surface d'attaque</strong>. Je suis donc deux fils entrelacés : <strong>le software qui fait courir les voitures</strong>, et <strong>la cybersécurité qui le protège</strong>.</p>
+        </div>
 
         <!-- ================= VEILLE ACTIVE RSS ================= -->
         <div class="block-label"><span>01</span> Veille active — flux RSS en direct</div>
@@ -51,44 +56,44 @@
                 <span class="rss-live-tag">Live</span>
                 <span class="live-head-label">Flux automatisé — principe PUSH</span>
             </p>
-            <p>Cette section applique directement le <strong>mode PUSH</strong> du cours : au lieu d'aller chercher l'information, je la reçois automatiquement via un <strong>flux RSS</strong>. Une <strong>GitHub Action</strong> interroge plusieurs fois par jour des flux <strong>Google News</strong> couvrant tout le sport automobile (F1, WEC, IMSA, NASCAR, Formula&nbsp;E…) croisé avec la cybersécurité, enregistre les derniers articles, et la page les affiche ci-dessous — <strong>sans aucune intervention manuelle</strong> de ma part.</p>
+            <p>Une <strong>GitHub Action</strong> interroge plusieurs fois par jour des flux <strong>Google News</strong> croisant le sport automobile avec le <strong>software</strong> (logiciel, simulation, télémétrie, IA) et la <strong>cybersécurité</strong>, filtre les résultats pertinents et alimente cette page — <strong>sans aucune intervention manuelle</strong> de ma part.</p>
         </div>
         <div id="rss-status" class="rss-status"><span class="spin"></span>Chargement du flux RSS…</div>
         <div id="rss-feed" class="src-grid"></div>
 
-        <!-- ================= SOURCES ================= -->
-        <div class="block-label"><span>02</span> Sources principales suivies</div>
+        <!-- ================= THEMATIQUES ================= -->
+        <div class="block-label"><span>02</span> Thématiques suivies</div>
         <div class="src-grid">
-            <a href="https://www.skysports.com/f1/news/12433/13232063/cyber-security-in-f1-mclaren-and-partner-darktrace-explain-crucial-defences-supporting-lando-norris-title-challenge" target="_blank" rel="noopener" class="src-card reveal">
-                <div class="src-type">Média · F1</div>
-                <div class="src-name">Sky Sports F1</div>
-                <div class="src-desc">Actualité sportive avec des dossiers réguliers sur la technologie et la cybersécurité des écuries.</div>
-            </a>
-            <a href="https://thecyberexpress.com/ferrari-data-breach-explained/" target="_blank" rel="noopener" class="src-card reveal d1">
-                <div class="src-type">Média · Cyber</div>
-                <div class="src-name">The Cyber Express</div>
-                <div class="src-desc">Média spécialisé cybersécurité : analyse des fuites de données et campagnes de rançongiciel.</div>
-            </a>
-            <a href="https://www.darktrace.com/" target="_blank" rel="noopener" class="src-card reveal d2">
-                <div class="src-type">Éditeur · Blog</div>
-                <div class="src-name">Darktrace</div>
-                <div class="src-desc">Partenaire cyber de McLaren : retours d'expérience sur l'IA de détection appliquée au sport auto.</div>
-            </a>
-            <a href="https://www.keepersecurity.com/blog/" target="_blank" rel="noopener" class="src-card reveal">
-                <div class="src-type">Éditeur · Blog</div>
-                <div class="src-name">Keeper Security</div>
-                <div class="src-desc">Partenaire cyber de Williams Racing : gestion des accès à privilèges (PAM) et des secrets.</div>
-            </a>
-            <a href="https://securityboulevard.com/" target="_blank" rel="noopener" class="src-card reveal d1">
-                <div class="src-type">Média · Cyber</div>
-                <div class="src-name">Security Boulevard</div>
-                <div class="src-desc">Analyses de fond sur les menaces émergentes et l'impact de l'IA dans la défense.</div>
-            </a>
-            <a href="https://www.expressvpn.com/blog/formula-one-cyberthreats/" target="_blank" rel="noopener" class="src-card reveal d2">
-                <div class="src-type">Éditeur · Blog</div>
-                <div class="src-name">ExpressVPN Blog</div>
-                <div class="src-desc">Rétrospectives des plus grandes cyberattaques de l'histoire de la F1.</div>
-            </a>
+            <div class="src-card reveal">
+                <div class="src-type">Software · Data</div>
+                <div class="src-name">Télémétrie &amp; data</div>
+                <div class="src-desc">150-200 capteurs par voiture, streaming temps réel (bus type Apache Kafka), traitement de plusieurs centaines de Go par week-end.</div>
+            </div>
+            <div class="src-card reveal d1">
+                <div class="src-type">Software · Simulation</div>
+                <div class="src-name">Digital twin &amp; simulation</div>
+                <div class="src-desc">Jumeau numérique de la voiture, souffleries virtuelles, CFD : développer et régler la monoplace avant même de rouler.</div>
+            </div>
+            <div class="src-card reveal d2">
+                <div class="src-type">Software · IA</div>
+                <div class="src-name">IA &amp; stratégie de course</div>
+                <div class="src-desc">Modèles prédictifs d'usure pneu, IA générative simulant des centaines de millions de scénarios de course.</div>
+            </div>
+            <div class="src-card reveal">
+                <div class="src-type">Software · Embarqué</div>
+                <div class="src-name">Électronique &amp; ECU</div>
+                <div class="src-desc">ECU standard TAG-320 imposé par la FIA : logiciel encadré, cartographies moteur et déploiement d'énergie.</div>
+            </div>
+            <div class="src-card reveal d1">
+                <div class="src-type">Cybersécurité</div>
+                <div class="src-name">Sécurité &amp; réseaux paddock</div>
+                <div class="src-desc">Rançongiciels, chiffrement de la télémétrie, Zero Trust, gestion des accès sur des réseaux mobiles et non maîtrisés.</div>
+            </div>
+            <div class="src-card reveal d2">
+                <div class="src-type">Software · eSport</div>
+                <div class="src-name">Sim racing &amp; plateformes</div>
+                <div class="src-desc">Simulateurs professionnels, plateformes de sim racing et sécurité des comptes / infrastructures en ligne.</div>
+            </div>
         </div>
 
         <!-- ================= FIL DE VEILLE ================= -->
@@ -97,39 +102,108 @@
 
             <div class="entry reveal">
                 <div class="entry-meta">
-                    <span class="entry-date">Juil. 2025</span>
-                    <span class="entry-cat">Ingénierie sociale · Événementiel</span>
+                    <span class="entry-date">Tendance 2026</span>
+                    <span class="entry-cat">Software · Analyse</span>
                 </div>
-                <div class="entry-title">GP de Belgique : campagne de phishing visant fans et équipes</div>
+                <div class="entry-title">En 2026, piloter, c'est faire tourner du logiciel à 350 km/h</div>
                 <div class="entry-divider"></div>
                 <div class="entry-body">
-                    <p>Pendant le Grand Prix de Belgique 2025, des <strong>attaques de phishing</strong> sophistiquées ont ciblé à la fois la fanbase mondiale et les équipes présentes dans le paddock. Les circuits imposent l'usage de <strong>réseaux locaux non maîtrisés</strong>, parfois dans des pays aux programmes de piratage étatiques documentés — un risque absent des environnements « maison » des écuries.</p>
+                    <p>Derrière les 22 monoplaces, des <strong>clusters de simulation</strong> évaluent des millions de permutations. Les équipes passent des milliers d'heures en simulateur et en data center à développer des <strong>versions numériques</strong> de leurs voitures — aéro, usure pneu, déploiement d'énergie — avant même de rouler. La performance se joue désormais autant dans le code que sur la piste.</p>
                 </div>
                 <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> l'humain reste le maillon faible. Un GP est un moment idéal pour l'attaquant : afflux de connexions, Wi-Fi publics, personnel en déplacement. Cela justifie le <em>Zero Trust</em> (ne jamais faire confiance au réseau) et la sensibilisation, deux notions clés de mon référentiel SISR.
+                    <strong>Mon analyse :</strong> ce basculement « software-first » explique pourquoi les métiers du sport auto recrutent des profils IT. C'est exactement l'intersection que je vise — infrastructure, data et réseau au service de la performance.
                 </div>
                 <div class="entry-foot">
                     <div class="entry-tags">
-                        <span class="entry-tag">Phishing</span>
-                        <span class="entry-tag">Paddock</span>
-                        <span class="entry-tag">Zero Trust</span>
+                        <span class="entry-tag">Simulation</span>
+                        <span class="entry-tag">Data center</span>
+                        <span class="entry-tag">Performance</span>
                     </div>
-                    <a href="https://cyberpress.org/phishing-attacks-hit-fans-and-teams/" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
+                    <a href="https://www.motorsportweek.com/2026/05/11/inside-the-virtual-development-race-quietly-reshaping-f1/" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
+                </div>
+            </div>
+
+            <div class="entry reveal d1">
+                <div class="entry-meta">
+                    <span class="entry-date">2025-2026</span>
+                    <span class="entry-cat">Software · Simulation</span>
+                </div>
+                <div class="entry-title">Le digital twin : développer la voiture dans un monde virtuel</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body">
+                    <p>Le <strong>jumeau numérique</strong> est une réplique virtuelle vivante de la voiture, alimentée en continu par la télémétrie : données historiques, capteurs, modèles aéro, comportement des pneus, météo et caractéristiques du circuit réunis dans une seule simulation. L'enjeu logiciel est de réduire l'écart de <em>corrélation</em> entre le modèle et la réalité.</p>
+                </div>
+                <div class="entry-analyse">
+                    <strong>Mon analyse :</strong> un digital twin, c'est une boucle logicielle temps réel entre capteurs, cloud et modèles. Cela repose sur des infrastructures et des pipelines de données fiables — le cœur du métier SISR.
+                </div>
+                <div class="entry-foot">
+                    <div class="entry-tags">
+                        <span class="entry-tag">Digital twin</span>
+                        <span class="entry-tag">Cloud</span>
+                        <span class="entry-tag">Corrélation</span>
+                    </div>
+                    <a href="https://community.xcelerator.siemens.com/public/blogs/the-unseen-race-how-digital-engineering-forges-formula-1-champions-2025-09-19" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
+                </div>
+            </div>
+
+            <div class="entry reveal d2">
+                <div class="entry-meta">
+                    <span class="entry-date">2026</span>
+                    <span class="entry-cat">Software · IA</span>
+                </div>
+                <div class="entry-title">IA &amp; stratégie : des centaines de millions de scénarios simulés par week-end</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body">
+                    <p>Les écuries s'appuient sur l'<strong>IA générative</strong> pour simuler des scénarios de course (fenêtres d'arrêt, choix de gommes) avec une précision décrite comme « presque troublante ». Certaines associent des modèles prédictifs d'usure pneu à une <strong>IA explicable</strong>, pour que l'ingénieur comprenne <em>pourquoi</em> un pneu va se dégrader, pas seulement quand.</p>
+                </div>
+                <div class="entry-analyse">
+                    <strong>Mon analyse :</strong> l'IA n'est utile que si ses données d'entrée sont fiables et intègres — d'où le lien direct avec la cybersécurité : fausser la donnée, c'est fausser la décision.
+                </div>
+                <div class="entry-foot">
+                    <div class="entry-tags">
+                        <span class="entry-tag">IA générative</span>
+                        <span class="entry-tag">Stratégie</span>
+                        <span class="entry-tag">Cloud</span>
+                    </div>
+                    <a href="https://aws.amazon.com/sports/f1/" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
                 </div>
             </div>
 
             <div class="entry reveal">
                 <div class="entry-meta">
-                    <span class="entry-date">2025</span>
-                    <span class="entry-cat">NASCAR · Rançongiciel</span>
+                    <span class="entry-date">Règlement</span>
+                    <span class="entry-cat">Software · Embarqué</span>
                 </div>
-                <div class="entry-title">NASCAR frappé par le rançongiciel Medusa : données de fans et plans de circuits volés</div>
+                <div class="entry-title">L'ECU standard TAG-320 : un logiciel encadré pour garantir l'équité</div>
                 <div class="entry-divider"></div>
                 <div class="entry-body">
-                    <p>Le championnat <strong>NASCAR</strong> confirme une fuite de données après une attaque du gang <strong>Medusa</strong> (intrusion fin mars 2025). Les cybercriminels réclament <strong>4 millions de dollars</strong> et exfiltrent des données de fans (dont des numéros de sécurité sociale), des adresses e-mail du personnel et même des <strong>plans détaillés des circuits</strong>.</p>
+                    <p>La FIA impose un <strong>calculateur standard</strong> (ECU) identique pour toutes les écuries afin d'écarter tout logiciel d'aide au pilotage caché. Le matériel est commun, mais chaque équipe développe ses propres <strong>cartographies</strong> (injection, déploiement et récupération d'énergie) dans une architecture logicielle définie par la FIA, dont les canaux de données lui restent accessibles en permanence.</p>
                 </div>
                 <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> la menace ne se limite pas à la F1. Ici c'est l'organisateur lui-même qui est visé, et le vol de plans de circuits montre que l'enjeu dépasse la donnée sportive : sûreté physique et données personnelles (RGPD) sont en cause. La double extorsion (chiffrer + divulguer) est devenue la norme.
+                    <strong>Mon analyse :</strong> cas rare où la <em>gouvernance logicielle</em> sert l'équité sportive. L'accès permanent de la FIA aux canaux de données, c'est de la traçabilité et du contrôle d'intégrité — des notions cyber appliquées à la régulation.
+                </div>
+                <div class="entry-foot">
+                    <div class="entry-tags">
+                        <span class="entry-tag">ECU</span>
+                        <span class="entry-tag">FIA</span>
+                        <span class="entry-tag">Intégrité</span>
+                    </div>
+                    <a href="https://www.motorsport.com/f1/news/fia-launches-tender-for-2026-standard-f1-ecu-contract/8252751/" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
+                </div>
+            </div>
+
+            <div class="entry reveal d1">
+                <div class="entry-meta">
+                    <span class="entry-date">2025</span>
+                    <span class="entry-cat">Cybersécurité · Rançongiciel</span>
+                </div>
+                <div class="entry-title">NASCAR frappé par le rançongiciel Medusa : données et plans de circuits volés</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body">
+                    <p>Le championnat <strong>NASCAR</strong> confirme une fuite de données après une attaque du gang <strong>Medusa</strong> (intrusion fin mars 2025). Les cybercriminels réclament <strong>4 M$</strong> et exfiltrent des données de fans (dont des numéros de sécurité sociale), des e-mails du personnel et des <strong>plans détaillés des circuits</strong>.</p>
+                </div>
+                <div class="entry-analyse">
+                    <strong>Mon analyse :</strong> la menace vise aussi l'organisateur, pas seulement les écuries. Le vol de plans de circuits mêle enjeu de données personnelles (RGPD) et de sûreté physique. La double extorsion (chiffrer + divulguer) est la norme.
                 </div>
                 <div class="entry-foot">
                     <div class="entry-tags">
@@ -141,87 +215,18 @@
                 </div>
             </div>
 
-            <div class="entry reveal d1">
-                <div class="entry-meta">
-                    <span class="entry-date">Avr. 2024</span>
-                    <span class="entry-cat">Défense · Partenariat</span>
-                </div>
-                <div class="entry-title">Williams Racing s'associe à Keeper Security (gestion des accès à privilèges)</div>
-                <div class="entry-divider"></div>
-                <div class="entry-body">
-                    <p>Williams officialise un partenariat cyber avec <strong>Keeper Security</strong>. Sa solution <strong>KeeperPAM</strong> apporte une gestion unifiée et <em>Zero Trust</em> des <strong>accès à privilèges</strong>, un coffre-fort de mots de passe et de secrets, du stockage sécurisé et de la surveillance du <em>dark web</em> sur l'ensemble de l'infrastructure de l'écurie.</p>
-                </div>
-                <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> concret et directement transposable en SISR. Le PAM (Privileged Access Management) et la gestion des secrets sont exactement ce que j'apprends à mettre en place. Sécuriser les comptes d'administration, c'est fermer la porte d'entrée n°1 des rançongiciels.
-                </div>
-                <div class="entry-foot">
-                    <div class="entry-tags">
-                        <span class="entry-tag">PAM</span>
-                        <span class="entry-tag">Gestion des secrets</span>
-                        <span class="entry-tag">Zero Trust</span>
-                    </div>
-                    <a href="https://www.keepersecurity.com/blog/2024/04/30/williams-racing-f1-sponsorship/" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
-                </div>
-            </div>
-
             <div class="entry reveal d2">
                 <div class="entry-meta">
-                    <span class="entry-date">2023</span>
-                    <span class="entry-cat">Fuite de données · Clients</span>
-                </div>
-                <div class="entry-title">Ferrari : deuxième incident en six mois, cette fois des données clients</div>
-                <div class="entry-divider"></div>
-                <div class="entry-body">
-                    <p>Ferrari est notifié par un acteur malveillant détenant certaines <strong>données de ses clients</strong> (noms, adresses, e-mails, téléphones). L'écurie/constructeur <strong>refuse de payer la rançon</strong> et choisit d'informer ses clients plutôt que de céder au chantage — une posture désormais recommandée face à l'extorsion.</p>
-                </div>
-                <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> payer finance l'écosystème criminel sans garantie. Ce cas illustre l'importance du RGPD (notification des personnes concernées) et d'un plan de réponse à incident — la gouvernance compte autant que la technique.
-                </div>
-                <div class="entry-foot">
-                    <div class="entry-tags">
-                        <span class="entry-tag">Data breach</span>
-                        <span class="entry-tag">RGPD</span>
-                        <span class="entry-tag">Extorsion</span>
-                    </div>
-                    <a href="https://thecyberexpress.com/ferrari-data-breach-explained/" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
-                </div>
-            </div>
-
-            <div class="entry reveal">
-                <div class="entry-meta">
-                    <span class="entry-date">2022</span>
-                    <span class="entry-cat">Rançongiciel</span>
-                </div>
-                <div class="entry-title">Ferrari visé par le groupe RansomEXX (~7 Go de documents internes)</div>
-                <div class="entry-divider"></div>
-                <div class="entry-body">
-                    <p>Le groupe de rançongiciel <strong>RansomEXX</strong> revendique le vol de documents internes de Ferrari : fiches techniques, manuels et environ <strong>7 gigaoctets</strong> de données. L'affaire met en lumière la valeur de la <strong>propriété intellectuelle</strong> d'une écurie, cible directe de l'espionnage industriel.</p>
-                </div>
-                <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> en F1, un plan technique volé peut valoir un avantage sportif décisif. La donnée n'est pas seulement personnelle, elle est <em>stratégique</em> — d'où le besoin de chiffrement, de cloisonnement réseau et de sauvegardes hors-ligne.
-                </div>
-                <div class="entry-foot">
-                    <div class="entry-tags">
-                        <span class="entry-tag">Ransomware</span>
-                        <span class="entry-tag">Espionnage</span>
-                        <span class="entry-tag">Propriété intellectuelle</span>
-                    </div>
-                    <a href="https://www.expressvpn.com/blog/formula-one-cyberthreats/" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
-                </div>
-            </div>
-
-            <div class="entry reveal d1">
-                <div class="entry-meta">
                     <span class="entry-date">Depuis 2020</span>
-                    <span class="entry-cat">Défense · IA</span>
+                    <span class="entry-cat">Cybersécurité · Défense IA</span>
                 </div>
-                <div class="entry-title">McLaren &amp; Darktrace : une IA autonome pour défendre l'écurie</div>
+                <div class="entry-title">McLaren &amp; Darktrace : une IA défensive pour protéger la chaîne logicielle</div>
                 <div class="entry-divider"></div>
                 <div class="entry-body">
-                    <p>McLaren s'appuie sur l'<strong>IA de Darktrace</strong> pour détecter, investiguer et répondre en temps réel aux menaces. La protection couvre les <strong>capteurs IoT de la voiture</strong>, l'<em>edge computing</em> en bord de piste et la connectivité de l'usine — y compris lors des lancements de nouvelles monoplaces, moments très sensibles.</p>
+                    <p>McLaren s'appuie sur l'<strong>IA de Darktrace</strong> pour détecter et répondre en temps réel aux menaces, sur un périmètre qui couvre les <strong>capteurs IoT de la voiture</strong>, l'<em>edge computing</em> en bord de piste et la connectivité de l'usine — y compris lors des lancements de nouvelles monoplaces.</p>
                 </div>
                 <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> le volume et la vitesse des données dépassent l'humain ; l'IA défensive devient indispensable pour bloquer une menace en quelques secondes. C'est la tendance de fond de la cybersécurité 2026 que je veux maîtriser.
+                    <strong>Mon analyse :</strong> défendre du software par du software. Le volume et la vitesse des données dépassent l'humain : la détection automatisée par IA devient incontournable — une compétence d'avenir pour le Trackside IT.
                 </div>
                 <div class="entry-foot">
                     <div class="entry-tags">
@@ -233,64 +238,18 @@
                 </div>
             </div>
 
-            <div class="entry reveal d2">
-                <div class="entry-meta">
-                    <span class="entry-date">2017</span>
-                    <span class="entry-cat">Rançongiciel · Historique</span>
-                </div>
-                <div class="entry-title">WannaCry frappe Honda et paralyse une usine moteurs</div>
-                <div class="entry-divider"></div>
-                <div class="entry-body">
-                    <p>La vague mondiale de rançongiciel <strong>WannaCry</strong> chiffre les fichiers de postes anciens chez Honda et force l'arrêt temporaire de la production, notamment à l'usine de <strong>Sayama</strong>, liée à la fourniture de moteurs. Un rappel que le sport auto dépend d'une chaîne industrielle vulnérable.</p>
-                </div>
-                <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> un système d'exploitation non mis à jour a suffi. La <em>gestion des correctifs</em> (patch management) et la fin de vie des OS sont des basiques SISR trop souvent négligés — et pourtant décisifs.
-                </div>
-                <div class="entry-foot">
-                    <div class="entry-tags">
-                        <span class="entry-tag">WannaCry</span>
-                        <span class="entry-tag">Patch management</span>
-                        <span class="entry-tag">Chaîne d'appro.</span>
-                    </div>
-                    <a href="https://www.expressvpn.com/blog/formula-one-cyberthreats/" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
-                </div>
-            </div>
-
             <div class="entry reveal">
                 <div class="entry-meta">
-                    <span class="entry-date">2016</span>
-                    <span class="entry-cat">NASCAR · Rançongiciel · Historique</span>
+                    <span class="entry-date">Menace 2026</span>
+                    <span class="entry-cat">Crossover · Software &amp; Cyber</span>
                 </div>
-                <div class="entry-title">Une équipe NASCAR paralysée par TeslaCrypt : des réglages de course pris en otage</div>
+                <div class="entry-title">Le risque de demain : intercepter, mais surtout corrompre la télémétrie</div>
                 <div class="entry-divider"></div>
                 <div class="entry-body">
-                    <p>L'équipe <strong>Circle Sport-Leavine Family Racing</strong> voit ses fichiers chiffrés par le rançongiciel <strong>TeslaCrypt</strong>. Sont bloqués des <strong>réglages de course</strong> et des packages de simulation évalués à plus de 1,5 million de dollars — des données impossibles à reconstituer à temps avant la course. L'équipe finit par payer la rançon.</p>
+                    <p>Au-delà du vol de données, le scénario le plus redoutable n'est pas de <strong>lire</strong> la télémétrie mais de la <strong>corrompre</strong> : injecter de fausses mesures pour tromper les ingénieurs et les IA qui décident de la stratégie en direct. Maintenir un réseau chiffré et authentifié de façon homogène sur 24 circuits par an reste un défi permanent.</p>
                 </div>
                 <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> un cas d'école qui prouve, dès 2016 et hors F1, que la donnée technique d'une écurie vaut de l'or. Sans <em>sauvegardes hors-ligne</em>, il ne reste que le paiement — exactement ce qu'il faut éviter. La leçon SISR : sauvegarder, tester ses restaurations, segmenter.
-                </div>
-                <div class="entry-foot">
-                    <div class="entry-tags">
-                        <span class="entry-tag">NASCAR</span>
-                        <span class="entry-tag">TeslaCrypt</span>
-                        <span class="entry-tag">Sauvegardes</span>
-                    </div>
-                    <a href="https://www.darkreading.com/cyberattacks-data-breaches/nascar-race-team-learns-ransomware-lesson-the-hard-way" target="_blank" rel="noopener" class="entry-link">Source ↗</a>
-                </div>
-            </div>
-
-            <div class="entry reveal">
-                <div class="entry-meta">
-                    <span class="entry-date">Tendance 2026</span>
-                    <span class="entry-cat">Menace émergente · Analyse</span>
-                </div>
-                <div class="entry-title">Le vrai danger de demain : interception &amp; corruption de la télémétrie</div>
-                <div class="entry-divider"></div>
-                <div class="entry-body">
-                    <p>Au-delà du vol de données, les analystes pointent un scénario plus redoutable : non pas seulement <strong>lire</strong> la télémétrie (réglages, dégradation des pneus), mais la <strong>corrompre subtilement</strong> — injecter de fausses mesures de capteurs pour tromper les ingénieurs qui décident de la stratégie en course. Gérer un réseau privé chiffré de façon homogène sur 24 circuits par an reste un défi permanent.</p>
-                </div>
-                <div class="entry-analyse">
-                    <strong>Mon analyse :</strong> on passe de la confidentialité à l'<em>intégrité</em> de la donnée. Falsifier une info en direct peut faire perdre une course sans jamais « voler » un fichier. Cela renforce l'intérêt du chiffrement bout-en-bout et de l'authentification des flux — un vrai sujet d'ingénieur réseau.
+                    <strong>Mon analyse :</strong> on passe de la confidentialité à l'<em>intégrité</em> de la donnée — le point de rencontre exact entre software et cybersécurité. D'où l'importance du chiffrement bout-en-bout et de l'authentification des flux.
                 </div>
                 <div class="entry-foot">
                     <div class="entry-tags">
@@ -304,27 +263,42 @@
 
         </div>
 
-        <!-- ================= PARTENARIATS ================= -->
-        <div class="block-label"><span>04</span> Panorama — qui protège quelle écurie ?</div>
-        <div class="table-wrap reveal">
-            <table class="partners">
-                <thead>
-                    <tr><th>Écurie / Constructeur</th><th>Partenaire cybersécurité</th><th>Apport principal</th></tr>
-                </thead>
-                <tbody>
-                    <tr><td><strong>McLaren</strong></td><td>Darktrace</td><td>IA autonome de détection &amp; réponse</td></tr>
-                    <tr><td><strong>Williams Racing</strong></td><td>Keeper Security</td><td>Gestion des accès à privilèges (PAM) &amp; secrets</td></tr>
-                    <tr><td><strong>Mercedes-AMG Petronas</strong></td><td>CrowdStrike</td><td>Protection des terminaux (EDR/XDR)</td></tr>
-                    <tr><td><strong>Ferrari</strong></td><td>Bitdefender</td><td>Sécurité endpoint &amp; anti-ransomware</td></tr>
-                    <tr><td><strong>IMSA</strong> <em>(championnat)</em></td><td>CrowdStrike</td><td>Protection des terminaux &amp; renseignement sur les menaces</td></tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="panel reveal mt-block">
-            <p><strong>Extension Endurance / WEC :</strong> les incidents publics documentés concernent surtout la F1, mais les mêmes constructeurs (Ferrari, Toyota, Porsche, BMW…) et souvent les mêmes éditeurs de sécurité sont présents en WEC et aux 24 Heures du Mans. Le <strong>modèle de menace y est identique</strong> — voire accru par la durée des épreuves, la densité des réseaux d'hospitalité et le nombre de partenaires connectés sur un même paddock.</p>
+        <!-- ================= SOURCES ================= -->
+        <div class="block-label"><span>04</span> Sources principales suivies</div>
+        <div class="src-grid">
+            <a href="https://www.motorsportweek.com/" target="_blank" rel="noopener" class="src-card reveal">
+                <div class="src-type">Média · Tech</div>
+                <div class="src-name">Motorsport Week</div>
+                <div class="src-desc">Dossiers réguliers sur la « guerre technologique » invisible : simulation, développement virtuel, data.</div>
+            </a>
+            <a href="https://community.xcelerator.siemens.com/" target="_blank" rel="noopener" class="src-card reveal d1">
+                <div class="src-type">Éditeur · Ingénierie</div>
+                <div class="src-name">Siemens Xcelerator</div>
+                <div class="src-desc">Digital twin et ingénierie numérique appliqués à la conception des monoplaces.</div>
+            </a>
+            <a href="https://aws.amazon.com/sports/f1/" target="_blank" rel="noopener" class="src-card reveal d2">
+                <div class="src-type">Cloud · IA</div>
+                <div class="src-name">AWS Sports (F1)</div>
+                <div class="src-desc">Partenaire cloud/ML de la F1 : IA de stratégie, F1 Insights, traitement de la télémétrie.</div>
+            </a>
+            <a href="https://thecyberexpress.com/" target="_blank" rel="noopener" class="src-card reveal">
+                <div class="src-type">Média · Cyber</div>
+                <div class="src-name">The Cyber Express</div>
+                <div class="src-desc">Analyses des fuites de données et campagnes de rançongiciel, y compris dans le sport.</div>
+            </a>
+            <a href="https://securityboulevard.com/" target="_blank" rel="noopener" class="src-card reveal d1">
+                <div class="src-type">Média · Cyber</div>
+                <div class="src-name">Security Boulevard</div>
+                <div class="src-desc">Menaces émergentes et impact de l'IA sur la défense des systèmes.</div>
+            </a>
+            <a href="https://www.darktrace.com/" target="_blank" rel="noopener" class="src-card reveal d2">
+                <div class="src-type">Éditeur · Défense</div>
+                <div class="src-name">Darktrace</div>
+                <div class="src-desc">Partenaire cyber de McLaren : IA de détection appliquée au sport auto.</div>
+            </a>
         </div>
 
-        <p class="maj-note">Dernière mise à jour : 21 septembre 2026 · Veille alimentée en mode PULL &amp; PUSH.</p>
+        <p class="maj-note">Dernière mise à jour : 28 septembre 2026 · Thème : cybersécurité &amp; software en sport automobile.</p>
 
     </div>
 
@@ -356,7 +330,7 @@
         const status = document.getElementById('rss-status');
         if (!feed) return;
 
-        const gnewsUrl = 'https://news.google.com/search?q=' + encodeURIComponent('motorsport cybersecurity') + '&hl=fr&gl=FR&ceid=FR:fr';
+        const gnewsUrl = 'https://news.google.com/search?q=' + encodeURIComponent('motorsport software cybersecurity') + '&hl=fr&gl=FR&ceid=FR:fr';
 
         function escapeHtml(s) {
             return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -367,8 +341,6 @@
                 '<a href="' + gnewsUrl + '" target="_blank" rel="noopener" class="rss-fallback-link">Consulter directement le flux Google News ↗</a>';
         }
 
-        // Le fichier veille-feed.json est régénéré côté serveur par une GitHub Action,
-        // puis servi sur le même domaine : aucune requête tierce ni problème de CORS.
         fetch('veille-feed.json?_=' + Date.now())
             .then(r => { if (!r.ok) throw new Error('http ' + r.status); return r.json(); })
             .then(data => {

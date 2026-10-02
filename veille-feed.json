@@ -1,9 +1,15 @@
 {
-  "updated": "2026-10-01T22:20:22.218Z",
+  "updated": "2026-10-02T11:52:26.572Z",
   "theme": "Cybersécurité & software en sport automobile",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 55,
+  "liveCount": 54,
   "items": [
+    {
+      "title": "Sim Racing : quels sont les meilleurs volants et pédaliers pour PC, PS5, Xbox et Nintendo Switch en septembre 2026 ?",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ITzQ4aWREZVF3c3ZjdmpNMVgwWTEzbS14UHF5YkZvb2NIQWR3dzNtdkZZVDAwOHA5Y1JSWGdYTG1DaGV2MjdfVHhTbU1LT1lpZUU1dENDa1ZUbTRlT1pCRV9WdWNxcHpsY2J5Nw?oc=5",
+      "source": "JeuxVideo.com",
+      "pubDate": "Wed, 30 Sep 2026 10:55:15 GMT"
+    },
     {
       "title": "NASCAR 26 : La simulation de course ultime",
       "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9CdHVsYVVCaE5FVTJqSFA4MmRmbGJnLS1GZGRGSVFrM24wWktfNkdCMVE2RjM5UzRmQWVQbTJrM1FwN3ot?oc=5",
@@ -13,13 +19,13 @@
     {
       "title": "Honda confie son moteur F1 à son chef du logiciel après trois points",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNlBIUFNETnlQcHFkNWc4Yl9hOVVaaExTTGo4R3g0RU9ycDhVdkFnZUZFZXBZeGVjVEZwc0Rucm1Edi1EVG8zMFhTX255d3VYX2E0TU1KcUlIN1RWalJHSjFNN2xCbDA1bm93QnhBMW1MZnc5cjBmd08xcEVzRDRTQkp1OW1Dc0d2S0p3Q09EanBzQ2RoVmc?oc=5",
-      "source": "AutoNext.co",
+      "source": "autonext.co",
       "pubDate": "Tue, 15 Sep 2026 16:41:48 GMT"
     },
     {
       "title": "Cybersécurité et stockage, Ferrari et Aston Martin dévoilent leurs plans pour la Formule 1",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaHM5MDZyNjROMExCNGFZSEJUU1J5d2cwcE9qRzRPdTJtc0R1WlhZVmk4cXVtVzV0NzJWX0pMVElGTHJudnp3UWwwWm1OZUFjcEw1SjRITHZQOFRtd3lIS0JHRmRjMnFlM1NjaVlXQ3cxVE9tY093T1hwMDRpb294V3pDWU9ZNFpWM1Nab25JeDg0T2c2QTJ2Z0NWV1RZZ0pBS3VRUVNQQ0RLdk1mRGRycEFkczBXMUROWjJlOElzdzROazF4UWNNM0p4QXBneGs?oc=5",
-      "source": "zdnet.fr",
+      "source": "ZDNET",
       "pubDate": "Wed, 02 Sep 2026 07:00:00 GMT"
     },
     {
@@ -51,12 +57,6 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTTV1NVFzSHl5Z250QXRBa25fU1FXcEZ3S2ZtYkxRV3FybG43SVUwLS14aURXdUZfa1lqWGJkTk9XN2Q3X3N2V2FZZzRVUUNnUkpwMUxGNUg5TVBsQUR1bEtFa0JZcWdOYTlIZ3F0eVpCbGJJUTlkYVlobTlVUGU2QlpmcHBFMUVxUnltRmE3YWxtN2E1SF9KZ3R0dllIeUZfSVFUSUVXdkJ5X1V5VXMydzk3WFAyeFZqYV9fdWtMNWd2UGxvbnBWZEh6ai1DaGs?oc=5",
       "source": "Paddock GP",
       "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Comment Leclerc a modifié son logiciel volant pour la première fois chez Ferrari",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeHdNQmV6X3JvakoyQ1luRFhhQjBzeEdIZExrU1ZRUldqMmFDU1Z4OGdvLXAwZWdwdFdCaXB2TVVZY09jZHI1OURZd3RVUHJZUUNqdEZhSDBpSTJIei00YWFzWHVZVGJERm1rNWxHcmMxR0FDR1dBUjl5Y21yWUF4dGFfaU1kdDkwc0E1OURqSWdYNkQ3OXJmaDBKVXhIMjlaN1hYLW9YNzZ4UQ?oc=5",
-      "source": "Motorsport.com",
-      "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
     }
   ]
 }

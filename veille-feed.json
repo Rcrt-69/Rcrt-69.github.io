@@ -1,9 +1,15 @@
 {
-  "updated": "2026-10-08T12:48:21.228Z",
+  "updated": "2026-10-08T22:53:01.586Z",
   "theme": "Cybersécurité & software en sport automobile",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
   "liveCount": 66,
   "items": [
+    {
+      "title": "La FIA termine son enquête sur le problème logiciel survenu à Sepang et annonce des mesures",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGdYZ2JLLXVFVVN4ek0wOTVkNDBYQURudHM4YW9yd3Zkak93LUdWcUloZG9scS1RYldjRFFMRjEwTVpjZ2QxZ3ItbG03T3NFR3ZXdDVhMFh5Ul9uSHpMU0I3YlhzZGgxa0syTWZMUHpaQXBkTC11Rmg2MG1lajJSUDdtVW1iZjFOMHhRbXo4Q3VQZDl3RENPYVdLNm41T3RUVVcxMngtNVFPdXJ2VjJRWW1odHhQbGNocThTZTY3ZnliMGlGSXJoNUhNQjg?oc=5",
+      "source": "Média sportif",
+      "pubDate": "Thu, 08 Oct 2026 15:01:18 GMT"
+    },
     {
       "title": "La FIA veut contrôler les logiciels en F1, après un incident en piste en Malaisie",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdGdhV3ZrOWlSTGFRYkdtMnJtNElVRllITDF0d3VKcXl6NHA4c2s0ZWdPV3B4d3JOTjhhUkZwTE9YbWg1bkpMcjU0M29OTWw2Qm1xa3FEUy1ILTJhUS1FVW02eTFRX0pGN0RTdHM4eUlyTjNMaHZIMWlTRjBxVm1qemFUVWNYZnZxNUxUTDV1eUE?oc=5",
@@ -14,7 +20,7 @@
       "title": "La FIA a conclu son enquête sur le bug logiciel en Malaisie, une solution temporaire utilisée à Singapour",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRzEySWprejBZbkNpdkpGWi1tY3B2SGkzYmJiMFFySnluazh0OGxmNFdKSjM2a0xkRG05QUVkQ1c2NVgxSFlTdXFXM3ZyUUVWXzUtalNDYmRVNndsdlcyNU5qSThGX28tdlN4TktNWnRBRDhFUk5rSlhpdHA0b2UxQjR1QXNWeHBXM2czak10c2E2TTR2SldpaVRGZ1VaSVRPWlg4WVFZSlZNUG42N1RlazRiQlJSSDZhRWZxNzNFOGpwcFk3ZElkSnNncUZzTGZMVGVzaEFZS2QyTkFRNWpUZ1dTdlpJX2RWcGExTw?oc=5",
       "source": "L'Équipe",
-      "pubDate": "Thu, 08 Oct 2026 11:07:50 GMT"
+      "pubDate": "Thu, 08 Oct 2026 09:49:12 GMT"
     },
     {
       "title": "F1 : la FIA corrige le logiciel moteur pluie après le chaos du départ en Malaisie",
@@ -51,12 +57,6 @@
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaUJmYi1BblhIeU9BY3JTZnFZc3NCazZ4dlRrZHhlSjdlQjZZNG5iNW10QjNoOGRnNnZmeGh6eHQ2V1pmQ3Q1aXR1Mi1TaFhfN3M2MGRMeE9XT2ZPWmdDWEpLdG50aG9GTVdvODl1bnEyWnI2VkpoVU9lLTViSGZuMW5xMUx6NEVsZk96ZFBheHNjSzVRbm4wR1pKbFhSMS1Dbm92UzhoQTY1MEpsaVBlUS12bVJSR1hOZVE2cGx3OGtfMWRJUmptSHdCdkFqU0xFWDVxWWJ3?oc=5",
       "source": "Blog Joinsteer",
       "pubDate": "Sun, 04 Oct 2026 21:39:58 GMT"
-    },
-    {
-      "title": "Un bug logiciel fige les F1 au GP de Bahreïn",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42Y21IbUN4RVNaaEt5NUdRY0FfeWRocHp6el9mTGtLcGtqMlJzUFdETF9UYjByRW5PYnQwcm5ucHBhX0oyY2Q2M1M0d3JkQnFIUEVLdmJJZUY1REVMYmE2RGhiVEUzTVdEZW5jbGFjRVR0Y0c2SzIxdmo2VkVnNW8?oc=5",
-      "source": "AutoNext.co",
-      "pubDate": "Sun, 04 Oct 2026 20:06:16 GMT"
     }
   ]
 }

@@ -1,44 +1,62 @@
 {
-  "updated": "2026-10-09T12:35:57.811Z",
+  "updated": "2026-10-09T22:14:28.389Z",
   "theme": "Cybersécurité & software en sport automobile",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 0,
+  "liveCount": 65,
   "items": [
     {
-      "title": "La F1, nouveau laboratoire mondial de la cybersécurité",
-      "link": "https://www.sportstrategies.com/",
-      "source": "Sport Stratégies",
-      "pubDate": ""
+      "title": "Formule E mise sur la simulation multiphysique pour augmenter les performances de sa monoplace Gen4",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQcGlKdXZ5RUI4VjJPcG16QXAya3ZSdFRaME1CZy1XcTA5MzVFRERrR3ZNQ2VlYmFvbklISkE4QXlxTjF6SG9iRVZacWxEeFJuMWJ4UVphQjRiRnpINGtyUTF6N3JvRF9scVVoUzd1LWdOWnZZWGszTHJPS0Nza2RhTHl1TDhmWDg4N1gzMndsekJrMUNIOW5jWDFpM3ctS3JvRmlBZmVIYnl2MjJFQW5zckZLbE8tajBhZmdxMmZkRTVyS3doc3B2U19DM2JTVzJvVlpQRW11Um4zUnM0b3NtZ1dfeXB0V0RyaWxMSFRCVzUzMTh0dkNMQm9lUmRLVV8yUFhhYkpYU2Z6YmdNX2JPcXZIeHd3QWRsamxiVlZBaXI?oc=5",
+      "source": "L'Usine Digitale",
+      "pubDate": "Fri, 09 Oct 2026 09:50:38 GMT"
     },
     {
-      "title": "How McLaren uses Apache Kafka to stream Formula 1 telemetry data",
-      "link": "https://www.confluent.io/",
-      "source": "Confluent",
-      "pubDate": ""
+      "title": "La FIA termine son enquête sur le problème logiciel survenu à Sepang et annonce des mesures",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGdYZ2JLLXVFVVN4ek0wOTVkNDBYQURudHM4YW9yd3Zkak93LUdWcUloZG9scS1RYldjRFFMRjEwTVpjZ2QxZ3ItbG03T3NFR3ZXdDVhMFh5Ul9uSHpMU0I3YlhzZGgxa0syTWZMUHpaQXBkTC11Rmg2MG1lajJSUDdtVW1iZjFOMHhRbXo4Q3VQZDl3RENPYVdLNm41T3RUVVcxMngtNVFPdXJ2VjJRWW1odHhQbGNocThTZTY3ZnliMGlGSXJoNUhNQjg?oc=5",
+      "source": "Média sportif",
+      "pubDate": "Thu, 08 Oct 2026 15:01:18 GMT"
     },
     {
-      "title": "Digital twins: how F1 teams develop cars in a virtual world",
-      "link": "https://community.xcelerator.siemens.com/public/blogs/the-unseen-race-how-digital-engineering-forges-formula-1-champions-2025-09-19",
-      "source": "Siemens",
-      "pubDate": ""
+      "title": "La FIA veut contrôler les logiciels en F1, après un incident en piste en Malaisie",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdGdhV3ZrOWlSTGFRYkdtMnJtNElVRllITDF0d3VKcXl6NHA4c2s0ZWdPV3B4d3JOTjhhUkZwTE9YbWg1bkpMcjU0M29OTWw2Qm1xa3FEUy1ILTJhUS1FVW02eTFRX0pGN0RTdHM4eUlyTjNMaHZIMWlTRjBxVm1qemFUVWNYZnZxNUxUTDV1eUE?oc=5",
+      "source": "RDS",
+      "pubDate": "Thu, 08 Oct 2026 11:33:05 GMT"
     },
     {
-      "title": "The AI behind Formula 1 race strategy",
-      "link": "https://aws.amazon.com/sports/f1/",
-      "source": "AWS",
-      "pubDate": ""
+      "title": "La FIA a conclu son enquête sur le bug logiciel en Malaisie, une solution temporaire utilisée à Singapour",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRzEySWprejBZbkNpdkpGWi1tY3B2SGkzYmJiMFFySnluazh0OGxmNFdKSjM2a0xkRG05QUVkQ1c2NVgxSFlTdXFXM3ZyUUVWXzUtalNDYmRVNndsdlcyNU5qSThGX28tdlN4TktNWnRBRDhFUk5rSlhpdHA0b2UxQjR1QXNWeHBXM2czak10c2E2TTR2SldpaVRGZ1VaSVRPWlg4WVFZSlZNUG42N1RlazRiQlJSSDZhRWZxNzNFOGpwcFk3ZElkSnNncUZzTGZMVGVzaEFZS2QyTkFRNWpUZ1dTdlpJX2RWcGExTw?oc=5",
+      "source": "L'Équipe",
+      "pubDate": "Thu, 08 Oct 2026 09:49:12 GMT"
     },
     {
-      "title": "Why Do F1 Teams Need Cybersecurity, and How Is AI Changing the Threat Landscape?",
-      "link": "https://securityboulevard.com/2026/07/why-do-f1-teams-need-cybersecurity-and-how-is-ai-changing-the-threat-landscape/",
-      "source": "Security Boulevard",
-      "pubDate": ""
+      "title": "F1 : la FIA corrige le logiciel moteur pluie après le chaos du départ en Malaisie",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOODViT3ZHMW5NUXY1UUctTU9pSGtXcGs1ZDY5ck9Dajd0cDc0QndQV19MQU9aZnAwMXZRTDZLYWpQU3hZN1FJVTdZaE1Zc2JFWmpxTlNXcTdUaHdPYjU4T1JNNnBmdlNvNmhEdzJ3MGtzc25Pa0Q0dmlXdWNqczhpSVRUQ0s2TEpZak5VUjlXb0p5Rm93dGNHM19mVlBURWU1UjFPUFM3Z25LbUVyM09YYklEZGM?oc=5",
+      "source": "Blog Joinsteer",
+      "pubDate": "Thu, 08 Oct 2026 08:01:54 GMT"
     },
     {
-      "title": "NASCAR confirms data breach after Medusa ransomware attack",
-      "link": "https://therecord.media/nascar-confirms-data-breach",
-      "source": "The Record",
-      "pubDate": ""
+      "title": "F1 - Le fiasco de Sepang : des voitures à plusieurs millions d’euros incapables de prendre le départ à cause d’un bug de logiciel sous la pluie",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVDZwTVZwUU1UU3BEbE9McDlzVjFJZnNtdnFPaWlPWThWVGNUdVZZYkhwT1hsV3ZweHZLMm04WVBtRkdjOWJnc3NzZ3p3MWxuQURWcVdIcG9QcVMzUnpSb3BUczEyT2pVWEJTbHJVbVJUNEZGcUIxTUo2SkR1WWloZWg3ZEkzaHdzc3pnMkU0eVRTQUMwWkhWRWMxa1hwYjBzTV82R1NtcFNyanhKcHlpQjhjUWoxREZ2ZklsblZuSHZlVlZGaDRsd094bUFRWU92Y1RrNjloMllmLVpXaFB1Mkc2bmFnQ1JEZ1hWRDVnUllyZ1JVazhsbQ?oc=5",
+      "source": "Paddock GP",
+      "pubDate": "Mon, 05 Oct 2026 16:00:00 GMT"
+    },
+    {
+      "title": "Les pilotes de F1 explosent après le chaos logiciel, Lewis Hamilton reconnaît : « Je n'avais jamais fait ça",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMUhKZ0QwV2VUWUhrR3BpVy1FQ3RaQ01Cb3RpaHMtaERKbkF5MU1UbW1jdDYyMGU4cTVGQjJjYXRZSlJTVFJvT3ZuX1lBNDczQTJSSFV6WE9VNnRCMjUwSlA3MW9oTXZUTW9JRU4tUjdLbzRXUkZGX183dEZic3JzRDZWMWY1NVBpT0pacW9FUFJEanZtNlNzNGptb252el9JQV92dUpjenFSanRIdDBMeTdMNlB6aVhjaVFLNDFiV0hSNnN3UU41THlkV1ZaUQ?oc=5",
+      "source": "Lente Desportiva",
+      "pubDate": "Mon, 05 Oct 2026 12:46:11 GMT"
+    },
+    {
+      "title": "Grand Prix de Bahreïn : la FIA explique le bug logiciel qui a semé le chaos avant le départ à Sepang",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMEY5YlFLR3pYZWxFeWhScjVBdHJ2RjRoM2h0UXY2ZXhkY1J2UEpMWDdUZVJhbkxGNW5JcEQwbDdUZ3ljaHNHWFh2cUNzM3BuRy0yeFdTNHc0eldhYWRtTEdiZjRDYlFRNGpHdG9rZkF3SlpXeGhwUnJNd1dVREJnVXFzdXlUa0g3QUtfZWxZYTQ2eFF0T1Rub2JFUExtbEtIY242Y0NHUGhjQnhvdXh2MVhKTERCQ0FsSmhIODlJdWRmcWFwVDJSdjNwZGVnS0lna0dqY1NRX2ZxbXN6QWMzN3VIYVZ6dVFXSHhWMTFQS1R3SzZmWnc?oc=5",
+      "source": "Sports Auto Moto",
+      "pubDate": "Mon, 05 Oct 2026 12:36:04 GMT"
+    },
+    {
+      "title": "F1 - GP de Bahreïn 2026 : d'où vient le problème logiciel ayant retardé le départ ?",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVFUyNDNUMi1fcUYtNDVQdk9oNEFHQnk5bTl6ZEdfQm9oTEdidjBtY3kzRVFrdU5wUFc5R2YtV0hLWEk1cTZlYk1haHVseXZyaUQ4c3RnM3JJZXJBU3Z5WWNjMER1NEhEZmhPb3h5TWVBRHc3S3REaFhMcHNQV1VNTmtONHpLUVZLUmg5Nk9GNFhYRVAyYndzdGN6alBhSXFXRm9lM2lzV0gtX3U2WC15UWVhY2wta2N6OHA3YjdZUWJDUlE0Nm5zRTFHTTk?oc=5",
+      "source": "Sport Auto",
+      "pubDate": "Mon, 05 Oct 2026 09:00:00 GMT"
     }
   ]
 }

@@ -21,7 +21,6 @@ const queries = [
     'F1 artificial intelligence strategy',
     'motorsport software',
     'motorsport simulation technology',
-    'sim racing cybersecurity',
     // --- Cybersécurité ---
     '"Formule 1" cybersécurité',
     '"Formula 1" cybersecurity',
@@ -50,7 +49,7 @@ const SOFTWARE = [
     'software', 'logiciel', 'simulation', 'simulateur', 'digital twin', 'jumeau numerique',
     'telemetry', 'telemetrie', 'intelligence artificielle', 'machine learning', 'deep learning',
     'algorithme', 'algorithm', 'ecu', 'apache kafka', 'cloud', 'code', 'informatique',
-    'sim racing', 'esport', 'data science', 'big data', 'application', 'programme'];
+    'data science', 'big data', 'application', 'programme'];
 
 // Sélection curée de secours (vrais articles vérifiés) si le live donne trop peu.
 const CURATED = [

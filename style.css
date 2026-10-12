@@ -407,4 +407,37 @@ footer { padding: 2rem; border-top: 1px solid var(--border); display: flex; just
 .page-veille .pp-card,
 .page-veille .src-card,
 .page-veille .entry,
-.page-veille .table-wrap { box-shadow: var(--shadow); }
+.page-veille .table-wrap,
+.page-veille .theme-banner { box-shadow: var(--shadow); }
+
+/* ============================================================
+   PAGES THÉMATIQUES (bannière illustrée + spécifications)
+   ============================================================ */
+.page-veille .theme-banner {
+  border-radius: 18px; overflow: hidden; border: 1px solid var(--border);
+  background: linear-gradient(135deg, #EEF2FB, #E7ECF6);
+  margin-bottom: 1.75rem;
+}
+.page-veille .theme-banner svg { width: 100%; height: auto; display: block; }
+
+/* Spécifications clés (chiffres) */
+.page-veille .spec-row {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem; margin: 0.5rem 0 0.5rem;
+}
+.page-veille .spec {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 1.1rem 1.25rem; box-shadow: var(--shadow);
+}
+.page-veille .spec-num { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.7rem; color: var(--accent-light); line-height: 1.1; }
+.page-veille .spec-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.35rem; line-height: 1.4; }
+
+/* Étape numérotée dans « Comment ça marche » */
+.page-veille .cue { text-align: center; color: var(--muted); font-size: 0.85rem; margin: 0 0 1.25rem; }
+.page-veille .src-card .entry-link { display: inline-block; margin-top: 0.75rem; }
+
+.page-veille .step-badge {
+  font-size: 0.7rem; font-family: 'Syne', sans-serif; font-weight: 800;
+  letter-spacing: 0.06em; text-transform: uppercase; color: #fff;
+  background: var(--accent-light); padding: 0.3rem 0.7rem; border-radius: 99px;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sécurité & réseaux paddock — Veille · Rémy Couratier</title>
+    <meta name="description" content="Cybersécurité en sport automobile : Zero Trust, EDR/NDR, PAM, chiffrement des réseaux du paddock — comment et pourquoi.">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-veille">
+
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<nav>
+    <a href="index.html" class="nav-logo">RC.</a>
+    <ul class="nav-links">
+        <li><a href="index.html#about">Profil</a></li>
+        <li><a href="index.html#projects">Expériences</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="veille.html" class="active">Veille</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="btn btn-primary btn-nav">Discutons →</a>
+</nav>
+
+<div class="container">
+
+    <section class="veille-hero">
+        <div class="section-label">Veille · Thématique Cybersécurité</div>
+        <h1>Sécurité <span class="highlight">&amp; réseaux paddock</span></h1>
+        <p>Protéger des données stratégiques sur une infrastructure mobile, déployée sur 20+ circuits par an, dans des réseaux non maîtrisés.</p>
+        <div class="veille-badges">
+            <span class="veille-badge">Zero Trust</span>
+            <span class="veille-badge">EDR / NDR</span>
+            <span class="veille-badge">PAM</span>
+            <span class="veille-badge">Chiffrement</span>
+        </div>
+    </section>
+
+    <div class="veille-wrap">
+        <a href="veille.html" class="back-link">← Retour à la veille</a>
+
+        <div class="theme-banner reveal">
+            <svg viewBox="0 0 920 280" role="img" aria-label="Bouclier Zero Trust protégeant le réseau voiture, garage, usine et cloud, une menace bloquée">
+                <!-- liens -->
+                <g stroke="#C9D6F5" stroke-width="2">
+                    <line x1="460" y1="140" x2="170" y2="80"></line>
+                    <line x1="460" y1="140" x2="170" y2="205"></line>
+                    <line x1="460" y1="140" x2="760" y2="80"></line>
+                    <line x1="460" y1="140" x2="760" y2="205"></line>
+                </g>
+                <!-- noeuds -->
+                <g font-family="DM Sans, sans-serif" font-size="12" fill="#5B6588" text-anchor="middle">
+                    <circle cx="150" cy="80" r="22" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.3"></circle><text x="150" y="120">Voiture</text>
+                    <circle cx="150" cy="205" r="22" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.3"></circle><text x="150" y="245">Garage</text>
+                    <circle cx="770" cy="80" r="22" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.3"></circle><text x="770" y="120">Usine</text>
+                    <circle cx="770" cy="205" r="22" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.3"></circle><text x="770" y="245">Cloud</text>
+                </g>
+                <!-- bouclier central -->
+                <path d="M460 78 l54 20 v40 q0 46 -54 74 q-54 -28 -54 -74 v-40 z" fill="#142A6E"></path>
+                <path d="M438 140 l14 14 l28 -32" fill="none" stroke="#2E5FFF" stroke-width="4"></path>
+                <text x="460" y="250" text-anchor="middle" font-family="Syne, sans-serif" font-weight="800" font-size="14" fill="#142A6E">Zero Trust</text>
+                <!-- menace bloquée -->
+                <line x1="300" y1="40" x2="405" y2="110" stroke="#E5484D" stroke-width="3" stroke-dasharray="4 5"></line>
+                <circle cx="300" cy="40" r="14" fill="#E5484D"></circle>
+                <path d="M294 34 l12 12 M306 34 l-12 12" stroke="#fff" stroke-width="2.5"></path>
+                <text x="300" y="20" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="11" fill="#E5484D">attaque bloquée</text>
+            </svg>
+        </div>
+
+        <div class="panel reveal">
+            <p>Le paddock est un <strong>datacenter nomade</strong> : chaque week-end, les écuries déploient serveurs, réseaux et postes sur un circuit différent, parfois dans des pays aux menaces documentées. Les données (réglages, stratégie, R&amp;D) valent de l'or, et les incidents sont réels : <strong>rançongiciels</strong>, fuites de données, phishing. La défense repose sur une poignée de principes — <strong>Zero Trust, détection, gestion des accès, chiffrement</strong>.</p>
+        </div>
+
+        <div class="spec-row reveal">
+            <div class="spec"><div class="spec-num">4 M$</div><div class="spec-label">rançon réclamée à NASCAR (Medusa, 2025)</div></div>
+            <div class="spec"><div class="spec-num">~7 Go</div><div class="spec-label">volés chez Ferrari (RansomEXX)</div></div>
+            <div class="spec"><div class="spec-num">20+</div><div class="spec-label">circuits / an = surface mobile</div></div>
+        </div>
+
+        <!-- OUTILS -->
+        <div class="block-label"><span>01</span> Les logiciels &amp; outils</div>
+        <div class="src-grid">
+            <div class="src-card reveal">
+                <div class="src-type">Détection · IA</div>
+                <div class="src-name">Darktrace (NDR)</div>
+                <div class="src-desc">Partenaire de McLaren : une IA qui apprend le comportement « normal » du réseau et détecte/bloque les anomalies en temps réel (jusqu'aux capteurs IoT et à l'edge).</div>
+            </div>
+            <div class="src-card reveal d1">
+                <div class="src-type">Accès · PAM</div>
+                <div class="src-name">Keeper Security</div>
+                <div class="src-desc">Partenaire de Williams : gestion des accès à privilèges (PAM), coffre-fort de secrets et surveillance du dark web — on verrouille la porte d'entrée des attaquants.</div>
+            </div>
+            <div class="src-card reveal d2">
+                <div class="src-type">Terminaux · EDR</div>
+                <div class="src-name">CrowdStrike</div>
+                <div class="src-desc">Protection des postes et serveurs (EDR/XDR), utilisée notamment par Mercedes et en IMSA : détection et réponse sur chaque machine.</div>
+            </div>
+        </div>
+
+        <!-- COMMENT -->
+        <div class="block-label"><span>02</span> Comment ça marche</div>
+        <div class="feed">
+            <div class="entry reveal">
+                <div class="entry-meta"><span class="step-badge">Principe 1</span><span class="entry-cat">Zero Trust</span></div>
+                <div class="entry-title">Ne jamais faire confiance au réseau</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>Sur un réseau de circuit non maîtrisé, on part du principe que <strong>rien n'est fiable par défaut</strong> : chaque utilisateur et chaque appareil doit prouver son identité, et les accès sont segmentés et limités au strict nécessaire.</p></div>
+            </div>
+            <div class="entry reveal d1">
+                <div class="entry-meta"><span class="step-badge">Principe 2</span><span class="entry-cat">Détection</span></div>
+                <div class="entry-title">Surveiller et répondre automatiquement</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>Des outils EDR/NDR (CrowdStrike, Darktrace) surveillent postes et trafic en continu. Une IA détecte l'anomalie et peut <strong>isoler</strong> une machine compromise en quelques secondes, plus vite qu'un analyste humain.</p></div>
+            </div>
+            <div class="entry reveal d2">
+                <div class="entry-meta"><span class="step-badge">Principe 3</span><span class="entry-cat">Accès &amp; chiffrement</span></div>
+                <div class="entry-title">Verrouiller les accès, chiffrer les flux</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>La gestion des accès à privilèges (PAM) protège les comptes d'administration — cible n°1 des rançongiciels. La télémétrie et les communications sont <strong>chiffrées et authentifiées</strong> pour préserver confidentialité et intégrité.</p></div>
+            </div>
+        </div>
+
+        <!-- POURQUOI -->
+        <div class="block-label"><span>03</span> Pourquoi c'est décisif</div>
+        <div class="panel reveal">
+            <p>En sport auto, la sécurité est un <strong>facteur de performance</strong>, pas un coût : un plan volé ou une télémétrie falsifiée coûte des courses, une attaque sur l'organisateur expose des milliers de fans. Et l'infrastructure mobile multiplie les risques. Ce sont exactement les <strong>fondamentaux SISR</strong> que j'apprends — segmentation, sauvegardes, patch management, sensibilisation.</p>
+        </div>
+
+        <!-- LIEN SOFTWARE -->
+        <div class="block-label"><span>04</span> Le lien avec le software</div>
+        <div class="panel reveal">
+            <p class="entry-analyse"><strong>Les deux faces d'une même pièce :</strong> plus le sport auto devient logiciel (télémétrie, IA, systèmes connectés), plus la <strong>surface d'attaque</strong> grandit. Sécuriser, c'est protéger la chaîne logicielle elle-même : données, modèles, accès et intégrité des flux. On défend d'ailleurs souvent du software… par du software (IA défensive).</p>
+        </div>
+
+        <!-- SOURCES -->
+        <div class="block-label"><span>05</span> Sources</div>
+        <div class="src-grid">
+            <a href="https://securityboulevard.com/2026/07/why-do-f1-teams-need-cybersecurity-and-how-is-ai-changing-the-threat-landscape/" target="_blank" rel="noopener" class="src-card reveal">
+                <div class="src-type">Média · Cyber</div>
+                <div class="src-name">Security Boulevard</div>
+                <div class="src-desc">Pourquoi les écuries F1 ont besoin de cybersécurité et le rôle de l'IA.</div>
+            </a>
+            <a href="https://therecord.media/nascar-confirms-data-breach" target="_blank" rel="noopener" class="src-card reveal d1">
+                <div class="src-type">Média · Cyber</div>
+                <div class="src-name">The Record — NASCAR</div>
+                <div class="src-desc">Fuite de données NASCAR après le rançongiciel Medusa.</div>
+            </a>
+            <a href="https://www.mclaren.com/racing/partners/darktrace/" target="_blank" rel="noopener" class="src-card reveal d2">
+                <div class="src-type">Écurie · Partenaire</div>
+                <div class="src-name">McLaren × Darktrace</div>
+                <div class="src-desc">IA de détection appliquée à la défense d'une écurie F1.</div>
+            </a>
+        </div>
+
+        <p class="maj-note">Thématique de ma veille « Cybersécurité &amp; software en sport automobile ».</p>
+
+    </div>
+</div>
+
+<footer>
+    <span>© 2025 Rémy Couratier. Lyon, France.</span>
+    <span>SISR & Infrastructure | Sport Auto Enthusiast</span>
+</footer>
+
+<script>
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

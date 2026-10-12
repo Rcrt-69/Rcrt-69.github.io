@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital twin & simulation — Veille · Rémy Couratier</title>
+    <meta name="description" content="Simulation en sport automobile : digital twin, CFD, simulateur pilote (DIL), corrélation — comment et pourquoi.">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-veille">
+
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<nav>
+    <a href="index.html" class="nav-logo">RC.</a>
+    <ul class="nav-links">
+        <li><a href="index.html#about">Profil</a></li>
+        <li><a href="index.html#projects">Expériences</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="veille.html" class="active">Veille</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="btn btn-primary btn-nav">Discutons →</a>
+</nav>
+
+<div class="container">
+
+    <section class="veille-hero">
+        <div class="section-label">Veille · Thématique Software</div>
+        <h1>Digital twin <span class="highlight">&amp; simulation</span></h1>
+        <p>Développer et régler la voiture dans un monde virtuel — et faire coïncider ce modèle avec la réalité de la piste.</p>
+        <div class="veille-badges">
+            <span class="veille-badge">Jumeau numérique</span>
+            <span class="veille-badge">CFD</span>
+            <span class="veille-badge">Simulateur DIL</span>
+            <span class="veille-badge">Corrélation</span>
+        </div>
+    </section>
+
+    <div class="veille-wrap">
+        <a href="veille.html" class="back-link">← Retour à la veille</a>
+
+        <div class="theme-banner reveal">
+            <svg viewBox="0 0 920 280" role="img" aria-label="Boucle de corrélation entre la voiture réelle et son jumeau numérique">
+                <defs>
+                    <marker id="ar2" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+                        <path d="M0,0 L7,3 L0,6 Z" fill="#2E5FFF"></path>
+                    </marker>
+                </defs>
+                <!-- Réel -->
+                <rect x="60" y="85" width="300" height="120" rx="16" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.22"></rect>
+                <path d="M120 165 q12 -30 46 -30 h36 l26 20 h22 q14 0 14 12 v6 h-144 z" fill="#142A6E"></path>
+                <circle cx="152" cy="178" r="12" fill="#0B1020"></circle><circle cx="152" cy="178" r="5" fill="#9AB2E8"></circle>
+                <circle cx="228" cy="178" r="12" fill="#0B1020"></circle><circle cx="228" cy="178" r="5" fill="#9AB2E8"></circle>
+                <text x="210" y="118" text-anchor="middle" font-family="Syne, sans-serif" font-weight="800" font-size="15" fill="#0B1020">Voiture réelle</text>
+                <text x="210" y="196" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#5B6588">Télémétrie de piste</text>
+
+                <!-- Virtuel (wireframe) -->
+                <rect x="560" y="85" width="300" height="120" rx="16" fill="#0B1020"></rect>
+                <path d="M620 165 q12 -30 46 -30 h36 l26 20 h22 q14 0 14 12 v6 h-144 z" fill="none" stroke="#2E5FFF" stroke-width="2"></path>
+                <circle cx="652" cy="178" r="12" fill="none" stroke="#2E5FFF" stroke-width="2"></circle>
+                <circle cx="728" cy="178" r="12" fill="none" stroke="#2E5FFF" stroke-width="2"></circle>
+                <path d="M600 150 h260 M600 135 h260 M700 125 v70 M760 125 v70" stroke="#2E5FFF" stroke-opacity="0.25" stroke-width="1"></path>
+                <text x="710" y="118" text-anchor="middle" font-family="Syne, sans-serif" font-weight="800" font-size="15" fill="#FFFFFF">Jumeau numérique</text>
+                <text x="710" y="196" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#9AB2E8">Modèle live (CFD, pneus, aéro)</text>
+
+                <!-- Boucle -->
+                <path d="M360 110 C 445 70, 475 70, 560 110" fill="none" stroke="#2E5FFF" stroke-width="3" marker-end="url(#ar2)"></path>
+                <path d="M560 180 C 475 220, 445 220, 360 180" fill="none" stroke="#2E5FFF" stroke-width="3" marker-end="url(#ar2)"></path>
+                <text x="460" y="58" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#5B6588">données →</text>
+                <text x="460" y="238" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#5B6588">← réglages</text>
+                <text x="460" y="150" text-anchor="middle" font-family="Syne, sans-serif" font-weight="800" font-size="13" fill="#142A6E">Corrélation</text>
+            </svg>
+        </div>
+
+        <div class="panel reveal">
+            <p>Le <strong>jumeau numérique</strong> (digital twin) est une réplique virtuelle vivante de la voiture : il réunit données historiques, capteurs, modèles aérodynamiques, comportement des pneus, météo et caractéristiques du circuit dans une seule simulation. Les équipes passent des milliers d'heures à développer leur voiture <strong>avant même de rouler</strong>, et l'objectif permanent est de réduire l'<strong>écart de corrélation</strong> entre le modèle et la réalité.</p>
+        </div>
+
+        <div class="spec-row reveal">
+            <div class="spec"><div class="spec-num">1 cm / 1 mm</div><div class="spec-label">précision LiDAR des circuits (rFpro)</div></div>
+            <div class="spec"><div class="spec-num">50+</div><div class="spec-label">constructeurs utilisant rFpro</div></div>
+            <div class="spec"><div class="spec-num">24/7</div><div class="spec-label">développement virtuel continu</div></div>
+        </div>
+
+        <!-- OUTILS -->
+        <div class="block-label"><span>01</span> Les logiciels &amp; outils</div>
+        <div class="src-grid">
+            <div class="src-card reveal">
+                <div class="src-type">Simulateur · DIL</div>
+                <div class="src-name">rFpro</div>
+                <div class="src-desc">Logiciel de simulation « driver-in-the-loop » adopté par des écuries F1 (dont Ferrari). Ses circuits sont modélisés au LiDAR (1 cm horizontal, 1 mm vertical).</div>
+            </div>
+            <div class="src-card reveal d1">
+                <div class="src-type">Aéro · CFD</div>
+                <div class="src-name">CFD (Ansys, Siemens Simcenter)</div>
+                <div class="src-desc">Simulation numérique des écoulements d'air pour développer l'aérodynamique, en complément d'une soufflerie dont l'usage est limité par le règlement.</div>
+            </div>
+            <div class="src-card reveal d2">
+                <div class="src-type">Dynamique · Modèles</div>
+                <div class="src-name">Lap-time &amp; multibody</div>
+                <div class="src-desc">Simulateurs de temps au tour et modèles multicorps : ils prédisent l'effet d'un réglage (suspension, ailerons) avant de le tester en vrai.</div>
+            </div>
+        </div>
+
+        <!-- COMMENT -->
+        <div class="block-label"><span>02</span> Comment ça marche</div>
+        <div class="feed">
+            <div class="entry reveal">
+                <div class="entry-meta"><span class="step-badge">Étape 1</span><span class="entry-cat">Modéliser</span></div>
+                <div class="entry-title">Construire le modèle virtuel</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>On assemble un modèle physique de la voiture (aéro, pneus, suspension, moteur) et un modèle du circuit scanné au <strong>LiDAR</strong>. Le pilote peut rouler dans ce monde via un <strong>simulateur DIL</strong> relié à un vrai cockpit.</p></div>
+            </div>
+            <div class="entry reveal d1">
+                <div class="entry-meta"><span class="step-badge">Étape 2</span><span class="entry-cat">Simuler</span></div>
+                <div class="entry-title">Tester mille réglages sans rouler</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>Avant le Grand Prix, on fait tourner des simulations (CFD, temps au tour, dégradation pneu) pour choisir les meilleurs compromis — impossible à explorer en piste vu les limites d'essais imposées par le règlement.</p></div>
+            </div>
+            <div class="entry reveal d2">
+                <div class="entry-meta"><span class="step-badge">Étape 3</span><span class="entry-cat">Corréler</span></div>
+                <div class="entry-title">Recaler le modèle avec la réalité</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>La télémétrie de chaque tour réel est comparée aux prédictions. On ajuste le modèle pour fermer l'<strong>écart de corrélation</strong> : plus le jumeau est fidèle, plus ses prédictions sont fiables pour le week-end suivant.</p></div>
+            </div>
+        </div>
+
+        <!-- POURQUOI -->
+        <div class="block-label"><span>03</span> Pourquoi c'est décisif</div>
+        <div class="panel reveal">
+            <p>Le temps de piste et la soufflerie sont <strong>rationnés par le règlement</strong> : la performance se développe donc surtout en virtuel. Un bon jumeau numérique permet de <strong>gagner du temps et de l'argent</strong>, de valider des pièces avant de les fabriquer et de préparer les réglages d'un circuit jamais couru. C'est une affaire de <strong>puissance de calcul, de pipelines de données et de logiciel</strong>.</p>
+        </div>
+
+        <!-- CYBER -->
+        <div class="block-label"><span>04</span> Le lien avec la cybersécurité</div>
+        <div class="panel reveal">
+            <p class="entry-analyse"><strong>Enjeu de sécurité :</strong> les modèles de simulation sont de la <strong>propriété intellectuelle</strong> critique — les voler, c'est voler des années de R&amp;D (cas Ferrari / RansomEXX). Et comme le jumeau se nourrit de la télémétrie, une donnée d'entrée corrompue fausse le modèle. Protéger la simulation, c'est protéger les <em>données</em> et les <em>accès</em> aux clusters de calcul.</p>
+        </div>
+
+        <!-- SOURCES -->
+        <div class="block-label"><span>05</span> Sources</div>
+        <div class="src-grid">
+            <a href="https://www.mercedesamgf1.com/news/how-does-f1-simulation-work" target="_blank" rel="noopener" class="src-card reveal">
+                <div class="src-type">Écurie · Technique</div>
+                <div class="src-name">Mercedes-AMG F1 — Simulation</div>
+                <div class="src-desc">Fonctionnement de la simulation F1 et de la corrélation modèle / réalité.</div>
+            </a>
+            <a href="https://rfpro.com/" target="_blank" rel="noopener" class="src-card reveal d1">
+                <div class="src-type">Éditeur · Simulateur</div>
+                <div class="src-name">rFpro</div>
+                <div class="src-desc">Simulation DIL, circuits LiDAR, usage en F1 et dans l'automobile.</div>
+            </a>
+            <a href="https://community.xcelerator.siemens.com/" target="_blank" rel="noopener" class="src-card reveal d2">
+                <div class="src-type">Éditeur · Ingénierie</div>
+                <div class="src-name">Siemens Xcelerator</div>
+                <div class="src-desc">Digital twin et ingénierie numérique appliqués à la F1.</div>
+            </a>
+        </div>
+
+        <p class="maj-note">Thématique de ma veille « Cybersécurité &amp; software en sport automobile ».</p>
+
+    </div>
+</div>
+
+<footer>
+    <span>© 2025 Rémy Couratier. Lyon, France.</span>
+    <span>SISR & Infrastructure | Sport Auto Enthusiast</span>
+</footer>
+
+<script>
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

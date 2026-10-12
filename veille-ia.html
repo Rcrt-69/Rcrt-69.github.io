@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA & stratégie de course — Veille · Rémy Couratier</title>
+    <meta name="description" content="Intelligence artificielle en sport automobile : simulations Monte-Carlo, ML d'usure pneu, IA générative de stratégie — comment et pourquoi.">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-veille">
+
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<nav>
+    <a href="index.html" class="nav-logo">RC.</a>
+    <ul class="nav-links">
+        <li><a href="index.html#about">Profil</a></li>
+        <li><a href="index.html#projects">Expériences</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="veille.html" class="active">Veille</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="btn btn-primary btn-nav">Discutons →</a>
+</nav>
+
+<div class="container">
+
+    <section class="veille-hero">
+        <div class="section-label">Veille · Thématique Software</div>
+        <h1>IA <span class="highlight">&amp; stratégie de course</span></h1>
+        <p>Simuler des centaines de millions de scénarios pour choisir, en direct, la meilleure fenêtre d'arrêt et le bon pneu.</p>
+        <div class="veille-badges">
+            <span class="veille-badge">Monte-Carlo</span>
+            <span class="veille-badge">Machine learning</span>
+            <span class="veille-badge">IA générative</span>
+            <span class="veille-badge">Cloud</span>
+        </div>
+    </section>
+
+    <div class="veille-wrap">
+        <a href="veille.html" class="back-link">← Retour à la veille</a>
+
+        <div class="theme-banner reveal">
+            <svg viewBox="0 0 920 280" role="img" aria-label="Arbre de scénarios de course avec une stratégie optimale mise en évidence">
+                <!-- racine -->
+                <circle cx="110" cy="140" r="16" fill="#142A6E"></circle>
+                <text x="110" y="180" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#5B6588">course</text>
+
+                <!-- niveau 1 -->
+                <line x1="126" y1="140" x2="300" y2="70" stroke="#C9D6F5" stroke-width="2"></line>
+                <line x1="126" y1="140" x2="300" y2="140" stroke="#2E5FFF" stroke-width="3"></line>
+                <line x1="126" y1="140" x2="300" y2="210" stroke="#C9D6F5" stroke-width="2"></line>
+                <circle cx="310" cy="70" r="11" fill="#9AB2E8"></circle>
+                <circle cx="310" cy="140" r="11" fill="#2E5FFF"></circle>
+                <circle cx="310" cy="210" r="11" fill="#9AB2E8"></circle>
+
+                <!-- niveau 2 -->
+                <g stroke="#C9D6F5" stroke-width="2">
+                    <line x1="321" y1="70" x2="470" y2="46"></line>
+                    <line x1="321" y1="70" x2="470" y2="94"></line>
+                    <line x1="321" y1="210" x2="470" y2="186"></line>
+                    <line x1="321" y1="210" x2="470" y2="234"></line>
+                </g>
+                <line x1="321" y1="140" x2="470" y2="118" stroke="#C9D6F5" stroke-width="2"></line>
+                <line x1="321" y1="140" x2="470" y2="162" stroke="#2E5FFF" stroke-width="3"></line>
+                <g fill="#9AB2E8"><circle cx="478" cy="46" r="9"></circle><circle cx="478" cy="94" r="9"></circle><circle cx="478" cy="118" r="9"></circle><circle cx="478" cy="186" r="9"></circle><circle cx="478" cy="234" r="9"></circle></g>
+                <circle cx="478" cy="162" r="9" fill="#2E5FFF"></circle>
+
+                <!-- chemin optimal vers la décision -->
+                <line x1="487" y1="162" x2="690" y2="140" stroke="#2E5FFF" stroke-width="3" stroke-dasharray="2 6"></line>
+                <rect x="690" y="104" width="180" height="72" rx="14" fill="#142A6E"></rect>
+                <text x="780" y="135" text-anchor="middle" font-family="Syne, sans-serif" font-weight="800" font-size="15" fill="#FFFFFF">Stratégie optimale</text>
+                <text x="780" y="156" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="12" fill="#9AB2E8">arrêt + choix de gomme</text>
+
+                <text x="300" y="30" text-anchor="middle" font-family="Syne, sans-serif" font-weight="800" font-size="16" fill="#142A6E">~ des centaines de millions de scénarios</text>
+            </svg>
+        </div>
+
+        <div class="panel reveal">
+            <p>En course, chaque tour ouvre un arbre de possibilités : rester en piste ou s'arrêter, quelle gomme, quand. L'<strong>IA</strong> simule un <strong>nombre colossal de scénarios</strong> (méthodes Monte-Carlo) et apprend des courses passées pour estimer l'usure des pneus et l'issue de chaque choix. Objectif : donner au mur des stands une <strong>recommandation fiable en quelques secondes</strong>.</p>
+        </div>
+
+        <div class="spec-row reveal">
+            <div class="spec"><div class="spec-num">~300 M</div><div class="spec-label">simulations de course avant un GP (McLaren)</div></div>
+            <div class="spec"><div class="spec-num">depuis 2018</div><div class="spec-label">AWS, partenaire cloud / ML de la F1</div></div>
+            <div class="spec"><div class="spec-num">20+</div><div class="spec-label">statistiques live « F1 Insights »</div></div>
+        </div>
+
+        <!-- OUTILS -->
+        <div class="block-label"><span>01</span> Les logiciels &amp; outils</div>
+        <div class="src-grid">
+            <div class="src-card reveal">
+                <div class="src-type">Cloud · ML</div>
+                <div class="src-name">AWS (SageMaker, calcul)</div>
+                <div class="src-desc">Partenaire cloud et machine learning de la F1 : entraînement des modèles, calcul massif et statistiques « F1 Insights » diffusées à l'antenne.</div>
+            </div>
+            <div class="src-card reveal d1">
+                <div class="src-type">Méthode · Probabiliste</div>
+                <div class="src-name">Simulations Monte-Carlo</div>
+                <div class="src-desc">On rejoue la course des milliers/millions de fois avec des aléas (safety car, trafic) pour estimer la probabilité de gain de chaque stratégie.</div>
+            </div>
+            <div class="src-card reveal d2">
+                <div class="src-type">Modèles · IA explicable</div>
+                <div class="src-name">ML d'usure pneu</div>
+                <div class="src-desc">Des modèles prédisent la dégradation des gommes. Certaines écuries (Mercedes) ajoutent de l'<em>IA explicable</em> : comprendre le « pourquoi », pas seulement le « quand ».</div>
+            </div>
+        </div>
+
+        <!-- COMMENT -->
+        <div class="block-label"><span>02</span> Comment ça marche</div>
+        <div class="feed">
+            <div class="entry reveal">
+                <div class="entry-meta"><span class="step-badge">Étape 1</span><span class="entry-cat">Apprendre</span></div>
+                <div class="entry-title">Entraîner les modèles sur l'historique</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>On entraîne des modèles de machine learning sur des années de données (pneus, météo, circuits) pour prédire des grandeurs clés comme la <strong>dégradation</strong> et le temps au tour selon le carburant et la gomme.</p></div>
+            </div>
+            <div class="entry reveal d1">
+                <div class="entry-meta"><span class="step-badge">Étape 2</span><span class="entry-cat">Simuler</span></div>
+                <div class="entry-title">Rejouer la course des millions de fois</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>Une IA générative et des simulations Monte-Carlo explorent toutes les combinaisons d'arrêts et de gommes, en injectant des aléas (safety car, pluie). Chaque scénario reçoit une <strong>probabilité de résultat</strong>.</p></div>
+            </div>
+            <div class="entry reveal d2">
+                <div class="entry-meta"><span class="step-badge">Étape 3</span><span class="entry-cat">Décider</span></div>
+                <div class="entry-title">Recommander en direct, l'humain tranche</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>Le système remonte la <strong>meilleure stratégie</strong> au mur des stands, mise à jour tour après tour avec les données live. Le stratège garde la décision finale : l'IA éclaire, elle ne pilote pas.</p></div>
+            </div>
+        </div>
+
+        <!-- POURQUOI -->
+        <div class="block-label"><span>03</span> Pourquoi c'est décisif</div>
+        <div class="panel reveal">
+            <p>Une course se gagne souvent à <strong>l'arrêt au stand près</strong>. Trop d'options, trop peu de temps : seul le calcul permet d'arbitrer rationnellement. L'IA ne remplace pas le stratège, elle lui donne une <strong>longueur d'avance</strong> — à condition que ses données d'entrée soient fiables.</p>
+        </div>
+
+        <!-- CYBER -->
+        <div class="block-label"><span>04</span> Le lien avec la cybersécurité</div>
+        <div class="panel reveal">
+            <p class="entry-analyse"><strong>Enjeu de sécurité :</strong> une IA ne vaut que par ses <strong>données</strong>. Fausser la télémétrie qui l'alimente, c'est fausser la décision sans jamais voler de fichier — on passe de la confidentialité à l'<em>intégrité</em>. D'où l'importance d'authentifier les flux et de sécuriser les pipelines cloud où tournent ces modèles.</p>
+        </div>
+
+        <!-- SOURCES -->
+        <div class="block-label"><span>05</span> Sources</div>
+        <div class="src-grid">
+            <a href="https://aws.amazon.com/sports/f1/" target="_blank" rel="noopener" class="src-card reveal">
+                <div class="src-type">Cloud · Partenaire</div>
+                <div class="src-name">AWS Sports — F1</div>
+                <div class="src-desc">IA de stratégie, F1 Insights et traitement de la donnée en F1.</div>
+            </a>
+            <a href="https://thenextweb.com/news/formula-one-ai-sponsorship-strategy-2026" target="_blank" rel="noopener" class="src-card reveal d1">
+                <div class="src-type">Article · Analyse</div>
+                <div class="src-name">TNW — AI in F1 (2026)</div>
+                <div class="src-desc">Rôle grandissant de l'IA comme stratège sur un week-end de course.</div>
+            </a>
+        </div>
+
+        <p class="maj-note">Thématique de ma veille « Cybersécurité &amp; software en sport automobile ».</p>
+
+    </div>
+</div>
+
+<footer>
+    <span>© 2025 Rémy Couratier. Lyon, France.</span>
+    <span>SISR & Infrastructure | Sport Auto Enthusiast</span>
+</footer>
+
+<script>
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

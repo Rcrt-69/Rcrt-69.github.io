@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Télémétrie & data — Veille · Rémy Couratier</title>
+    <meta name="description" content="Télémétrie en sport automobile : capteurs, ATLAS, bus CAN, RF et fibre — comment et pourquoi.">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-veille">
+
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<nav>
+    <a href="index.html" class="nav-logo">RC.</a>
+    <ul class="nav-links">
+        <li><a href="index.html#about">Profil</a></li>
+        <li><a href="index.html#projects">Expériences</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="veille.html" class="active">Veille</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="btn btn-primary btn-nav">Discutons →</a>
+</nav>
+
+<div class="container">
+
+    <section class="veille-hero">
+        <div class="section-label">Veille · Thématique Software</div>
+        <h1>Télémétrie <span class="highlight">&amp; data</span></h1>
+        <p>Comment une monoplace transforme 150 à 200 capteurs en décisions, en temps réel, du cockpit jusqu'à l'usine.</p>
+        <div class="veille-badges">
+            <span class="veille-badge">Capteurs</span>
+            <span class="veille-badge">ATLAS</span>
+            <span class="veille-badge">RF &amp; fibre</span>
+            <span class="veille-badge">Streaming</span>
+        </div>
+    </section>
+
+    <div class="veille-wrap">
+        <a href="veille.html" class="back-link">← Retour à la veille</a>
+
+        <div class="theme-banner reveal">
+            <svg viewBox="0 0 920 280" role="img" aria-label="Chaîne de la télémétrie : capteurs, transmission, ATLAS, usine">
+                <defs>
+                    <marker id="ar" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+                        <path d="M0,0 L7,3 L0,6 Z" fill="#2E5FFF"></path>
+                    </marker>
+                </defs>
+                <!-- flèches -->
+                <line x1="215" y1="140" x2="255" y2="140" stroke="#2E5FFF" stroke-width="3" marker-end="url(#ar)"></line>
+                <line x1="435" y1="140" x2="475" y2="140" stroke="#2E5FFF" stroke-width="3" marker-end="url(#ar)"></line>
+                <line x1="655" y1="140" x2="695" y2="140" stroke="#2E5FFF" stroke-width="3" marker-end="url(#ar)"></line>
+
+                <!-- 1. Voiture + capteurs -->
+                <rect x="35" y="70" width="180" height="140" rx="14" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.25"></rect>
+                <path d="M70 150 q10 -26 40 -26 h30 l22 18 h18 q12 0 12 10 v6 h-120 z" fill="#142A6E"></path>
+                <circle cx="95" cy="162" r="10" fill="#0B1020"></circle><circle cx="95" cy="162" r="4" fill="#9AB2E8"></circle>
+                <circle cx="160" cy="162" r="10" fill="#0B1020"></circle><circle cx="160" cy="162" r="4" fill="#9AB2E8"></circle>
+                <circle cx="88" cy="130" r="4" fill="#2E5FFF"></circle>
+                <circle cx="118" cy="122" r="4" fill="#2E5FFF"></circle>
+                <circle cx="150" cy="128" r="4" fill="#2E5FFF"></circle>
+                <text x="125" y="196" text-anchor="middle" font-family="Syne, sans-serif" font-weight="700" font-size="13" fill="#0B1020">Capteurs</text>
+
+                <!-- 2. Transmission -->
+                <rect x="255" y="70" width="180" height="140" rx="14" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.25"></rect>
+                <line x1="345" y1="175" x2="345" y2="120" stroke="#142A6E" stroke-width="4"></line>
+                <circle cx="345" cy="115" r="6" fill="#142A6E"></circle>
+                <path d="M325 110 a28 28 0 0 1 40 0" fill="none" stroke="#2E5FFF" stroke-width="3"></path>
+                <path d="M315 120 a42 42 0 0 1 60 0" fill="none" stroke="#2E5FFF" stroke-width="3" stroke-opacity="0.6"></path>
+                <text x="345" y="196" text-anchor="middle" font-family="Syne, sans-serif" font-weight="700" font-size="13" fill="#0B1020">RF + fibre</text>
+
+                <!-- 3. ATLAS (écran) -->
+                <rect x="475" y="70" width="180" height="140" rx="14" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.25"></rect>
+                <rect x="510" y="100" width="110" height="66" rx="6" fill="#0B1020"></rect>
+                <polyline points="518,150 538,132 556,142 576,116 596,128 612,110" fill="none" stroke="#2E5FFF" stroke-width="3"></polyline>
+                <polyline points="518,158 540,150 560,154 582,140 604,146 612,138" fill="none" stroke="#9AB2E8" stroke-width="2"></polyline>
+                <text x="565" y="196" text-anchor="middle" font-family="Syne, sans-serif" font-weight="700" font-size="13" fill="#0B1020">ATLAS (garage)</text>
+
+                <!-- 4. Usine / cloud -->
+                <rect x="695" y="70" width="180" height="140" rx="14" fill="#FFFFFF" stroke="#142A6E" stroke-opacity="0.25"></rect>
+                <path d="M745 150 a22 22 0 0 1 6 -43 a30 30 0 0 1 58 6 a18 18 0 0 1 -4 37 z" fill="#142A6E"></path>
+                <rect x="760" y="138" width="10" height="14" rx="2" fill="#2E5FFF"></rect>
+                <rect x="776" y="132" width="10" height="20" rx="2" fill="#2E5FFF"></rect>
+                <rect x="792" y="126" width="10" height="26" rx="2" fill="#2E5FFF"></rect>
+                <text x="785" y="196" text-anchor="middle" font-family="Syne, sans-serif" font-weight="700" font-size="13" fill="#0B1020">Usine / cloud</text>
+
+                <text x="460" y="36" text-anchor="middle" font-family="Syne, sans-serif" font-weight="800" font-size="18" fill="#142A6E">De la roue à la décision</text>
+            </svg>
+        </div>
+
+        <div class="panel reveal">
+            <p>En sport automobile, la <strong>télémétrie</strong> est le système qui mesure le comportement de la voiture et l'envoie vers les ingénieurs. Une F1 embarque <strong>150 à 200 capteurs</strong> (pression, température, accéléromètres, jauges de contrainte, GPS…) qui produisent un flux continu. Tout l'enjeu logiciel est de <strong>capturer, transmettre, stocker et analyser</strong> ces données plus vite que la concurrence.</p>
+        </div>
+
+        <div class="spec-row reveal">
+            <div class="spec"><div class="spec-num">150-200</div><div class="spec-label">capteurs par voiture</div></div>
+            <div class="spec"><div class="spec-num">200 Hz</div><div class="spec-label">échantillonnage usuel (couple, charges)</div></div>
+            <div class="spec"><div class="spec-num">~10 kHz</div><div class="spec-label">pour l'analyse de vibrations</div></div>
+            <div class="spec"><div class="spec-num">+100 Go</div><div class="spec-label">de données par week-end</div></div>
+        </div>
+
+        <!-- OUTILS -->
+        <div class="block-label"><span>01</span> Les logiciels &amp; outils</div>
+        <div class="src-grid">
+            <div class="src-card reveal">
+                <div class="src-type">Analyse · Standard F1</div>
+                <div class="src-name">ATLAS (McLaren Applied)</div>
+                <div class="src-desc">Advanced Telemetry Linked Acquisition System : le logiciel d'analyse utilisé par les 10 écuries. Interface type « tableur » compilant des centaines de paramètres en graphiques.</div>
+            </div>
+            <div class="src-card reveal d1">
+                <div class="src-type">Acquisition · Capteurs</div>
+                <div class="src-name">Loggers &amp; bus CAN</div>
+                <div class="src-desc">Les capteurs remontent vers un enregistreur embarqué via des bus (type CAN). Le logger horodate, agrège et stocke avant transmission.</div>
+            </div>
+            <div class="src-card reveal d2">
+                <div class="src-type">Transport · Streaming</div>
+                <div class="src-name">Bus de données (ex. Apache Kafka)</div>
+                <div class="src-desc">Côté usine, des bus de streaming encaissent le flux en temps réel pour le distribuer aux applications et aux modèles de calcul.</div>
+            </div>
+        </div>
+
+        <!-- COMMENT -->
+        <div class="block-label"><span>02</span> Comment ça marche</div>
+        <div class="feed">
+            <div class="entry reveal">
+                <div class="entry-meta"><span class="step-badge">Étape 1</span><span class="entry-cat">Mesure</span></div>
+                <div class="entry-title">Les capteurs mesurent, le logger enregistre</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>Chaque capteur convertit un phénomène physique (pression, température, accélération, déformation) en signal électrique. Un <strong>enregistreur embarqué</strong> les échantillonne à cadence fixe — <strong>200 Hz</strong> pour des charges, jusqu'à <strong>10 kHz</strong> pour des vibrations — puis horodate et stocke chaque valeur.</p></div>
+            </div>
+            <div class="entry reveal d1">
+                <div class="entry-meta"><span class="step-badge">Étape 2</span><span class="entry-cat">Transmission</span></div>
+                <div class="entry-title">RF en roulant, fibre/filaire à l'arrêt</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>En piste, les données partent par <strong>radiofréquence</strong> vers le stand ; au garage, la voiture se branche en filaire pour un transfert complet. Si le signal RF coupe (le tunnel de Monaco), le système <strong>ré-émet</strong> en continu grâce au stockage embarqué : rien n'est perdu.</p></div>
+            </div>
+            <div class="entry reveal d2">
+                <div class="entry-meta"><span class="step-badge">Étape 3</span><span class="entry-cat">Analyse</span></div>
+                <div class="entry-title">Décodage, Ethernet et affichage dans ATLAS</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>Au stand, les données sont <strong>décodées</strong> puis distribuées aux portables des ingénieurs via un réseau <strong>Ethernet</strong>. ATLAS superpose les tours, compare les pilotes et révèle en quelques secondes où se gagnent ou se perdent les millisecondes.</p></div>
+            </div>
+            <div class="entry reveal">
+                <div class="entry-meta"><span class="step-badge">Étape 4</span><span class="entry-cat">Usine</span></div>
+                <div class="entry-title">Remontée vers l'usine &amp; les modèles</div>
+                <div class="entry-divider"></div>
+                <div class="entry-body"><p>Le flux repart vers l'usine, où des bus de streaming l'injectent dans les simulations et les modèles prédictifs. La donnée de piste <strong>recale</strong> en continu le jumeau numérique de la voiture.</p></div>
+            </div>
+        </div>
+
+        <!-- POURQUOI -->
+        <div class="block-label"><span>03</span> Pourquoi c'est décisif</div>
+        <div class="panel reveal">
+            <p>Sans télémétrie, impossible de <strong>comprendre</strong> la voiture : usure pneu, gestion d'énergie, fiabilité moteur, réglages. Elle transforme une sensation de pilote en <strong>donnée mesurable et comparable</strong>, base de toutes les décisions stratégiques et de développement. C'est aussi, concrètement, un enjeu d'<strong>infrastructure réseau et de gestion de données</strong> — exactement mon domaine en BTS SIO SISR.</p>
+        </div>
+
+        <!-- CYBER -->
+        <div class="block-label"><span>04</span> Le lien avec la cybersécurité</div>
+        <div class="panel reveal">
+            <p class="entry-analyse"><strong>Enjeu de sécurité :</strong> ce flux est une cible. L'intercepter révèle une stratégie ; le <em>corrompre</em> (fausses mesures) peut tromper les ingénieurs en direct. D'où le <strong>chiffrement</strong> des liaisons, l'<strong>authentification</strong> des flux et le cloisonnement des réseaux du stand — on protège l'<em>intégrité</em> autant que la confidentialité de la donnée.</p>
+        </div>
+
+        <!-- SOURCES -->
+        <div class="block-label"><span>05</span> Sources</div>
+        <div class="src-grid">
+            <a href="https://en.f1i.com/magazine/73067-f1-telemetry-data-race.html" target="_blank" rel="noopener" class="src-card reveal">
+                <div class="src-type">Article · Technique</div>
+                <div class="src-name">F1i — The data race</div>
+                <div class="src-desc">Fonctionnement de la télémétrie F1, d'ATLAS et des cadences d'échantillonnage.</div>
+            </a>
+            <a href="https://f1briefing.com/how-wireless-telemetry-works-in-f1/" target="_blank" rel="noopener" class="src-card reveal d1">
+                <div class="src-type">Article · Technique</div>
+                <div class="src-name">F1 Briefing — Wireless telemetry</div>
+                <div class="src-desc">Transmission RF/filaire, store-and-forward et chaîne garage.</div>
+            </a>
+        </div>
+
+        <p class="maj-note">Thématique de ma veille « Cybersécurité &amp; software en sport automobile ».</p>
+
+    </div>
+</div>
+
+<footer>
+    <span>© 2025 Rémy Couratier. Lyon, France.</span>
+    <span>SISR & Infrastructure | Sport Auto Enthusiast</span>
+</footer>
+
+<script>
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

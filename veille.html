@@ -10,7 +10,6 @@
 </head>
 <body class="page-veille">
 
-<div id="cursor-glow"></div>
 <div class="orb orb-1"></div>
 <div class="orb orb-2"></div>
 <div class="orb orb-3"></div>
@@ -310,12 +309,6 @@
 </footer>
 
 <script>
-    const glow = document.getElementById('cursor-glow');
-    document.addEventListener('mousemove', e => {
-        glow.style.left = e.clientX + 'px';
-        glow.style.top  = e.clientY + 'px';
-    });
-
     const io = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) entry.target.classList.add('visible');

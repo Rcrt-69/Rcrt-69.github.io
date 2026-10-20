@@ -1,9 +1,15 @@
 {
-  "updated": "2026-10-20T10:55:33.090Z",
+  "updated": "2026-10-20T21:14:27.519Z",
   "theme": "Cybersécurité & software en sport automobile",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
   "liveCount": 51,
   "items": [
+    {
+      "title": "Programme et horaires du Grand Prix des États-Unis de F1 2026",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQng3d1pTTXlHVllBWEg2WkhZLUpzX0ZtZlZWWnUxMU5WWi11aHpiYlpzTDJNc1V5eDgyWnRFV3cyc0IyWUd0dGh3YzVra3RFams5bWRrUUkwVFhHUlRRY1dvRVd0anc0WmR2LUhtMVZzLXlNSXVEeGp6bFdFR2VHVG5DMXRFeEIwUXVMdTE1WGEwZ25Ld3l0NTdKRVZoSmpzVXBKSw?oc=5",
+      "source": "x-tremlimit.com",
+      "pubDate": "Mon, 19 Oct 2026 09:20:56 GMT"
+    },
     {
       "title": "Formule E mise sur la simulation multiphysique pour augmenter les performances de sa monoplace Gen4",
       "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQcGlKdXZ5RUI4VjJPcG16QXAya3ZSdFRaME1CZy1XcTA5MzVFRERrR3ZNQ2VlYmFvbklISkE4QXlxTjF6SG9iRVZacWxEeFJuMWJ4UVphQjRiRnpINGtyUTF6N3JvRF9scVVoUzd1LWdOWnZZWGszTHJPS0Nza2RhTHl1TDhmWDg4N1gzMndsekJrMUNIOW5jWDFpM3ctS3JvRmlBZmVIYnl2MjJFQW5zckZLbE8tajBhZmdxMmZkRTVyS3doc3B2U19DM2JTVzJvVlpQRW11Um4zUnM0b3NtZ1dfeXB0V0RyaWxMSFRCVzUzMTh0dkNMQm9lUmRLVV8yUFhhYkpYU2Z6YmdNX2JPcXZIeHd3QWRsamxiVlZBaXI?oc=5",
@@ -47,16 +53,10 @@
       "pubDate": "Mon, 05 Oct 2026 07:00:00 GMT"
     },
     {
-      "title": "Le bug logiciel qui a semé le chaos: pourquoi le départ du Grand Prix de Bahreïn en Malaisie a été avorté",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaUJmYi1BblhIeU9BY3JTZnFZc3NCazZ4dlRrZHhlSjdlQjZZNG5iNW10QjNoOGRnNnZmeGh6eHQ2V1pmQ3Q1aXR1Mi1TaFhfN3M2MGRMeE9XT2ZPWmdDWEpLdG50aG9GTVdvODl1bnEyWnI2VkpoVU9lLTViSGZuMW5xMUx6NEVsZk96ZFBheHNjSzVRbm4wR1pKbFhSMS1Dbm92UzhoQTY1MEpsaVBlUS12bVJSR1hOZVE2cGx3OGtfMWRJUmptSHdCdkFqU0xFWDVxWWJ3?oc=5",
-      "source": "Blog Joinsteer",
-      "pubDate": "Sun, 04 Oct 2026 19:31:34 GMT"
-    },
-    {
-      "title": "F1 Bahreïn – Problème de logiciel moteur sous la pluie et voitures à l’arrêt : l’image insolite lors du tour de formation",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPLUN2Y2prenlQUU1haWpmaWJBdHFKZ3R2S3UwMllndXRoNTY5c1NLcnBPRzFabDd4LTNTYjI3SmxnMHVzaURaRVRLMmczdjRQbEJuY2FYcGlkc2ZfTnNkWU52ZnpxdzBRZkxKNnI4MkRPMVo3a2JKRDBJMWFhZnJBdDlOODBwa1JlNHlndFpTZFFGXy1uVkpLU0NWbVJSRzQxLWYxcnZVWHREbFBOTk0tNFRNdlVQU2twYkZfZ1lIU2pialJWZm1HV08tMVRyYXdSRUpUVjE0d1Rzcld0Yko2YVEwTG5xMlFJU1E?oc=5",
-      "source": "RTBF",
-      "pubDate": "Sun, 04 Oct 2026 07:00:00 GMT"
+      "title": "Les pilotes de F1 dénoncent une panne logicielle « inacceptable » qui a retardé le départ du GP de Bahreïn",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORVFpaElsMmRqYmxzek9EQmVORGJud2c3ajN3QkROYm0zT2E2bXZRUnFJUmktLTRqSXpXZkhyWElWWTZId2ZPOXEzMDBTNHhrVkItdTdvZDQ4aktUVmRLQnlpQzFKUFdRbmVYYzViaHBVR3E5N2NJUFF5OTM5bXBFQnpHdDV0Vy00WDZYR2ozWFBuN3djNWY1WkRXanFFbmJ0NkctaE5obVQtQzBIdGUzNjhrVG9oZm5tWllxWEhTa2dnM3prTE52b3k2OEMxMEU?oc=5",
+      "source": "news.lavx.hu",
+      "pubDate": "Mon, 05 Oct 2026 04:29:56 GMT"
     }
   ]
 }

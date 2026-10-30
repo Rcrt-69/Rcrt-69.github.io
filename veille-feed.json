@@ -1,9 +1,15 @@
 {
-  "updated": "2026-10-29T22:25:42.929Z",
+  "updated": "2026-10-30T12:07:44.443Z",
   "theme": "Cybersécurité & software en sport automobile",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 45,
+  "liveCount": 50,
   "items": [
+    {
+      "title": "Formule 1. Alpine mise sur l’intelligence artificielle avec Adobe",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnJ5RWJJMVQxVVAwOXZoUEJibnNqUmh1QnEzYlI3VzJsRWF6azNVRF80X0w2cFhaeXNTYjJkbnZUdDJUZ0ozb3hJZl9qc1gyRktrNzkyLTVoOTVReG1oWmU5M0NjeEkwRUhOZElTbng0eTNGQUZFMjBJVDduQTR6T1ZHb1FzRkdBejhoZkI0eUR4NTRWaHl4SDFybw?oc=5",
+      "source": "Sport Business Club",
+      "pubDate": "Thu, 22 Oct 2026 13:42:20 GMT"
+    },
     {
       "title": "Formule E mise sur la simulation multiphysique pour augmenter les performances de sa monoplace Gen4",
       "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQcGlKdXZ5RUI4VjJPcG16QXAya3ZSdFRaME1CZy1XcTA5MzVFRERrR3ZNQ2VlYmFvbklISkE4QXlxTjF6SG9iRVZacWxEeFJuMWJ4UVphQjRiRnpINGtyUTF6N3JvRF9scVVoUzd1LWdOWnZZWGszTHJPS0Nza2RhTHl1TDhmWDg4N1gzMndsekJrMUNIOW5jWDFpM3ctS3JvRmlBZmVIYnl2MjJFQW5zckZLbE8tajBhZmdxMmZkRTVyS3doc3B2U19DM2JTVzJvVlpQRW11Um4zUnM0b3NtZ1dfeXB0V0RyaWxMSFRCVzUzMTh0dkNMQm9lUmRLVV8yUFhhYkpYU2Z6YmdNX2JPcXZIeHd3QWRsamxiVlZBaXI?oc=5",
@@ -51,12 +57,6 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42Y21IbUN4RVNaaEt5NUdRY0FfeWRocHp6el9mTGtLcGtqMlJzUFdETF9UYjByRW5PYnQwcm5ucHBhX0oyY2Q2M1M0d3JkQnFIUEVLdmJJZUY1REVMYmE2RGhiVEUzTVdEZW5jbGFjRVR0Y0c2SzIxdmo2VkVnNW8?oc=5",
       "source": "AutoNext.co",
       "pubDate": "Sun, 04 Oct 2026 20:06:16 GMT"
-    },
-    {
-      "title": "La FIA explique le bug logiciel à l'origine du départ retardé à Sepang",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2g4NDhQckppN2VXMk5TaTdWdWVxNHU3ZEptNmx3VWFERmszY2haMmozWUtMbTFLWXdyTnpxUFdFY18wdUVmQU1fWTliRk1SLUVQbGM5VEdOQXd1cnpXdm56aTNBbmlUWDJINmN0QloxMGF0OE15NEVjbVJHZTY0MERnbktFeUkzWHBEOFlDTXU0bWxFNHVabzRn?oc=5",
-      "source": "Motorsport.com France",
-      "pubDate": "Sun, 04 Oct 2026 07:00:00 GMT"
     }
   ]
 }

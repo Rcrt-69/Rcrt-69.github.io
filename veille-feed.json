@@ -1,9 +1,15 @@
 {
-  "updated": "2026-10-31T11:41:16.184Z",
+  "updated": "2026-10-31T20:58:05.438Z",
   "theme": "Cybersécurité & software en sport automobile",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 45,
+  "liveCount": 48,
   "items": [
+    {
+      "title": "Formule 1. Alpine mise sur l’intelligence artificielle avec Adobe",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnJ5RWJJMVQxVVAwOXZoUEJibnNqUmh1QnEzYlI3VzJsRWF6azNVRF80X0w2cFhaeXNTYjJkbnZUdDJUZ0ozb3hJZl9qc1gyRktrNzkyLTVoOTVReG1oWmU5M0NjeEkwRUhOZElTbng0eTNGQUZFMjBJVDduQTR6T1ZHb1FzRkdBejhoZkI0eUR4NTRWaHl4SDFybw?oc=5",
+      "source": "Sport Business Club",
+      "pubDate": "Thu, 22 Oct 2026 13:42:20 GMT"
+    },
     {
       "title": "Formule E mise sur la simulation multiphysique pour augmenter les performances de sa monoplace Gen4",
       "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQcGlKdXZ5RUI4VjJPcG16QXAya3ZSdFRaME1CZy1XcTA5MzVFRERrR3ZNQ2VlYmFvbklISkE4QXlxTjF6SG9iRVZacWxEeFJuMWJ4UVphQjRiRnpINGtyUTF6N3JvRF9scVVoUzd1LWdOWnZZWGszTHJPS0Nza2RhTHl1TDhmWDg4N1gzMndsekJrMUNIOW5jWDFpM3ctS3JvRmlBZmVIYnl2MjJFQW5zckZLbE8tajBhZmdxMmZkRTVyS3doc3B2U19DM2JTVzJvVlpQRW11Um4zUnM0b3NtZ1dfeXB0V0RyaWxMSFRCVzUzMTh0dkNMQm9lUmRLVV8yUFhhYkpYU2Z6YmdNX2JPcXZIeHd3QWRsamxiVlZBaXI?oc=5",
@@ -35,15 +41,15 @@
       "pubDate": "Mon, 05 Oct 2026 07:00:00 GMT"
     },
     {
-      "title": "Grand Prix de Bahreïn : la FIA explique le bug logiciel qui a semé le chaos avant le départ à Sepang",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMEY5YlFLR3pYZWxFeWhScjVBdHJ2RjRoM2h0UXY2ZXhkY1J2UEpMWDdUZVJhbkxGNW5JcEQwbDdUZ3ljaHNHWFh2cUNzM3BuRy0yeFdTNHc0eldhYWRtTEdiZjRDYlFRNGpHdG9rZkF3SlpXeGhwUnJNd1dVREJnVXFzdXlUa0g3QUtfZWxZYTQ2eFF0T1Rub2JFUExtbEtIY242Y0NHUGhjQnhvdXh2MVhKTERCQ0FsSmhIODlJdWRmcWFwVDJSdjNwZGVnS0lna0dqY1NRX2ZxbXN6QWMzN3VIYVZ6dVFXSHhWMTFQS1R3SzZmWnc?oc=5",
-      "source": "Sports Auto Moto",
-      "pubDate": "Mon, 05 Oct 2026 07:00:00 GMT"
-    },
-    {
       "title": "F1 - Le fiasco de Sepang : des voitures à plusieurs millions d’euros incapables de prendre le départ à cause d’un bug de logiciel sous la pluie",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVDZwTVZwUU1UU3BEbE9McDlzVjFJZnNtdnFPaWlPWThWVGNUdVZZYkhwT1hsV3ZweHZLMm04WVBtRkdjOWJnc3NzZ3p3MWxuQURWcVdIcG9QcVMzUnpSb3BUczEyT2pVWEJTbHJVbVJUNEZGcUIxTUo2SkR1WWloZWg3ZEkzaHdzc3pnMkU0eVRTQUMwWkhWRWMxa1hwYjBzTV82R1NtcFNyanhKcHlpQjhjUWoxREZ2ZklsblZuSHZlVlZGaDRsd094bUFRWU92Y1RrNjloMllmLVpXaFB1Mkc2bmFnQ1JEZ1hWRDVnUllyZ1JVazhsbQ?oc=5",
       "source": "Paddock GP",
+      "pubDate": "Mon, 05 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Grand Prix de Bahreïn : la FIA explique le bug logiciel qui a semé le chaos avant le départ à Sepang",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMEY5YlFLR3pYZWxFeWhScjVBdHJ2RjRoM2h0UXY2ZXhkY1J2UEpMWDdUZVJhbkxGNW5JcEQwbDdUZ3ljaHNHWFh2cUNzM3BuRy0yeFdTNHc0eldhYWRtTEdiZjRDYlFRNGpHdG9rZkF3SlpXeGhwUnJNd1dVREJnVXFzdXlUa0g3QUtfZWxZYTQ2eFF0T1Rub2JFUExtbEtIY242Y0NHUGhjQnhvdXh2MVhKTERCQ0FsSmhIODlJdWRmcWFwVDJSdjNwZGVnS0lna0dqY1NRX2ZxbXN6QWMzN3VIYVZ6dVFXSHhWMTFQS1R3SzZmWnc?oc=5",
+      "source": "Sports Auto Moto",
       "pubDate": "Mon, 05 Oct 2026 07:00:00 GMT"
     },
     {
@@ -51,12 +57,6 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42Y21IbUN4RVNaaEt5NUdRY0FfeWRocHp6el9mTGtLcGtqMlJzUFdETF9UYjByRW5PYnQwcm5ucHBhX0oyY2Q2M1M0d3JkQnFIUEVLdmJJZUY1REVMYmE2RGhiVEUzTVdEZW5jbGFjRVR0Y0c2SzIxdmo2VkVnNW8?oc=5",
       "source": "AutoNext.co",
       "pubDate": "Sun, 04 Oct 2026 20:06:16 GMT"
-    },
-    {
-      "title": "\"Je n'ai pas de puissance !\" : comment un étonnant bug de logiciel a retardé le GP de Bahreïn en paralysant plusieurs F1",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRlVfMUs5R3pBdXdObnFvRVhYcTN2MUczM1VocjVsemhMbjNNM3c2WDdIdEQyZmtzaWhiamZ0M2dSWDBKTTdsY1JmQ0V2cHJla1NYV2Nna3hiN3RZSElaWGRka0o2SlpFaEcwNkZzLTdHMjdfRGtZNF9iR2VwbFR3a1NkUGlJRHdhTUZ2aUxmR1NpcUk5cENRVHJLU3BIODgzUTkzdy0tMVQyOVZlakhENnRoZEd6a2o0ZGZmSDR0bW1JRGdFWXpWbndkU25MQVE1d1F3UVdzdC1QZk05aXlfLXZvbmIxeGY1ekRxY2ZlVFVTWDk0c3BB?oc=5",
-      "source": "RTL",
-      "pubDate": "Sun, 04 Oct 2026 07:00:00 GMT"
     }
   ]
 }

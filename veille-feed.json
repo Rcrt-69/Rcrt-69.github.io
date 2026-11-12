@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-12T00:02:08.438Z",
+  "updated": "2026-11-12T14:37:12.323Z",
   "theme": "Cybersécurité & software en sport automobile",
   "source": "Google News RSS (recherches multiples, filtrées par pertinence)",
-  "liveCount": 34,
+  "liveCount": 32,
   "items": [
     {
       "title": "Formule 1 : inauguration d’importance pour la FIA, qui s’arme de l’intelligence artificielle pour mieux gérer les courses",
@@ -20,12 +20,6 @@
       "title": "F1 - GP de Bahreïn 2026 : d'où vient le problème logiciel ayant retardé le départ ?",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVFUyNDNUMi1fcUYtNDVQdk9oNEFHQnk5bTl6ZEdfQm9oTEdidjBtY3kzRVFrdU5wUFc5R2YtV0hLWEk1cTZlYk1haHVseXZyaUQ4c3RnM3JJZXJBU3Z5WWNjMER1NEhEZmhPb3h5TWVBRHc3S3REaFhMcHNQV1VNTmtONHpLUVZLUmg5Nk9GNFhYRVAyYndzdGN6alBhSXFXRm9lM2lzV0gtX3U2WC15UWVhY2wta2N6OHA3YjdZUWJDUlE0Nm5zRTFHTTk?oc=5",
       "source": "Sport Auto",
-      "pubDate": "Mon, 05 Oct 2026 07:00:00 GMT"
-    },
-    {
-      "title": "F1 - Le fiasco de Sepang : des voitures à plusieurs millions d’euros incapables de prendre le départ à cause d’un bug de logiciel sous la pluie",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVDZwTVZwUU1UU3BEbE9McDlzVjFJZnNtdnFPaWlPWThWVGNUdVZZYkhwT1hsV3ZweHZLMm04WVBtRkdjOWJnc3NzZ3p3MWxuQURWcVdIcG9QcVMzUnpSb3BUczEyT2pVWEJTbHJVbVJUNEZGcUIxTUo2SkR1WWloZWg3ZEkzaHdzc3pnMkU0eVRTQUMwWkhWRWMxa1hwYjBzTV82R1NtcFNyanhKcHlpQjhjUWoxREZ2ZklsblZuSHZlVlZGaDRsd094bUFRWU92Y1RrNjloMllmLVpXaFB1Mkc2bmFnQ1JEZ1hWRDVnUllyZ1JVazhsbQ?oc=5",
-      "source": "Paddock GP",
       "pubDate": "Mon, 05 Oct 2026 07:00:00 GMT"
     },
     {
@@ -57,6 +51,12 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2g4NDhQckppN2VXMk5TaTdWdWVxNHU3ZEptNmx3VWFERmszY2haMmozWUtMbTFLWXdyTnpxUFdFY18wdUVmQU1fWTliRk1SLUVQbGM5VEdOQXd1cnpXdm56aTNBbmlUWDJINmN0QloxMGF0OE15NEVjbVJHZTY0MERnbktFeUkzWHBEOFlDTXU0bWxFNHVabzRn?oc=5",
       "source": "Motorsport.com France",
       "pubDate": "Sun, 04 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "title": "La quantique arrive en F1 : Alpine signe un partenariat de simulation hybride",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWHZFbDJUbGZIc3dKYWVOYTBGR2FYYjJuSlZDTk9XZjBVNDM1b3B3MzdVSl93N3NQT0dveHFVY3pHQ3M5S1RGMjZVOXF3U21GYWQxY3l4bEU3WFpFdGtRWjJBZDQ5bGV6Z2dzU2I4V25XLTFZLWw4WTA0M3E2eHdReENPWWtGYUdWcXdQYUhoZjRMb2V0V3hqQ1ZxeVNabk1LT2ZZb0JsNkFfNkhtN1JHY0V1ZFBiU0lGSXc4UmlSdGFBV1oxQUI3QVlwQnFFcjgxNVE?oc=5",
+      "source": "Nextgen-Auto.com",
+      "pubDate": "Tue, 15 Sep 2026 07:00:00 GMT"
     }
   ]
 }
